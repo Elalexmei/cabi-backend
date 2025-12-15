@@ -1,0 +1,58 @@
+[
+  {
+    "timestamp": "2025-09-02T12:52:11.071096",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ Problemizador falló: Missing main dimension; Missing metric, operation or condition",
+    "session_time": 20.950502
+  },
+  {
+    "timestamp": "2025-09-02T12:52:11.083601",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ FAILED: Procesando consulta (16ms) - No se pudo procesar la consulta",
+    "session_time": 20.963007
+  },
+  {
+    "timestamp": "2025-09-02T12:52:11.093245",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error consulta Flask: No se pudo procesar la consulta",
+    "session_time": 20.972651
+  },
+  {
+    "timestamp": "2025-09-02T12:52:11.094451",
+    "component": "flask",
+    "level": "error",
+    "message": "🔍 Paso fallido: natural_query_processing",
+    "session_time": 20.973857
+  },
+  {
+    "timestamp": "2025-09-02T12:52:18.604700",
+    "component": "mysql",
+    "level": "error",
+    "message": "🚨 EXCEPTION: AttributeError - 'SQLiteToMySQLAdapter' object has no attribute 'convert_query'",
+    "session_time": 28.484106
+  },
+  {
+    "timestamp": "2025-09-02T12:52:18.609043",
+    "component": "exec",
+    "level": "error",
+    "message": "❌ Error en ejecución SQL: 'SQLiteToMySQLAdapter' object has no attribute 'convert_query'",
+    "session_time": 28.488449
+  },
+  {
+    "timestamp": "2025-09-02T12:52:18.612366",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error consulta Flask: 'SQLiteToMySQLAdapter' object has no attribute 'convert_query'",
+    "session_time": 28.491772
+  },
+  {
+    "timestamp": "2025-09-02T12:52:18.614261",
+    "component": "flask",
+    "level": "error",
+    "message": "🔍 Paso fallido: sql_execution",
+    "session_time": 28.493667
+  }
+]

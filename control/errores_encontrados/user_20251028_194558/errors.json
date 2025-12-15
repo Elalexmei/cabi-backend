@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2025-10-28T19:45:58.549499",
+    "component": "flask",
+    "level": "error",
+    "message": "🚨 EXCEPTION: AttributeError - 'MasterQueryExecutor' object has no attribute 'set_mysql_mode'",
+    "session_time": 0.50723
+  }
+]

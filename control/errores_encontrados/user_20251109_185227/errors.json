@@ -1,0 +1,86 @@
+[
+  {
+    "timestamp": "2025-11-09T18:52:36.912521",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ Problemizador falló: Missing main dimension; Missing metric, operation or condition",
+    "session_time": 9.162129
+  },
+  {
+    "timestamp": "2025-11-09T18:52:36.919383",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ FAILED: Procesando consulta (9ms) - No se pudo procesar la consulta",
+    "session_time": 9.168991
+  },
+  {
+    "timestamp": "2025-11-09T18:52:36.924792",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error consulta Flask: No se pudo procesar la consulta",
+    "session_time": 9.1744
+  },
+  {
+    "timestamp": "2025-11-09T18:52:50.987936",
+    "component": "clickhouse",
+    "level": "error",
+    "message": "🚨 EXCEPTION: DatabaseError - Received ClickHouse exception, code: 47, server response: Code: 47. DB::Exception: Unknown expression identifier `ROWID` in scope SELECT * FROM datos_output_data_3_20251109_175144_f41774 ORDER BY ROWID ASC LIMIT 10. (UNKNOWN_IDENTIFIER) (version 25.10.1.3832 (official build)) (for url http://localhost:8123)",
+    "session_time": 23.237544
+  },
+  {
+    "timestamp": "2025-11-09T18:52:50.994050",
+    "component": "exec",
+    "level": "error",
+    "message": "❌ Error en ejecución SQL: Received ClickHouse exception, code: 47, server response: Code: 47. DB::Exception: Unknown expression identifier `ROWID` in scope SELECT * FROM datos_output_data_3_20251109_175144_f41774 ORDER BY ROWID ASC LIMIT 10. (UNKNOWN_IDENTIFIER) (version 25.10.1.3832 (official build)) (for url http://localhost:8123)",
+    "session_time": 23.243658
+  },
+  {
+    "timestamp": "2025-11-09T18:52:50.998840",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error consulta Flask: Received ClickHouse exception, code: 47, server response: Code: 47. DB::Exception: Unknown expression identifier `ROWID` in scope SELECT * FROM datos_output_data_3_20251109_175144_f41774 ORDER BY ROWID ASC LIMIT 10. (UNKNOWN_IDENTIFIER) (version 25.10.1.3832 (official build)) (for url http://localhost:8123)",
+    "session_time": 23.248448
+  },
+  {
+    "timestamp": "2025-11-09T18:53:58.013564",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ Problemizador falló: Missing metric, operation or condition",
+    "session_time": 90.263172
+  },
+  {
+    "timestamp": "2025-11-09T18:53:58.028096",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ FAILED: Procesando consulta (18ms) - No se pudo procesar la consulta",
+    "session_time": 90.277704
+  },
+  {
+    "timestamp": "2025-11-09T18:53:58.039415",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error consulta Flask: No se pudo procesar la consulta",
+    "session_time": 90.289023
+  },
+  {
+    "timestamp": "2025-11-09T18:54:04.068447",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ Problemizador falló: Missing metric, operation or condition",
+    "session_time": 96.318055
+  },
+  {
+    "timestamp": "2025-11-09T18:54:04.072218",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ FAILED: Procesando consulta (5ms) - No se pudo procesar la consulta",
+    "session_time": 96.321826
+  },
+  {
+    "timestamp": "2025-11-09T18:54:04.074853",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error consulta Flask: No se pudo procesar la consulta",
+    "session_time": 96.324461
+  }
+]

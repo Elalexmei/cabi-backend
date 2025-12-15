@@ -1,0 +1,461 @@
+{
+  "failures": [
+    {
+      "original_query": "cual es el partner code Y con mas ventas",
+      "unknown_words": [
+        {
+          "word": "cual",
+          "position": 0,
+          "context_before": [],
+          "context_after": [
+            "es",
+            "el"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:15:57.323824",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "es",
+          "position": 1,
+          "context_before": [
+            "cual"
+          ],
+          "context_after": [
+            "el",
+            "partner"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:15:57.323842",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "el",
+          "position": 2,
+          "context_before": [
+            "cual",
+            "es"
+          ],
+          "context_after": [
+            "partner",
+            "code"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:15:57.323848",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "partner",
+          "position": 3,
+          "context_before": [
+            "es",
+            "el"
+          ],
+          "context_after": [
+            "code",
+            "Y"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:15:57.323853",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "code",
+          "position": 4,
+          "context_before": [
+            "el",
+            "partner"
+          ],
+          "context_after": [
+            "Y",
+            "con"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:15:57.323858",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "con",
+          "position": 6,
+          "context_before": [
+            "code",
+            "Y"
+          ],
+          "context_after": [
+            "mas",
+            "ventas"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:15:57.323863",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "mas",
+          "position": 7,
+          "context_before": [
+            "Y",
+            "con"
+          ],
+          "context_after": [
+            "ventas"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:15:57.323867",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "ventas",
+          "position": 8,
+          "context_before": [
+            "con",
+            "mas"
+          ],
+          "context_after": [],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:15:57.323872",
+          "full_query": "cual es el partner code Y con mas ventas"
+        }
+      ],
+      "timestamp": "2025-09-25T10:15:57.323945",
+      "session_id": "session_20250925_101557",
+      "user_feedback": null,
+      "resolved": false
+    },
+    {
+      "original_query": "cual es el partner code Y con mas ventas",
+      "unknown_words": [
+        {
+          "word": "cual",
+          "position": 0,
+          "context_before": [],
+          "context_after": [
+            "es",
+            "el"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:16:56.774823",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "es",
+          "position": 1,
+          "context_before": [
+            "cual"
+          ],
+          "context_after": [
+            "el",
+            "partner"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:16:56.774834",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "el",
+          "position": 2,
+          "context_before": [
+            "cual",
+            "es"
+          ],
+          "context_after": [
+            "partner",
+            "code"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:16:56.774840",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "partner",
+          "position": 3,
+          "context_before": [
+            "es",
+            "el"
+          ],
+          "context_after": [
+            "code",
+            "Y"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:16:56.774844",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "code",
+          "position": 4,
+          "context_before": [
+            "el",
+            "partner"
+          ],
+          "context_after": [
+            "Y",
+            "con"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:16:56.774848",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "con",
+          "position": 6,
+          "context_before": [
+            "code",
+            "Y"
+          ],
+          "context_after": [
+            "mas",
+            "ventas"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:16:56.774855",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "mas",
+          "position": 7,
+          "context_before": [
+            "Y",
+            "con"
+          ],
+          "context_after": [
+            "ventas"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:16:56.774859",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "ventas",
+          "position": 8,
+          "context_before": [
+            "con",
+            "mas"
+          ],
+          "context_after": [],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:16:56.774863",
+          "full_query": "cual es el partner code Y con mas ventas"
+        }
+      ],
+      "timestamp": "2025-09-25T10:16:56.774929",
+      "session_id": "session_20250925_101656",
+      "user_feedback": null,
+      "resolved": false
+    },
+    {
+      "original_query": "cual es el partner code Y con mas ventas",
+      "unknown_words": [
+        {
+          "word": "cual",
+          "position": 0,
+          "context_before": [],
+          "context_after": [
+            "es",
+            "el"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:29:24.645238",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "es",
+          "position": 1,
+          "context_before": [
+            "cual"
+          ],
+          "context_after": [
+            "el",
+            "partner"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:29:24.645248",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "el",
+          "position": 2,
+          "context_before": [
+            "cual",
+            "es"
+          ],
+          "context_after": [
+            "partner",
+            "code"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:29:24.645254",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "partner",
+          "position": 3,
+          "context_before": [
+            "es",
+            "el"
+          ],
+          "context_after": [
+            "code",
+            "Y"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:29:24.645258",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "code",
+          "position": 4,
+          "context_before": [
+            "el",
+            "partner"
+          ],
+          "context_after": [
+            "Y",
+            "con"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:29:24.645262",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "con",
+          "position": 6,
+          "context_before": [
+            "code",
+            "Y"
+          ],
+          "context_after": [
+            "mas",
+            "ventas"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:29:24.645267",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "mas",
+          "position": 7,
+          "context_before": [
+            "Y",
+            "con"
+          ],
+          "context_after": [
+            "ventas"
+          ],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:29:24.645271",
+          "full_query": "cual es el partner code Y con mas ventas"
+        },
+        {
+          "word": "ventas",
+          "position": 8,
+          "context_before": [
+            "con",
+            "mas"
+          ],
+          "context_after": [],
+          "suggested_type": "unknown",
+          "confidence": 0.3,
+          "timestamp": "2025-09-25T10:29:24.645274",
+          "full_query": "cual es el partner code Y con mas ventas"
+        }
+      ],
+      "timestamp": "2025-09-25T10:29:24.645366",
+      "session_id": "session_20250925_102924",
+      "user_feedback": null,
+      "resolved": false
+    }
+  ],
+  "statistics": {
+    "total_failures": 3,
+    "most_common_unknown_words": {
+      "cual": {
+        "count": 3,
+        "contexts": [
+          "cual es el partner code Y con mas ventas",
+          "cual es el partner code Y con mas ventas",
+          "cual es el partner code Y con mas ventas"
+        ]
+      },
+      "es": {
+        "count": 3,
+        "contexts": [
+          "cual es el partner code Y con mas ventas",
+          "cual es el partner code Y con mas ventas",
+          "cual es el partner code Y con mas ventas"
+        ]
+      },
+      "el": {
+        "count": 3,
+        "contexts": [
+          "cual es el partner code Y con mas ventas",
+          "cual es el partner code Y con mas ventas",
+          "cual es el partner code Y con mas ventas"
+        ]
+      },
+      "partner": {
+        "count": 3,
+        "contexts": [
+          "cual es el partner code Y con mas ventas",
+          "cual es el partner code Y con mas ventas",
+          "cual es el partner code Y con mas ventas"
+        ]
+      },
+      "code": {
+        "count": 3,
+        "contexts": [
+          "cual es el partner code Y con mas ventas",
+          "cual es el partner code Y con mas ventas",
+          "cual es el partner code Y con mas ventas"
+        ]
+      },
+      "con": {
+        "count": 3,
+        "contexts": [
+          "cual es el partner code Y con mas ventas",
+          "cual es el partner code Y con mas ventas",
+          "cual es el partner code Y con mas ventas"
+        ]
+      },
+      "mas": {
+        "count": 3,
+        "contexts": [
+          "cual es el partner code Y con mas ventas",
+          "cual es el partner code Y con mas ventas",
+          "cual es el partner code Y con mas ventas"
+        ]
+      },
+      "ventas": {
+        "count": 3,
+        "contexts": [
+          "cual es el partner code Y con mas ventas",
+          "cual es el partner code Y con mas ventas",
+          "cual es el partner code Y con mas ventas"
+        ]
+      }
+    },
+    "last_updated": "2025-09-25T10:29:24.645417"
+  }
+}

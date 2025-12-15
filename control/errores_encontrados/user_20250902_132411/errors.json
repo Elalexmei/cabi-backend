@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp": "2025-09-02T13:24:50.503126",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ Problemizador falló: Missing main dimension; Missing metric, operation or condition",
+    "session_time": 38.94293
+  },
+  {
+    "timestamp": "2025-09-02T13:24:50.519283",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ FAILED: Procesando consulta (21ms) - No se pudo procesar la consulta",
+    "session_time": 38.959087
+  },
+  {
+    "timestamp": "2025-09-02T13:24:50.527505",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error consulta Flask: No se pudo procesar la consulta",
+    "session_time": 38.967309
+  },
+  {
+    "timestamp": "2025-09-02T13:24:50.530685",
+    "component": "flask",
+    "level": "error",
+    "message": "🔍 Paso fallido: natural_query_processing",
+    "session_time": 38.970489
+  }
+]

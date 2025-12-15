@@ -1,0 +1,11 @@
+Flask
+flask-cors
+gunicorn
+numpy
+pandas
+requests
+spacy
+clickhouse-connect
+mysql-connector-python
+SQLAlchemy
+chardet

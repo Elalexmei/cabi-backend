@@ -1,0 +1,167 @@
+{
+  "Sell_Out": [
+    "sell_out", "sellout", "sell-out", "sell_out", "SELL_OUT", "SELLOUT", "Sell_Out",
+    "SELL-OUT", "SELL_OUT", "venta_salida", "venta_salida", "salida_producto", "rotacion_salida",
+    "ventas", "venta", "sales", "sale", "Sales", "vendido", "vendidos", "vendida", "vendidas",
+    "retail_sales", "consumer_sales", "final_sales", "end_user_sales", "customer_sales",
+    "point_of_sale", "pos_sales", "through_sales", "outbound_sales", "exit_sales",
+    "sold", "Sold", "SOLD"
+  ],
+
+  "Stock_Out": [
+    "stock_out", "Stock_Out", "Stock_out", "STOCK_OUT", "STOCK_out", "stock_OUT", "sin_stock",
+    "out_of_stock", "outofstock", "stockout", "oos", "OOS", "inventory_shortage",
+    "stock_shortage", "depleted_stock", "zero_inventory", "empty_stock", "unavailable_stock",
+    "shortage", "backorder", "sold_out", "no_stock"
+  ],
+
+  "sell_through": [
+    "sell_through", "sellthrough", "sell-through", "sell_through", "SELL_THROUGH", "SELLTHROUGH",
+    "SELL-THROUGH", "SELL_THROUGH", "venta_atraves", "venta_través", "rotacion_inventario", "flujo_producto",
+    "inventory_turnover", "stock_turnover", "turnover_rate", "flow_through", "inventory_velocity",
+    "stock_velocity", "movement_rate", "circulation_rate", "throughput", "inventory_flow"
+  ],
+
+  "sales_amount": [
+    "sales_amount", "sales_amount", "monto_ventas", "monto_ventas", "cantidad_ventas", "total_ventas",
+    "importe_ventas", "valor_ventas", "suma_ventas", "volumen_ventas",
+    "sales_value", "sales_total", "sales_sum", "revenue_amount", "sales_volume",
+    "gross_sales", "net_sales", "sales_figure", "sales_dollars", "dollar_sales",
+    "monetary_sales", "sales_proceeds", "sales_income", "turnover", "billing_amount"
+  ],
+
+  "order_number": [
+    "order_number", "order_number", "numero_orden", "número_orden", "número_de_orden",
+    "numero_de_orden", "folio_orden", "id_orden", "ref_orden", "codigo_orden",
+    "order_id", "order_identifier", "order_reference", "order_code", "purchase_order",
+    "po_number", "order_ref", "transaction_number", "order_sequence", "order_count",
+    "requisition_number", "request_number", "order_quantity"
+  ],
+
+  "profit": [
+    "ganancias", "ganancia", "profit", "profits", "beneficio", "beneficios",
+    "utilidad", "utilidades", "rentabilidad", "rentabilidades", "lucro", "lucros",
+    "renta", "rentas", "rendimiento", "rendimientos", "excedente", "excedentes",
+    "resultado", "resultados", "earnings",
+    "net_profit", "gross_profit", "operating_profit", "profitability", "return",
+    "income", "gain", "gains", "surplus", "yield", "proceeds", "net_income",
+    "bottom_line", "operating_income", "ebitda", "profit_margin"
+  ],
+
+  "margin": [
+    "margen", "margenes", "márgenes", "margin", "margins", "markup", "markups",
+    "diferencial", "diferenciales", "spread", "spreads", "porcentaje_ganancia",
+    "ratio_ganancia", "tasa_ganancia",
+    "profit_margin", "gross_margin", "net_margin", "operating_margin", "contribution_margin",
+    "margin_percentage", "markup_percentage", "price_margin", "cost_margin",
+    "profit_spread", "margin_rate", "return_margin", "percentage_margin"
+  ],
+
+  "quantity": [
+    "cantidad", "cantidades", "quantity", "quantities", "unidades", "unidad",
+    "units", "unit", "volumen", "volumenes", "volúmenes", "volume", "volumes",
+    "numero", "números", "number", "numbers", "count", "counts", "total_unidades",
+    "amount", "amounts", "sum", "total", "aggregate", "cumulative", "piece_count",
+    "item_count", "unit_count", "numeric_value", "qty", "qnty"
+  ],
+
+  "Inventory": [
+    "inventory", "inventario", "inventarios", "existencias", "existencia",
+    "stock", "stocks", "almacen", "almacén", "almacenes", "deposito", "depósito",
+    "depósitos", "disponible", "disponibilidad",
+    "stock_level", "stock_levels", "inventory_level", "inventory_levels", "on_hand",
+    "available_inventory", "warehouse_stock", "storage", "goods_on_hand",
+    "merchandise_inventory", "product_inventory", "item_inventory", "stock_quantity",
+    "inventory_count", "physical_inventory", "book_inventory"
+  ],
+
+  "price": [
+    "precio", "precios", "price", "prices", "valor", "valores", "value", "values",
+    "costo_unitario", "costo_unitario", "tarifa", "tarifas", "cotizacion", "cotización",
+    "importe_unitario",
+    "unit_price", "selling_price", "retail_price", "list_price", "market_price",
+    "wholesale_price", "cost_price", "sale_price", "quoted_price", "asking_price",
+    "pricing", "rate", "rates", "fee", "fees", "charge", "charges", "amount"
+  ],
+
+  "cost": [
+    "costo", "costos", "cost", "costs", "gastos", "gasto", "expense", "expenses",
+    "erogacion", "erogación", "erogaciones", "desembolso", "desembolsos", "inversion", "inversión",
+    "expenditure", "expenditures", "outlay", "outlays", "spending", "disbursement",
+    "unit_cost", "total_cost", "direct_cost", "indirect_cost", "variable_cost",
+    "fixed_cost", "operating_cost", "production_cost", "acquisition_cost"
+  ],
+
+  "orders": [
+    "pedidos", "pedido", "orders", "order", "ordenes", "orden", "órdenes",
+    "solicitudes", "solicitud", "requests", "request", "compras", "compra",
+    "adquisiciones", "adquisicion",
+    "purchase_orders", "purchase_order", "sales_orders", "sales_order", "work_orders",
+    "work_order", "requisitions", "requisition", "demands", "demand", "bookings",
+    "booking", "placements", "placement", "submissions", "submission"
+  ],
+
+  "transactions": [
+    "transacciones", "transaccion", "transacción", "transactions", "transaction",
+    "operaciones", "operacion", "operación", "operations", "operation",
+    "movimientos", "movimiento", "movements", "movement", "actividad",
+    "trade", "trades", "deal", "deals", "exchange", "exchanges", "transfer", "transfers",
+    "activity", "activities", "record", "records", "entry", "entries",
+    "business_transaction", "financial_transaction", "commercial_transaction"
+  ],
+
+  "Avg_8w": [
+    "avg_8w", "avg_8w", "promedio_8_semanas", "promedio_8_semanas", "average_8_weeks",
+    "average_8_weeks", "promedio_8w", "prom_8_semanas", "media_8_semanas",
+    "8_week_average", "8week_average", "8w_avg", "eight_week_average",
+    "weekly_average_8", "8_week_mean", "rolling_8_week", "8_period_average"
+  ],
+
+  "Avg_4w": [
+    "avg_4w", "avg_4w", "promedio_4_semanas", "promedio_4_semanas", "average_4_weeks",
+    "average_4_weeks", "promedio_4w", "prom_4_semanas", "media_4_semanas",
+    "4_week_average", "4week_average", "4w_avg", "four_week_average",
+    "weekly_average_4", "4_week_mean", "rolling_4_week", "4_period_average"
+  ],
+
+  "Week": [
+    "week", "weeks", "Weeks", "semana", "Semana", "semanas", "Semanas",
+    "sem", "wk", "periodo_semanal", "periodo_semanal", "ciclo_semanal",
+    "intervalo_semanal", "hebdomada", "septimana",
+    "weekly", "weekly_period", "week_number", "week_num", "calendar_week",
+    "business_week", "work_week", "seven_days", "7_days", "w", "weekly_cycle"
+  ],
+
+  "roi": [
+    "roi", "ROI", "retorno_inversion", "retorno_inversión", "retorno_de_inversion",
+    "retorno_de_inversión", "return_investment", "return_investment", "rendimiento_capital",
+    "tasa_retorno", "ratio_rentabilidad", "indice_rentabilidad", "performance_financiera",
+    "return_on_investment", "investment_return", "capital_return", "profit_return",
+    "yield_rate", "return_rate", "investment_yield", "capital_yield",
+    "performance_ratio", "efficiency_ratio", "profitability_ratio"
+  ],
+
+  "discount": [
+    "descuento", "descuentos", "discount", "discounts", "rebaja", "rebajas",
+    "promocion", "promoción", "promociones", "oferta", "ofertas", "deduccion",
+    "reduction", "reductions", "markdown", "markdowns", "allowance", "allowances",
+    "concession", "concessions", "rebate", "rebates", "price_cut", "price_cuts",
+    "sale_price", "special_offer", "promotional_discount", "trade_discount"
+  ],
+
+  "revenue": [
+    "ingresos_totales", "facturación_total",
+    "revenue", "revenues", "income", "earnings", "receipts", "proceeds",
+    "gross_revenue", "net_revenue", "total_revenue", "sales_revenue",
+    "operating_revenue", "business_income", "turnover", "billing",
+    "gross_income", "top_line", "total_income", "monetary_inflow"
+  ],
+
+  "Venta_perdida": [
+    "Venta_perdida", "venta_perdida", "venta_perdida", "Venta_Perdida", "VENTA_PERDIDA",
+    "lost_sale", "lost_sales", "missed_sale", "missed_sales", "opportunity_loss",
+    "sales_loss", "revenue_loss", "potential_sale", "unrealized_sale",
+    "foregone_sale", "lost_opportunity", "missed_opportunity", "sales_leakage",
+    "lost_business", "unfulfilled_demand"
+  ]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "timestamp": "2025-12-14T03:44:54.063288",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ Problemizador falló: Missing main dimension",
+    "session_time": 3461.289805
+  },
+  {
+    "timestamp": "2025-12-14T03:44:54.073061",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ FAILED: Procesando consulta (14ms) - No se pudo procesar la consulta",
+    "session_time": 3461.299578
+  },
+  {
+    "timestamp": "2025-12-14T03:44:54.076913",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error consulta Flask: No se pudo procesar la consulta",
+    "session_time": 3461.30343
+  },
+  {
+    "timestamp": "2025-12-14T03:45:41.884802",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ Problemizador falló: Missing main dimension; Missing metric, operation or condition",
+    "session_time": 3509.111319
+  },
+  {
+    "timestamp": "2025-12-14T03:45:41.891215",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ FAILED: Procesando consulta (13ms) - No se pudo procesar la consulta",
+    "session_time": 3509.117732
+  },
+  {
+    "timestamp": "2025-12-14T03:45:41.896837",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error consulta Flask: No se pudo procesar la consulta",
+    "session_time": 3509.123354
+  },
+  {
+    "timestamp": "2025-12-14T03:45:49.457235",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ Problemizador falló: Missing main dimension; Missing metric, operation or condition",
+    "session_time": 3516.683752
+  },
+  {
+    "timestamp": "2025-12-14T03:45:49.463589",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ FAILED: Procesando consulta (10ms) - No se pudo procesar la consulta",
+    "session_time": 3516.690106
+  },
+  {
+    "timestamp": "2025-12-14T03:45:49.468004",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error consulta Flask: No se pudo procesar la consulta",
+    "session_time": 3516.694521
+  },
+  {
+    "timestamp": "2025-12-14T03:45:57.344548",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ Problemizador falló: Missing main dimension; Missing metric, operation or condition",
+    "session_time": 3524.571065
+  },
+  {
+    "timestamp": "2025-12-14T03:45:57.351089",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ FAILED: Procesando consulta (10ms) - No se pudo procesar la consulta",
+    "session_time": 3524.577606
+  },
+  {
+    "timestamp": "2025-12-14T03:45:57.357083",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error consulta Flask: No se pudo procesar la consulta",
+    "session_time": 3524.5836
+  }
+]

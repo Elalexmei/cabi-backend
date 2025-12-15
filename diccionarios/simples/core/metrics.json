@@ -1,0 +1,130 @@
+[
+  "velocidad", "velocity", "speed", "rate", "pace", "frequency", "turnover_speed",
+  
+  "promedio_8_semanas", "promedio_4_semanas", "average_8_weeks", "average_4_weeks", 
+  "avg_8w", "avg_4w", "avg8w", "avg4w", "8_week_average", "4_week_average",
+  "weekly_average", "rolling_average", "moving_average",
+  
+  "score", "scores", "rating", "ratings", "points", "grade", "grades", 
+  "evaluation", "assessment", "performance_score",
+  
+  "flujo", "flow", "flux", "stream", "throughput", "movement", "circulation",
+  "cash_flow", "inventory_flow", "product_flow",
+  
+  "comprado", "comprados", "comprada", "compradas", "comprando", "comprar", "compras",
+  "purchased", "bought", "acquired", "procurement", "buying", "purchase", "purchases",
+  "acquisition", "adquisicion", "adquisición",
+  
+  "ordenes", "orden", "órdenes", "orders", "order", "purchase_orders", "sales_orders",
+  "pedidos", "pedido", "requests", "demand", "bookings",
+  
+  "frecuencia", "frequency", "occurrence", "rate", "periodicity", "regularity",
+  
+  "volumen", "volumenes", "volúmenes", "volume", "volumes", "quantity", "quantities",
+  "amount", "amounts", "size", "capacity", "bulk",
+  
+  "transacciones", "transaccion", "transacción", "transactions", "transaction",
+  "trades", "deals", "exchanges", "transfers", "operations",
+  "operaciones", "operacion", "operación",
+  
+  "satisfaccion", "satisfacción", "satisfaction", "contentment", "approval",
+  "customer_satisfaction", "client_satisfaction",
+  
+  "inventory", "Inventory", "inventario", "Inventario", "stock", "warehouse_stock",
+  "on_hand", "available_inventory", "stock_level", "inventory_level",
+  "existencias", "existencia", "storage", "goods_on_hand",
+  
+  "cantidades", "cantidad", "quantities", "quantity", "amounts", "amount",
+  "units", "unidades", "unidad", "count", "total", "sum",
+  
+  "semanas", "semana", "weeks", "week", "weekly", "weekly_period", "w",
+  
+  "evaluación", "evaluacion", "evaluation", "assessment", "appraisal", "review",
+  "analysis", "examination", "inspection",
+  
+  "uso", "use", "usage", "utilization", "consumption", "employment", "application",
+  "consumo", "consumption", "intake", "expenditure",
+  
+  "ganancias", "ganancia", "profits", "profit", "gains", "gain", "earnings",
+  "returns", "income", "revenue", "proceeds", "yield",
+  
+  "performance", "rendimiento", "productivity", "efficiency", "effectiveness",
+  "productividad", "eficiencia", "output", "throughput",
+  
+  "denominador", "denominadores", "denominator", "denominators", "base", "divisor",
+  "numerador", "numeradores", "numerator", "numerators", "dividend",
+  
+  "margen", "margenes", "márgenes", "margin", "margins", "markup", "spread",
+  "profit_margin", "gross_margin", "net_margin", "contribution_margin",
+  
+  "rebaja", "rebajas", "discount", "discounts", "markdown", "reduction",
+  "descuento", "descuentos", "allowance", "concession", "rebate",
+  
+  "inversión", "inversion", "investment", "capital", "funding", "financing",
+  "expenditure", "outlay", "spending",
+  
+  "ingreso", "ingresos", "income", "revenue", "earnings", "receipts", "proceeds",
+  "revenue", "facturacion", "facturación", "billing", "turnover", "sales_revenue",
+  "recaudacion", "recaudación", "collection", "receipts",
+  
+  "ebitda", "EBITDA", "operating_income", "operating_profit", "gross_profit",
+  
+  "demanda", "demand", "requirement", "need", "request", "market_demand",
+  
+  "utilidad", "utilidades", "utility", "utilities", "profit", "benefit", "benefits",
+  "beneficio", "beneficios", "advantage", "return", "yield",
+  
+  "ventas", "venta", "sales", "sale", "Sales", "SALES", "selling", "revenue",
+  "vendidas", "vendida", "vendido", "vendidos", "vendiendo", "vender",
+  "selling", "sell", "retail", "commercial_sales",
+  "sold", "Sold", "SOLD",
+  
+  "promoción", "promocion", "promociones", "promotion", "promotions", "campaign",
+  "marketing", "advertising", "special_offer", "deals",
+  
+  "unidades", "unidad", "units", "unit", "pieces", "items", "count", "quantity",
+  
+  "roi", "ROI", "return_on_investment", "investment_return", "profitability",
+  "rentabilidad", "return_rate", "yield_rate",
+  
+  "movimiento", "movement", "motion", "activity", "flow", "circulation",
+  "turnover", "rotation", "rotacion", "rotación", "turn_over",
+  
+  "tiempo", "time", "duration", "period", "timeframe", "timeline",
+  "duración", "duracion", "length", "span",
+  
+  "popularidad", "popularity", "appeal", "preference", "demand", "attractiveness",
+  
+  "puntuacion", "puntuación", "puntuaciones", "score", "scores", "rating", "ratings",
+  "calificacion", "calificación", "grade", "grades", "points",
+  
+  "precio", "precios", "price", "prices", "cost", "value", "rate", "fee",
+  "pricing", "tariff", "charge",
+  
+  "sellout", "sell_out", "sell-out", "Sell-out", "Sell-Out", "SELL-OUT",
+  "sell_through", "retail_sales", "consumer_sales", "final_sales",
+  
+  "rapidez", "rapidness", "quickness", "speed", "agility", "swiftness",
+  
+  "profit", "gasto", "gastos", "expenses", "expense", "cost", "costs", "spending",
+  "expenditure", "outlay", "disbursement",
+  
+  "actividad", "activity", "action", "operation", "function", "task",
+  
+  "calidad", "quality", "grade", "standard", "excellence", "level",
+  
+  "net_amount", "total_amount", "sales_amount", "gross_amount", "amount",
+  "monto", "importe", "suma", "total", "value",
+  
+  "presupuesto", "budget", "allocation", "funding", "appropriation",
+  
+  "costo", "costos", "cost", "costs", "expense", "price", "charge",
+  
+  "week", "semana", "weekly", "w", "week_number", "calendar_week",
+  
+  "Venta_perdida", "Venta_perdida", "venta_perdida", "Venta_Perdida",
+  "VENTA_PERDIDA", "VENTA PERDIDA", "Venta perdida",
+  "lost_sale", "lost_sales", "missed_sale", "missed_sales", "sales_loss",
+  "opportunity_loss", "revenue_loss", "unrealized_sale", "potential_sale",
+  "foregone_sale", "lost_opportunity", "missed_opportunity", "sales_leakage"
+]

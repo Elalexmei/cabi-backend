@@ -1,0 +1,166 @@
+{
+  "employee": [
+    "vendedor", "vendedores", "empleado", "empleados", "personal", "staff", "agente", "agentes",
+    "representante", "representantes", "ejecutivo", "ejecutivos", "asesor", "asesores",
+    "colaborador", "colaboradores", "trabajador", "trabajadores", "operador", "operadores",
+    "consultor", "consultores",
+    "employee", "employees", "worker", "workers", "staff", "personnel", "agent", "agents",
+    "representative", "representatives", "executive", "executives", "advisor", "advisors",
+    "consultant", "consultants", "operator", "operators", "associate", "associates",
+    "team_member", "team_members", "crew", "workforce", "human_resource", "human_resources"
+  ],
+
+  "category": [
+    "categoria", "categorias", "categoría", "categorías", "cat", "cats", 
+    "clasificacion", "clasificaciones", "clasificación", "segmento", "segmentos",
+    "division", "divisiones", "división",
+    "category", "categories", "classification", "classifications", "segment", "segments",
+    "division", "divisions", "group", "groups", "type", "types", "kind", "kinds",
+    "class", "classes", "section", "sections", "grouping", "groupings"
+  ],
+
+  "brand": [
+    "marca", "marcas", "brand", "brands", "etiqueta", "etiquetas", "label", "labels",
+    "fabricante", "fabricantes", "proveedor_marca", "casa", "casas", "firma", "firmas",
+    "nombre_comercial",
+    "manufacturer", "manufacturers", "maker", "makers", "producer", "producers",
+    "supplier", "suppliers", "vendor", "vendors", "company", "companies",
+    "trademark", "trademarks", "brandname", "brandnames", "marque", "logo"
+  ],
+
+  "line": [
+    "linea", "lineas", "línea", "líneas", "line", "lines", "tipo", "tipos",
+    "clase", "clases", "variedad", "variedades", "gama", "gamas", "serie", "series",
+    "modelo", "modelos", "estilo", "estilos", "version", "versiones",
+    "product_line", "product_lines", "variety", "varieties", "range", "ranges",
+    "style", "styles", "model", "models", "version", "versions", "variant", "variants",
+    "collection", "collections", "family", "families", "lineup", "lineups"
+  ],
+
+  "city": [
+    "ciudad", "ciudades", "city", "cities", "urbe", "urbes", "metropoli", "metropolis",
+    "metrópoli", "metrópolis", "poblacion", "poblaciones", "población",
+    "municipio", "municipios",
+    "town", "towns", "municipality", "municipalities", "urban_area", "urban_areas",
+    "metropolitan", "metro", "borough", "boroughs", "township", "townships",
+    "village", "villages", "settlement", "settlements", "locality", "localities"
+  ],
+
+  "country": [
+    "pais", "paises", "país", "países", "country", "countries", "nacion", "naciones",
+    "nación", "estado_nacional", "estados_nacionales", "patria", "territorio_nacional",
+    "nation", "nations", "state", "states", "homeland", "territory", "territories",
+    "republic", "republics", "kingdom", "kingdoms", "federation", "federations",
+    "commonwealth", "sovereignty", "land", "lands"
+  ],
+
+  "state": [
+    "estado", "estados", "state", "states", "provincia", "provincias",
+    "departamento", "departamentos", "canton", "cantones", "condado", "condados",
+    "entidad", "entidades", "federacion", "federaciones",
+    "province", "provinces", "county", "counties", "prefecture", "prefectures",
+    "territory", "territories", "district", "districts", "division", "divisions",
+    "administrative_unit", "jurisdiction", "jurisdictions"
+  ],
+
+  "Store": [
+    "store", "stores", "sucursal", "sucursales", "local", "locales",
+    "establecimiento", "establecimientos", "branch", "branches", "punto_venta", "puntos_venta",
+    "outlet", "outlets", "comercio", "comercios", "negocio", "negocios", "shop", "shops",
+    "retail_store", "retail_stores", "location", "locations", "facility", "facilities",
+    "showroom", "showrooms", "warehouse", "warehouses",
+    "mall", "shopping_center"
+  ],
+
+  "Account": [
+    "cliente", "clientes", "account", "accounts", "usuario", "usuarios",
+    "comprador", "compradores", "consumidor", "consumidores", "cliente_final", "clientes_finales",
+    "cuenta", "cuentas", "customer", "customers", "buyer", "buyers",
+    "adquiriente", "adquirientes", "demandante", "demandantes", "solicitante", "solicitantes",
+    "beneficiario", "beneficiarios",
+    "client", "clients", "consumer", "consumers", "end_user", "end_users",
+    "purchaser", "purchasers", "subscriber", "subscribers", "member", "members",
+    "patron", "patrons", "shopper", "shoppers", "user", "users"
+  ],
+
+  "Item": [
+    "istem", "SKU", "sku", "Sku", "skus", "Skus", "SKUS", "item", "Item", "items", "producto", "productos",
+    "articulo", "articulos", "artículo", "artículos", "mercancia", "mercancias",
+    "mercancía", "mercancías", "product", "products", "bien", "bienes",
+    "objeto", "objetos", "elemento", "elementos", "pieza", "piezas",
+    "good", "goods", "commodity", "commodities", "merchandise", "article", "articles",
+    "unit", "units", "piece", "pieces", "component", "components", "part", "parts",
+    "inventory_item", "inventory_items", "stock_item", "stock_items"
+  ],
+
+  "Stock_Out": [
+    "stock_out", "Stock_Out", "Stock_out", "STOCK_OUT", "sin_stock", "agotado",
+    "faltante", "desabastecido",
+    "out_of_stock", "outofstock", "stockout", "depleted", "exhausted", "unavailable",
+    "shortage", "shortages", "backorder", "backorders", "sold_out", "empty",
+    "zero_stock", "no_inventory", "out_of_inventory"
+  ],
+
+  "Product_Group": [
+    "product_group", "Product_Grp", "Product_grp", "product_grp", "PRODUCT_GRP", "product group", "Product group", "Product Group", "PRODUCT GROUP", 
+    "product groups", "Product groups", "Product Groups", "PRODUCT GROUPS", "product_groups", "Product_groups", "Product_Groups", "PRODUCT_GROUPS", 
+    "Product Grp", "Product grp", "product grp", "PRODUCT GRP",  "Product_Grp", "Product_grp", "product_grp", "PRODUCT_GRP",
+    "Product Grps", "Product grps", "product grps", "PRODUCT GRPS",  "Product_Grps", "Product_grps", "product_grps", "PRODUCT_GRPS",
+    "grupo_producto", "grupo_de_productos", "agrupación_de_productos", "categoría_de_productos",
+    "family_product", "familia_producto", "línea_de_productos", "clasificacion_productos",
+    "segmento_productos",
+    "product_family", "product_families", "product_category", "product_categories",
+    "product_line", "product_lines", "product_segment", "product_segments",
+    "product_classification", "item_group", "item_groups", "merchandise_group",
+    "goods_category", "product_type", "product_types"
+  ],
+
+  "item_group": [
+    "item_group", "item_group", "grupo_item", "grupo_de_items", "agrupación_de_items",
+    "conjunto_de_items", "lote_items", "batch_items", "set_items",
+    "item_category", "item_categories", "item_classification", "item_set", "item_sets",
+    "item_batch", "item_batches", "item_collection", "item_collections",
+    "product_grouping", "merchandise_set", "goods_group", "inventory_group"
+  ],
+
+  "partner_code": [
+    "partner_code", "partner_code", "codigo_partner", "código_partner", "código_de_socio",
+    "codigo_de_socio", "id_partner", "clave_partner", "ref_partner",
+    "partner_id", "partner_identifier", "partner_key", "partner_reference",
+    "business_partner_code", "vendor_partner_code", "supplier_partner_code",
+    "affiliate_code", "associate_code", "collaborator_code", "alliance_code"
+  ],
+
+  "customer_code": [
+    "customer_code", "customer_code", "codigo_cliente", "código_cliente", "código_de_cliente",
+    "codigo_de_cliente", "id_cliente", "clave_cliente", "ref_cliente",
+    "customer_id", "customer_identifier", "customer_key", "customer_reference",
+    "client_code", "client_id", "account_code", "account_id", "buyer_code",
+    "consumer_code", "user_code", "member_code"
+  ],
+
+  "vendor_code": [
+    "vendor_code", "vendor_code", "codigo_proveedor", "código_proveedor", "supplier_code",
+    "codigo_supplier", "código_supplier", "id_proveedor", "ref_proveedor",
+    "vendor_id", "vendor_identifier", "vendor_key", "vendor_reference",
+    "supplier_id", "supplier_identifier", "supplier_key", "provider_code",
+    "manufacturer_code", "distributor_code", "wholesaler_code"
+  ],
+
+  "location": [
+    "ubicación", "lugar", "sitio",
+    "location", "place", "site", "position", "spot", "point", "venue", "address",
+    "coordinates", "whereabouts", "locality", "placement", "setting", "area"
+  ],
+
+  "Dead_Inventory": [
+    "Dead_Inventory", "dead_inventory", "deadinventory", "DeadInventory", "DEAD_INVENTORY", "DEAD INVENTORY", "dead inventory",
+    "obsolete_inventory", "obsolete_stock", "slow_moving_inventory", "dormant_inventory",
+    "stagnant_inventory", "unsold_inventory", "expired_inventory", "outdated_inventory",
+    "non_moving_inventory", "surplus_inventory", "excess_inventory", "aged_inventory"
+  ],
+
+  "Channel": [
+    "channel", "Channel", "CHANNEL", "chanel", "Chanel", "CHANEL", "channels", "Channels", "CHANNELS", "chanels", "Chanels", "CHANELS"
+  ]
+}

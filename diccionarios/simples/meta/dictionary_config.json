@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "generated_at": "2025-06-12T00:16:45.031047",
+    "description": "Diccionarios para parsing de consultas en lenguaje natural",
+    "source": "OptimizedParserDictionaries",
+    "encoding": "utf-8"
+  },
+  "file_structure": {
+    "core": [
+      "operations.json",
+      "dimensions.json",
+      "metrics.json",
+      "known_columns.json",
+      "common_values.json"
+    ],
+    "linguistic": [
+      "synonym_groups.json",
+      "connectors.json",
+      "word_numbers.json",
+      "typo_corrections.json"
+    ],
+    "temporal": [
+      "temporal_indicators.json",
+      "temporal_units.json"
+    ]
+  },
+  "usage_instructions": {
+    "loading_order": [
+      "core/operations.json",
+      "core/dimensions.json",
+      "core/metrics.json",
+      "core/known_columns.json",
+      "core/common_values.json",
+      "linguistic/synonym_groups.json",
+      "linguistic/connectors.json",
+      "linguistic/word_numbers.json",
+      "linguistic/typo_corrections.json",
+      "temporal/temporal_indicators.json",
+      "temporal/temporal_units.json"
+    ],
+    "enum_mappings": {
+      "operation_types": {
+        "máximo": "MAXIMUM",
+        "mínimo": "MINIMUM",
+        "suma": "SUM",
+        "promedio": "AVERAGE",
+        "conteo": "COUNT"
+      },
+      "temporal_units": {
+        "days": "DAYS",
+        "weeks": "WEEKS",
+        "months": "MONTHS",
+        "years": "YEARS",
+        "quarters": "QUARTERS"
+      }
+    }
+  },
+  "statistics": {
+    "total_dimensiones": 128,
+    "total_operaciones": 57,
+    "total_metricas": 130,
+    "total_frases_compuestas": 82,
+    "total_columnas": 27,
+    "total_valores": 88,
+    "total_conectores": 30,
+    "total_numeros_palabra": 31,
+    "total_correcciones": 20,
+    "total_synonym_groups": 13,
+    "mode": "Hardcoded",
+    "json_export_path": "diccionarios\\simples",
+    "last_loaded": null,
+    "can_export_json": true,
+    "can_reload_json": true
+  }
+}

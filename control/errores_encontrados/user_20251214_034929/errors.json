@@ -1,0 +1,107 @@
+[
+  {
+    "timestamp": "2025-12-14T17:19:26.094099",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ Problemizador falló: Missing metric, operation or condition",
+    "session_time": 48596.358084
+  },
+  {
+    "timestamp": "2025-12-14T17:19:26.104391",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ FAILED: Procesando consulta (16ms) - No se pudo procesar la consulta",
+    "session_time": 48596.368376
+  },
+  {
+    "timestamp": "2025-12-14T17:19:26.110210",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error consulta Flask: No se pudo procesar la consulta",
+    "session_time": 48596.374195
+  },
+  {
+    "timestamp": "2025-12-14T17:19:46.587274",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ Problemizador falló: Missing metric, operation or condition",
+    "session_time": 48616.851259
+  },
+  {
+    "timestamp": "2025-12-14T17:19:46.597077",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ FAILED: Procesando consulta (14ms) - No se pudo procesar la consulta",
+    "session_time": 48616.861062
+  },
+  {
+    "timestamp": "2025-12-14T17:19:46.603307",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error consulta Flask: No se pudo procesar la consulta",
+    "session_time": 48616.867292
+  },
+  {
+    "timestamp": "2025-12-14T17:20:02.852360",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ Problemizador falló: Missing metric, operation or condition",
+    "session_time": 48633.116345
+  },
+  {
+    "timestamp": "2025-12-14T17:20:02.860834",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ FAILED: Procesando consulta (12ms) - No se pudo procesar la consulta",
+    "session_time": 48633.124819
+  },
+  {
+    "timestamp": "2025-12-14T17:20:02.868970",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error consulta Flask: No se pudo procesar la consulta",
+    "session_time": 48633.132955
+  },
+  {
+    "timestamp": "2025-12-14T17:34:36.152508",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ Problemizador falló: Missing metric, operation or condition",
+    "session_time": 49506.416493
+  },
+  {
+    "timestamp": "2025-12-14T17:34:36.168327",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ FAILED: Procesando consulta (25ms) - No se pudo procesar la consulta",
+    "session_time": 49506.432312
+  },
+  {
+    "timestamp": "2025-12-14T17:34:36.176506",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error consulta Flask: No se pudo procesar la consulta",
+    "session_time": 49506.440491
+  },
+  {
+    "timestamp": "2025-12-14T17:34:53.445465",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ Problemizador falló: Missing metric, operation or condition",
+    "session_time": 49523.70945
+  },
+  {
+    "timestamp": "2025-12-14T17:34:53.464660",
+    "component": "nlp",
+    "level": "error",
+    "message": "❌ FAILED: Procesando consulta (25ms) - No se pudo procesar la consulta",
+    "session_time": 49523.728645
+  },
+  {
+    "timestamp": "2025-12-14T17:34:53.475172",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error consulta Flask: No se pudo procesar la consulta",
+    "session_time": 49523.739157
+  }
+]

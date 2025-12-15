@@ -1,0 +1,4 @@
+[15:02:03.875] INFO | 🔍 VERIFICANDO COMPONENTES OBLIGATORIOS...
+[15:02:03.875] INFO | ============================================================
+[15:02:03.893] INFO | ✅ TableAnalyzer: Importado correctamente
+[15:02:03.925] ERROR | ❌ CRÍTICO: Error inicializando Problemizador - non-default argument 'operations' follows default argument

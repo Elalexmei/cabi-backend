@@ -1,0 +1,124 @@
+[
+  "order_number", "order_id", "order_ref", "purchase_order", "po_number", "order_code",
+  "invoice_id", "invoice_number", "bill_number", "receipt_id", "transaction_id",
+  "reference_number", "ref_number", "reference_id", "ref_id", "confirmation_number",
+  
+  "area", "areas", "zone", "zones", "region", "regions", "territory", "territories",
+  "sector", "sectors", "district", "districts", "locality", "localities",
+  "sales_area", "commercial_area", "business_area", "service_area", "coverage_area",
+  
+  "vendor_code", "vendor_id", "vendor_number", "vendor_key", "supplier_code", 
+  "supplier_id", "supplier_number", "provider_code", "distributor_code",
+  
+  "agentes", "agente", "agents", "agent", "representative", "representatives", 
+  "representante", "representantes", "sales_rep", "sales_agent", "account_manager",
+  
+  "compradores", "comprador", "buyers", "buyer", "purchaser", "purchasers",
+  "procurement", "purchasing_agent", "acquisition_team",
+  
+  "cuenta", "cuentas", "account", "accounts", "customer_account", "client_account",
+  "account_code", "account_id", "account_number", "account_ref", "account_key",
+  
+  "producto", "productos", "product", "products", "item", "items", "merchandise",
+  "goods", "commodity", "commodities", "article", "articles",
+  "product_code", "product_key", "product_id", "item_code", "item_id",
+  
+  "sku_code", "sku", "SKU","skus", "Skus", "SKUS", "stock_keeping_unit", "part_number", "model_number",
+  "catalog_number", "product_sku", "item_sku",
+  
+  "clase", "clases", "class", "classes", "category", "categories", "type", "types",
+  "classification", "group", "groups", "segment", "segments",
+  "categoria", "categorias", "category_group", "product_category",
+  
+  "STOCK_out", "Stock_Out", "STOCK_OUT", "stock_out", "stock_OUT", 
+  "STOCK OUT", "Stock Out", "Stock_out", "stock out",
+  "out_of_stock", "outofstock", "stockout", "oos", "OOS", "depleted",
+  "shortage", "backorder", "sold_out", "unavailable",
+  
+  "consumidor", "consumidores", "consumer", "consumers", "end_user", "end_users",
+  "customer", "customers", "client", "clients", "buyer", "buyers",
+  "cliente", "clientes", "customer_code", "customer_id", "customer_number",
+  "customer_key", "customer_ref", "client_code", "client_id",
+  
+  "sucursal", "sucursales", "branch", "branches",
+  "location", "locations", "facility", "facilities", "site", "sites",
+  "branch_code", "branch_id", "store_branch",
+  
+  "empleados", "empleado", "employees", "employee", "staff", "personnel",
+  "workforce", "team_member", "worker", "workers", "associate", "associates",
+  
+  "lineas", "linea", "lines", "line", "product_line", "product_lines",
+  "business_line", "service_line", "line_of_business",
+  
+  "vendedor", "vendedores", "salesperson", "salespersons", "sales_rep", "sales_reps",
+  "seller", "sellers", "sales_agent", "sales_team", "sales_associate",
+  
+  "provincias", "provincia", "provinces", "province", "state", "states",
+  "county", "counties", "prefecture", "prefectures",
+  
+  "personal", "staff", "personnel", "workforce", "team", "crew", "human_resources",
+  
+  "usuarios", "usuario", "users", "user", "user_id", "username", "account_holder",
+  "subscriber", "member", "members",
+  
+  "brands", "brand", "marca", "marcas", "trademark", "trademarks", "label", "labels",
+  "manufacturer", "manufacturers", "producer", "producers",
+  
+  "stock", "stock_level", "warehouse_stock",
+  "available_stock", "on_hand", "stock_quantity",
+  
+  "ciudad", "ciudades", "city", "cities", "town", "towns", "municipality", "municipalities",
+  "urban_area", "metropolitan", "metro",
+  
+  "grupo_producto", "product_group", "item_group", "product_family", "product_category",
+  "product group", "Product group", "Product Group", "PRODUCT GROUP", 
+  "product_group", "Product_Grp", "Product_grp", "product_grp", "PRODUCT_GRP", "product group", "Product group", "Product Group", "PRODUCT GROUP", "product groups", "Product groups", "Product Groups", "PRODUCT GROUPS", 
+  "merchandise_group", "goods_category",
+  
+  "tipo", "tipos", "type", "types", "kind", "kinds", "sort", "variety", "varieties",
+  
+  "fulfillment_center", "distribution_center", "warehouse", "storage_facility",
+  "logistics_center", "shipping_center", "dc",
+  
+  "tienda", "store", "stores", "shop", "shops", "retail", "retail_store",
+  "outlet", "outlets", "showroom", "showrooms",
+  "store_code", "store_id", "shop_code",
+  
+  "zones", "zone", "area", "areas", "region", "regions",
+  
+  "establecimiento", "establecimientos", "establishment", "establishments", 
+  "business", "businesses", "enterprise", "enterprises",
+  
+  "estados", "estado", "states", "state", "status", "condition", "conditions",
+  
+  "sectores", "sector", "sectors", "industrial_sector", "business_sector",
+  "market_sector", "commercial_sector",
+  
+  "cliente_final", "end_customer", "final_customer", "end_user", "consumer",
+  
+  "cost_center", "cost_centre", "cost_unit", "expense_center", "budget_center",
+  
+  "partner_code", "partner_id", "partner_number", "partner_key", "business_partner",
+  "affiliate", "alliance", "collaborator",
+  
+  "locales", "local", "premises", "facility", "facilities", "location", "locations",
+  
+  "paises", "pais", "countries", "country", "nation", "nations", "territory", "territories",
+  
+  "municipios", "municipio", "municipalities", "municipality", "township", "townships",
+  
+  "territorio", "territory", "jurisdiction", "district", "precinct", "ward",
+  
+  "mercancia", "mercancias", "merchandise", "goods", "commodities", "wares",
+  
+  "articulos", "articulo", "articles", "article", "items", "item", "pieces", "piece",
+  
+  "regiones", "region", "regions", "regional_area", "geographical_region",
+  
+  "Dead_Inventory", "Dead Inventory", "dead_inventory", "dead inventory", "DEAD INVENTORY", "Dead Inventory", "DEAD Inventory", "dead INVENTORY",
+  "deadinventory", "DeadInventory", "DEAD_INVENTORY", "DEAD INVENTORY",
+  "obsolete_inventory", "slow_moving_inventory", "dormant_stock", "aged_inventory",
+  "excess_inventory", "surplus_stock", "non_moving_inventory", "stagnant_inventory",
+
+  "channel", "Channel", "CHANNEL", "chanel", "Chanel", "CHANEL", "channels", "Channels", "CHANNELS", "chanels", "Chanels", "CHANELS"
+]

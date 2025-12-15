@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp": "2025-09-02T12:54:59.114701",
+    "component": "sql",
+    "level": "warning",
+    "message": "⚠️ innodb_buffer_pool_instances es read-only, requiere archivo my.ini",
+    "session_time": 0.653322
+  },
+  {
+    "timestamp": "2025-09-02T12:54:59.121116",
+    "component": "sql",
+    "level": "warning",
+    "message": "⚠️ innodb_log_file_size es read-only, requiere archivo my.ini",
+    "session_time": 0.659737
+  },
+  {
+    "timestamp": "2025-09-02T12:54:59.122690",
+    "component": "sql",
+    "level": "warning",
+    "message": "⚠️ query_cache_size: 1193 (HY000): Unknown system variable 'query_cache_size'",
+    "session_time": 0.661311
+  },
+  {
+    "timestamp": "2025-09-02T12:54:59.126517",
+    "component": "sql",
+    "level": "warning",
+    "message": "⚠️ 3 configuraciones fallaron (probablemente read-only)",
+    "session_time": 0.665138
+  }
+]

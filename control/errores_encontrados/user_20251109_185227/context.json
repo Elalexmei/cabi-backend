@@ -1,0 +1,667 @@
+[
+  {
+    "timestamp": "2025-11-09T18:52:27.931299",
+    "component": "suppressed_output",
+    "level": "suppressed_component",
+    "session_id": "user_20251109_185227",
+    "operation": "tableanalyzer_init",
+    "suppressed_data": {
+      "session_id": "user_20251109_185227",
+      "timestamp": "2025-11-09T18:52:27.931287",
+      "operation_name": "tableanalyzer_init",
+      "stdout_content": "🎯 INICIALIZANDO ANALIZADOR COMPATIBLE CON PALABRAS ANCLA\n======================================================================\n📁 CARGANDO DICCIONARIOS CON PALABRAS ANCLA\n📂 Ruta: /Users/apple/Desktop/chambiacion/proyectos_full/python/brandbot/etapas/cassian_0.0.5_etapa_5/diccionarios/complejos\n============================================================\n✅ Estructura JSON de palabras ancla verificada\n   ✅ anchors/dimension_anchors.json\n   🔥 Expandido: 19 anclas → 532 dimensiones\n   ✅ anchors/metric_anchors.json\n   🔥 Expandido: 20 anclas → 490 métricas\n   ✅ core/operations.json\n   ✅ core/known_columns.json\n   ✅ core/common_values.json\n   ⚠️ No encontrado: linguistic/connectors.json\n   ⚠️ No encontrado: linguistic/word_numbers.json\n   ⚠️ No encontrado: linguistic/typo_corrections.json\n   ✅ temporal/temporal_indicators.json\n   ✅ temporal/temporal_units.json\n\n📊 RESULTADO DE CARGA CON PALABRAS ANCLA:\n   ✅ Archivos básicos cargados: 3/3\n   📂 Dimensiones (expandidas): 532\n   📊 Métricas (expandidas): 490\n   ⚡ Operaciones: 57\n   📍 Anclas de dimensión: 19\n   📍 Anclas de métrica: 20\n   🕐 Cargado: 2025-11-09 18:52:27\n✅ Diccionarios con palabras ancla cargados exitosamente\n🔥 TODAS LAS VARIACIONES DISPONIBLES: 1022 términos\n✅ Estructura JSON de palabras ancla verificada\n✅ Diccionarios con palabras ancla cargados:\n📁 Ruta: /Users/apple/Desktop/chambiacion/proyectos_full/python/brandbot/etapas/cassian_0.0.5_etapa_5/diccionarios/complejos\n🕐 Última carga: 2025-11-09T18:52:27.886148\n✅ Carga exitosa: True\n🔥 Sistema de anclas: True\n📊 Estadísticas cargadas:\n   📂 Dimensiones (expandidas): 532\n   📊 Métricas (expandidas): 490\n   ⚡ Operaciones: 57\n   📍 Anclas de dimensión: 19\n   📍 Anclas de métrica: 20\n\n🔥 EJEMPLO DE EXPANSIONES CARGADAS:\n   📂 'employee': 48 variaciones → ['vendedor', 'vendedores', 'empleado', 'empleados', 'personal']...\n   📂 'category': 34 variaciones → ['categoria', 'categorias', 'categoría', 'categorías', 'cat']...\n📁 Directorios temporales verificados\n🔥 Analizador compatible con palabras ancla listo\n✅ MySQL disponible: localhost/datos_imperiales\n🔥 Analizador con opción MySQL listo\n✅ ClickHouse disponible: localhost/datos_imperiales\n🔥 Analizador con opciones MySQL + ClickHouse listo",
+      "stderr_content": "",
+      "has_content": true
+    }
+  },
+  {
+    "timestamp": "2025-11-09T18:52:27.938207",
+    "component": "suppressed_output",
+    "level": "suppressed_component",
+    "session_id": "user_20251109_185227",
+    "operation": "problemizador_init",
+    "suppressed_data": {
+      "session_id": "user_20251109_185227",
+      "timestamp": "2025-11-09T18:52:27.938202",
+      "operation_name": "problemizador_init",
+      "stdout_content": "✅ Operaciones cargadas: 161 palabras ancla\n   🇪🇸 Aliases configurados para ESPAÑOL\n   ✅ Conectores activos: 30 palabras\n   ✅ Números activos: 31 palabras\n   ✅ Correcciones activas: 20 palabras\n✅ Diccionario temporal cargado: 1078 entradas\n✅ Diccionarios JSON cargados exitosamente\n🔧 Construyendo índices de búsqueda optimizada...\n✅ Índice temporal: 1078 entradas\n✅ Frases compuestas en cache: 211 entradas\n✅ Índices construidos: 1011 palabras en 0.001s\n📋 Log de palabras desconocidas cargado: 3 consultas previas\n🚀 Parser NLP Unificado iniciado\n📚 Diccionarios cargados: {'total_dimensiones': 392, 'total_operaciones': 161, 'total_metricas': 384, 'source': 'JSON files'}\n🚨 Sistema de palabras desconocidas activado\n📁 Log de palabras desconocidas: control/consultas_sin_respuestas/unknown_words_log.json",
+      "stderr_content": "",
+      "has_content": true
+    }
+  },
+  {
+    "timestamp": "2025-11-09T18:52:27.938779",
+    "component": "suppressed_output",
+    "level": "suppressed_component",
+    "session_id": "user_20251109_185227",
+    "operation": "sql_mapper_init",
+    "suppressed_data": {
+      "session_id": "user_20251109_185227",
+      "timestamp": "2025-11-09T18:52:27.938770",
+      "operation_name": "sql_mapper_init",
+      "stdout_content": "✅ Cargado dimension_anchors.json: 19 entradas\n✅ Cargado metric_anchors.json: 20 entradas\n🔄 Mapeo reverso construido: 997 palabras mapeadas\n🔗 SQLSchemaMapper inicializado:\n   📍 Dimensiones: 19 anchors\n   📊 Métricas: 20 anchors\n   🔄 Mapeos reversos: 997 palabras",
+      "stderr_content": "",
+      "has_content": true
+    }
+  },
+  {
+    "timestamp": "2025-11-09T18:52:36.912509",
+    "component": "suppressed_output",
+    "level": "suppressed_component",
+    "session_id": "user_20251109_185227",
+    "operation": "problemizador_process",
+    "suppressed_data": {
+      "session_id": "user_20251109_185227",
+      "timestamp": "2025-11-09T18:52:36.912483",
+      "operation_name": "problemizador_process",
+      "stdout_content": "🔍 ANALIZANDO CONSULTA: 'List all ítems'\n🔍 DETECTANDO FRASES COMPUESTAS (Dictionary-Based): 'List all ítems'\n🔍 DEBUG: Query con placeholders: 'List all ítems'\n🔍 DEBUG: Text en minúsculas: 'list all ítems'\n   🔍 Generadas 211 frases compuestas automáticamente\n🔍 DEBUG: Antes de restaurar mayúsculas: 'list all ítems'\n🔓 RESTAURANDO TOKENS:\n   📥 Input: 'list all ítems'\n   🔑 Tokens preservados: {}\n   📤 Output: 'list all ítems'\n🔍 DEBUG: Después de restaurar mayúsculas: 'list all ítems'\n🔍 TOKENS ORIGINALES: ['list', 'all', 'ítems']\n🔒 DATOS EXCLUIDOS: [] (letras mayúsculas = DATOS)\n🔍 TOKENS PARA ANÁLISIS: ['list', 'all', 'ítems']\n   🇺🇸 Conector inglés: 'all' (+10)\n   🎯 RESULTADO: INGLÉS (score: 10 vs 0)\n   🇺🇸 Aliases configurados para INGLÉS\n   ✅ Conectores activos: 134 palabras\n   ✅ Números activos: 43 palabras\n   ✅ Correcciones activas: 76 palabras\n🌍 IDIOMA DETECTADO: EN\n🇺🇸 CONSULTA EN INGLÉS DETECTADA - ENVIANDO A PIPELINE INGLÉS\n✅ Cargado dimension_anchors.json: 19 entradas\n✅ Cargado metric_anchors.json: 20 entradas\n🔄 Mapeo reverso construido: 997 palabras mapeadas\n🔗 SQLSchemaMapper inicializado:\n   📍 Dimensiones: 19 anchors\n   📊 Métricas: 20 anchors\n   🔄 Mapeos reversos: 997 palabras\n🇺🇸 English NLP Parser initialized with SQL Schema Mapper\n\n🇺🇸 PROCESSING ENGLISH QUERY: 'List all ítems'\n🔧 Normalizing English query: 'list all ítems'\n✅ English normalized: 'list all ítems'\n🧪 DEBUGGING TEMPORAL DICTIONARY:\n   ❌ 'palacio de hierro' → NOT FOUND\n   ❌ 'palaciodehierro' → NOT FOUND\n   ❌ 'palacio_de_hierro' → NOT FOUND\n   ❌ 'liverpool' → NOT FOUND\n🔤 English tokens: ['list', 'all', 'ítems']\n🔍 ANÁLISIS PRE-MAPEO de tokens originales: ['list', 'all', 'ítems']\n   📊 PLURAL ORIGINAL detectado: 'ítems' → SUM\n🧠 English semantic intent: SUM\n⏰ DETECTING ENGLISH TEMPORAL PATTERNS:\n   🔤 Full tokens list: ['list', 'all', 'ítems']\n   📏 Total tokens: 3\n   🔍 'between' found at positions: []\n⏰ TOTAL ENGLISH TEMPORAL FILTERS: 0\n🎯 DETECTING ENGLISH COLUMN-VALUE PATTERNS (WITH ENHANCED STOCK OUT - ORIGINAL METHOD):\n📅 DETECTING THIS WEEK PATTERN:\n   📤 Tokens: ['list', 'all', 'ítems']\n   ❌ No 'this week' pattern found\n   🔧 DEBUG: Llamando a detect_enhanced_stock_out_pattern_english...\n📦 DETECTING ENHANCED Y/N COLUMN PATTERN:\n   📤 Tokens: ['list', 'all', 'ítems']\n   ❌ No Y/N column pattern found\n      🔍 Testing combination: ['list', 'all', 'ítems'] (positions 0-2)\n         🔍 Testing variant: 'list all ítems'\n         🔍 Testing variant: 'LIST ALL ÍTEMS'\n         🔍 Testing variant: 'listallítems'\n         🔍 Testing variant: 'list(all(ítems'\n         🔍 Testing variant: 'LISTALLÍTEMS'\n         🔍 Testing variant: 'list_all_ítems'\n         🔍 Testing variant: 'LIST_ALL_ÍTEMS'\n         🔍 Testing variant: 'List All Ítems'\n      🔍 Testing combination: ['list', 'all'] (positions 0-1)\n         🔍 Testing variant: 'list all'\n         🔍 Testing variant: 'LIST ALL'\n         🔍 Testing variant: 'listall'\n         🔍 Testing variant: 'list(all'\n         🔍 Testing variant: 'LISTALL'\n         🔍 Testing variant: 'list_all'\n         🔍 Testing variant: 'LIST_ALL'\n         🔍 Testing variant: 'List All'\n      🔍 Testing combination: ['list'] (positions 0-0)\n         🔍 Testing variant: 'list'\n         🔍 Testing variant: 'LIST'\n         🔍 Testing variant: 'List'\n      🔍 Testing combination: ['all', 'ítems'] (positions 1-2)\n         🔍 Testing variant: 'all ítems'\n         🔍 Testing variant: 'ALL ÍTEMS'\n         🔍 Testing variant: 'allítems'\n         🔍 Testing variant: 'all(ítems'\n         🔍 Testing variant: 'ALLÍTEMS'\n         🔍 Testing variant: 'all_ítems'\n         🔍 Testing variant: 'ALL_ÍTEMS'\n         🔍 Testing variant: 'All Ítems'\n      🔍 Testing combination: ['all'] (positions 1-1)\n         🔍 Testing variant: 'all'\n         🔍 Testing variant: 'ALL'\n         🔍 Testing variant: 'All'\n      🔍 Testing combination: ['ítems'] (positions 2-2)\n         🔍 Testing variant: 'ítems'\n         🔍 Testing variant: 'ÍTEMS'\n         🔍 Testing variant: 'Ítems'\n🔍 TOTAL IMPLICIT VALUES DETECTED: 0\n🔒 TOTAL POSITIONS PROCESSED: []\n⏰ Temporal columns to exclude: set()\n🔒 Positions already processed: []\n🎯 Total filters detected: 0\n   📦 Enhanced stock out: 0\n   🔍 Implicit: 0\n   🔍 Explicit: 0\n🔒 Final processed positions: []\n🔧 REMOVING DUPLICATE FILTERS:\n🎯 Final unique filters: 0\n🕐 DETECTING TEMPORAL CONDITIONAL PATTERN:\n   📤 Tokens: ['list', 'all', 'ítems']\n🕐 DEBUG: temporal_conditional_pattern = False\n📋 DETECTING LIST ALL PATTERN:\n   🔤 Tokens: ['list', 'all', 'ítems']\n   ✅ List indicator: 'list' at position 0\n   ✅ All indicator: 'all' at position 1\n   ❌ No target dimension found\n📋 DEBUG: list_all_pattern = False\n📊 DETECTING SHOW ROWS PATTERN:\n   🔤 Tokens: ['list', 'all', 'ítems']\n   ✅ Show indicator: 'list' at position 0\n   ❌ No row count found\n📊 DEBUG: show_rows_pattern = False\n🔍 CLASSIFYING ENGLISH COMPONENTS:\n🔍 English token 'list' classified as unknown\n🔍 English token 'all' classified as connector\n🔍 English token 'ítems' classified as unknown\n🏗️ BUILDING COMPLETE ENGLISH QUERY STRUCTURE\n🔍 DETECTING GROUP BY PATTERN:\n📊 DETECTING SHOW ROWS PATTERN:\n   🔤 Tokens: ['list', 'all', 'ítems']\n   ✅ Show indicator: 'list' at position 0\n   ❌ No row count found\n   📊 Show rows pattern detected: False\n📋 DETECTING LIST ALL PATTERN:\n   🔤 Tokens: ['list', 'all', 'ítems']\n   ✅ List indicator: 'list' at position 0\n   ✅ All indicator: 'all' at position 1\n   ❌ No target dimension found\n   📋 List all pattern detected: False\n🕐 DETECTING TEMPORAL CONDITIONAL PATTERN:\n   📤 Tokens: ['list', 'all', 'ítems']\n   🕐 Temporal conditional pattern detected: False\n🏆 DETECTING ENGLISH RANKING CRITERIA:\n   🔤 Tokens: ['list', 'all', 'ítems']\n   ❌ No ranking indicators found\n🚫 DETECTING ENGLISH EXCLUSION FILTERS:\n🚫 TOTAL ENGLISH EXCLUSION FILTERS: 0\n🏆 EVALUATING ENGLISH RANKING QUERY:\n   📊 Has valid criteria: None\n   🚫 Exclusion filters: 0\n   🎯 Is ranking: False\n   🏆 Ranking detected (no special patterns): False\n🔗 DETECTING ENGLISH MULTIPLE DIMENSIONS:\n   📍 English dimensions found: []\n   🔗 English connectors at positions: []\n   ❌ No valid English multi-dimensional pattern detected\n🔗 DETECTING ENGLISH COMPOUND CRITERIA:\n   🔤 Tokens: ['list', 'all', 'ítems']\n   📊 Segments detected: [['list', 'all', 'ítems']]\n\n   🎯 Processing English segment 1: ['list', 'all', 'ítems']\n      🔍 Analyzing English segment: ['list', 'all', 'ítems']\n         ❌ English criteria incomplete:\n             Operation: NOT FOUND\n             Metric: NOT FOUND\n      ❌ Could not extract criteria from segment\n\n🔗 TOTAL ENGLISH COMPOUND CRITERIA: 0\n🔗 EVALUATING ENGLISH COMPOUND QUERY:\n   📊 Valid criteria: 0\n   🎯 Is compound: False\n🔍 DETECTING ENGLISH QUERY PATTERN:\n   📍 Dimension: N/A\n   🔗 Multiple dimensions: 0\n   ⚡ Operations: []\n   📊 Metrics: []\n   🏆 Is ranking: False\n   🔗 Is compound: False\n   📐 Is multi-dimensional: False\n   ❓ ENGLISH PATTERN: UNKNOWN\n🏆 DETECTING SUPERLATIVE PATTERN:\n   🔤 Tokens: ['list', 'all', 'ítems']\n🔢 DETECTING COUNT PATTERNS IN: 'list all ítems'\n   ❌ No COUNT pattern detected\n🏗️ English structure built successfully:\n   📊 Operations: 0\n   📈 Metrics: 0\n   🎯 Query pattern: unknown\n   🏆 Is ranking: False\n   🔗 Is compound: False\n   🔗 Is multi-dimensional: False\n   🕐 Has temporal conditional: False\n   📋 Has list all: False\n   📊 Has show rows: False\n🔧 DEBUG: Llegando a validación...\n🔍 VALIDATING ENGLISH STRUCTURE:\n   📋 Has list_all_pattern: False\n   🎯 Validation result: {'valid': False, 'error': 'Missing main dimension; Missing metric, operation or condition', 'suggestions': ['Add an entity like: store, account, product, customer', 'Add a metric like: sales, revenue, inventory', 'English unrecognized words: list, ítems']}\n🔧 DEBUG: Validación result = {'valid': False, 'error': 'Missing main dimension; Missing metric, operation or condition', 'suggestions': ['Add an entity like: store, account, product, customer', 'Add a metric like: sales, revenue, inventory', 'English unrecognized words: list, ítems']}",
+      "stderr_content": "",
+      "has_content": true
+    }
+  },
+  {
+    "timestamp": "2025-11-09T18:52:50.757785",
+    "component": "flask",
+    "level": "info",
+    "message": "🎯 Consulta Flask: List first 10 rows",
+    "session_time": 23.007393
+  },
+  {
+    "timestamp": "2025-11-09T18:52:50.757828",
+    "component": "main",
+    "level": "info",
+    "message": "🚀 INICIANDO FLUJO MAESTRO COMPLETO - MODO: clickhouse",
+    "session_time": 23.007436
+  },
+  {
+    "timestamp": "2025-11-09T18:52:50.757868",
+    "component": "nlp",
+    "level": "info",
+    "message": "🔄 INICIANDO: Procesando consulta",
+    "session_time": 23.007476
+  },
+  {
+    "timestamp": "2025-11-09T18:52:50.757873",
+    "component": "nlp",
+    "level": "info",
+    "message": "🧠 PASO 2 MAESTRO: PROCESAMIENTO CON PROBLEMIZADOR",
+    "session_time": 23.007481
+  },
+  {
+    "timestamp": "2025-11-09T18:52:50.757878",
+    "component": "nlp",
+    "level": "info",
+    "message": "❓ Consulta: 'List first 10 rows'",
+    "session_time": 23.007486
+  },
+  {
+    "timestamp": "2025-11-09T18:52:50.757884",
+    "component": "nlp",
+    "level": "info",
+    "message": "🎯 Modo actual: clickhouse",
+    "session_time": 23.007492
+  },
+  {
+    "timestamp": "2025-11-09T18:52:50.757891",
+    "component": "nlp",
+    "level": "info",
+    "message": "├── Analizando lenguaje natural...",
+    "session_time": 23.007499
+  },
+  {
+    "timestamp": "2025-11-09T18:52:50.767756",
+    "component": "suppressed_output",
+    "level": "suppressed_component",
+    "session_id": "user_20251109_185227",
+    "operation": "problemizador_process",
+    "suppressed_data": {
+      "session_id": "user_20251109_185227",
+      "timestamp": "2025-11-09T18:52:50.767702",
+      "operation_name": "problemizador_process",
+      "stdout_content": "🔍 ANALIZANDO CONSULTA: 'List first 10 rows'\n🔍 DETECTANDO FRASES COMPUESTAS (Dictionary-Based): 'List first 10 rows'\n🔍 DEBUG: Query con placeholders: 'List first 10 rows'\n🔍 DEBUG: Text en minúsculas: 'list first 10 rows'\n   🔍 Generadas 211 frases compuestas automáticamente\n🔍 DEBUG: Antes de restaurar mayúsculas: 'list first 10 rows'\n🔓 RESTAURANDO TOKENS:\n   📥 Input: 'list first 10 rows'\n   🔑 Tokens preservados: {}\n   📤 Output: 'list first 10 rows'\n🔍 DEBUG: Después de restaurar mayúsculas: 'list first 10 rows'\n🔍 TOKENS ORIGINALES: ['list', 'first', '10', 'rows']\n🔒 DATOS EXCLUIDOS: [] (letras mayúsculas = DATOS)\n🔍 TOKENS PARA ANÁLISIS: ['list', 'first', '10', 'rows']\n   🇺🇸 Conector inglés: 'rows' (+10)\n   🎯 RESULTADO: INGLÉS (score: 10 vs 0)\n   🇺🇸 Aliases configurados para INGLÉS\n   ✅ Conectores activos: 134 palabras\n   ✅ Números activos: 43 palabras\n   ✅ Correcciones activas: 76 palabras\n🌍 IDIOMA DETECTADO: EN\n🇺🇸 CONSULTA EN INGLÉS DETECTADA - ENVIANDO A PIPELINE INGLÉS\n✅ Cargado dimension_anchors.json: 19 entradas\n✅ Cargado metric_anchors.json: 20 entradas\n🔄 Mapeo reverso construido: 997 palabras mapeadas\n🔗 SQLSchemaMapper inicializado:\n   📍 Dimensiones: 19 anchors\n   📊 Métricas: 20 anchors\n   🔄 Mapeos reversos: 997 palabras\n🇺🇸 English NLP Parser initialized with SQL Schema Mapper\n\n🇺🇸 PROCESSING ENGLISH QUERY: 'List first 10 rows'\n🔧 Normalizing English query: 'list first 10 rows'\n✅ English normalized: 'list first 10 rows'\n🧪 DEBUGGING TEMPORAL DICTIONARY:\n   ❌ 'palacio de hierro' → NOT FOUND\n   ❌ 'palaciodehierro' → NOT FOUND\n   ❌ 'palacio_de_hierro' → NOT FOUND\n   ❌ 'liverpool' → NOT FOUND\n🔤 English tokens: ['list', 'first', '10', 'rows']\n🔍 ANÁLISIS PRE-MAPEO de tokens originales: ['list', 'first', '10', 'rows']\n   📊 PLURAL ORIGINAL detectado: 'rows' → SUM\n🧠 English semantic intent: SUM\n⏰ DETECTING ENGLISH TEMPORAL PATTERNS:\n   🔤 Full tokens list: ['list', 'first', '10', 'rows']\n   📏 Total tokens: 4\n   🔍 'between' found at positions: []\n⏰ TOTAL ENGLISH TEMPORAL FILTERS: 0\n🎯 DETECTING ENGLISH COLUMN-VALUE PATTERNS (WITH ENHANCED STOCK OUT - ORIGINAL METHOD):\n📅 DETECTING THIS WEEK PATTERN:\n   📤 Tokens: ['list', 'first', '10', 'rows']\n   ❌ No 'this week' pattern found\n   🔧 DEBUG: Llamando a detect_enhanced_stock_out_pattern_english...\n📦 DETECTING ENHANCED Y/N COLUMN PATTERN:\n   📤 Tokens: ['list', 'first', '10', 'rows']\n   ❌ No Y/N column pattern found\n      🔍 Testing combination: ['list', 'first', '10', 'rows'] (positions 0-3)\n         🔍 Testing variant: 'list first 10 rows'\n         🔍 Testing variant: 'LIST FIRST 10 ROWS'\n         🔍 Testing variant: 'listfirst10rows'\n         🔍 Testing variant: 'list(first(10(rows'\n         🔍 Testing variant: 'LISTFIRST10ROWS'\n         🔍 Testing variant: 'list_first_10_rows'\n         🔍 Testing variant: 'LIST_FIRST_10_ROWS'\n         🔍 Testing variant: 'List First 10 Rows'\n      🔍 Testing combination: ['list', 'first', '10'] (positions 0-2)\n         🔍 Testing variant: 'list first 10'\n         🔍 Testing variant: 'LIST FIRST 10'\n         🔍 Testing variant: 'listfirst10'\n         🔍 Testing variant: 'list(first(10'\n         🔍 Testing variant: 'LISTFIRST10'\n         🔍 Testing variant: 'list_first_10'\n         🔍 Testing variant: 'LIST_FIRST_10'\n         🔍 Testing variant: 'List First 10'\n      🔍 Testing combination: ['list', 'first'] (positions 0-1)\n         🔍 Testing variant: 'list first'\n         🔍 Testing variant: 'LIST FIRST'\n         🔍 Testing variant: 'listfirst'\n         🔍 Testing variant: 'list(first'\n         🔍 Testing variant: 'LISTFIRST'\n         🔍 Testing variant: 'list_first'\n         🔍 Testing variant: 'LIST_FIRST'\n         🔍 Testing variant: 'List First'\n      🔍 Testing combination: ['list'] (positions 0-0)\n         🔍 Testing variant: 'list'\n         🔍 Testing variant: 'LIST'\n         🔍 Testing variant: 'List'\n      🔍 Testing combination: ['first', '10', 'rows'] (positions 1-3)\n         🔍 Testing variant: 'first 10 rows'\n         🔍 Testing variant: 'FIRST 10 ROWS'\n         🔍 Testing variant: 'first10rows'\n         🔍 Testing variant: 'first(10(rows'\n         🔍 Testing variant: 'FIRST10ROWS'\n         🔍 Testing variant: 'first_10_rows'\n         🔍 Testing variant: 'FIRST_10_ROWS'\n         🔍 Testing variant: 'First 10 Rows'\n      🔍 Testing combination: ['first', '10'] (positions 1-2)\n         🔍 Testing variant: 'first 10'\n         🔍 Testing variant: 'FIRST 10'\n         🔍 Testing variant: 'first10'\n         🔍 Testing variant: 'first(10'\n         🔍 Testing variant: 'FIRST10'\n         🔍 Testing variant: 'first_10'\n         🔍 Testing variant: 'FIRST_10'\n         🔍 Testing variant: 'First 10'\n      🔍 Testing combination: ['first'] (positions 1-1)\n         🔍 Testing variant: 'first'\n         🔍 Testing variant: 'FIRST'\n         🔍 Testing variant: 'First'\n      🔍 Testing combination: ['10', 'rows'] (positions 2-3)\n         🔍 Testing variant: '10 rows'\n         🔍 Testing variant: '10 ROWS'\n         🔍 Testing variant: '10rows'\n         🔍 Testing variant: '10(rows'\n         🔍 Testing variant: '10ROWS'\n         🔍 Testing variant: '10_rows'\n         🔍 Testing variant: '10_ROWS'\n         🔍 Testing variant: '10 Rows'\n      🔍 Testing combination: ['10'] (positions 2-2)\n         🔍 Testing variant: '10'\n      🔍 Testing combination: ['rows'] (positions 3-3)\n         🔍 Testing variant: 'rows'\n         🔍 Testing variant: 'ROWS'\n         🔍 Testing variant: 'Rows'\n🔍 TOTAL IMPLICIT VALUES DETECTED: 0\n🔒 TOTAL POSITIONS PROCESSED: []\n⏰ Temporal columns to exclude: set()\n🔒 Positions already processed: []\n🎯 Total filters detected: 0\n   📦 Enhanced stock out: 0\n   🔍 Implicit: 0\n   🔍 Explicit: 0\n🔒 Final processed positions: []\n🔧 REMOVING DUPLICATE FILTERS:\n🎯 Final unique filters: 0\n🕐 DETECTING TEMPORAL CONDITIONAL PATTERN:\n   📤 Tokens: ['list', 'first', '10', 'rows']\n🕐 DEBUG: temporal_conditional_pattern = False\n📋 DETECTING LIST ALL PATTERN:\n   🔤 Tokens: ['list', 'first', '10', 'rows']\n   ✅ List indicator: 'list' at position 0\n   ❌ No target dimension found\n📋 DEBUG: list_all_pattern = False\n📊 DETECTING SHOW ROWS PATTERN:\n   🔤 Tokens: ['list', 'first', '10', 'rows']\n   ✅ Show indicator: 'list' at position 0\n   ✅ Position indicator: 'first' at position 1\n   ✅ Row count (number): 10\n   ✅ Object type: 'rows'\n📊 SHOW ROWS PATTERN DETECTED:\n   📊 Show indicator: list\n   📍 Position: first\n   🔢 Row count: 10\n   📋 Object type: rows\n   ⭐ Confidence: 1.00\n📊 DEBUG: show_rows_pattern = True\n🔍 CLASSIFYING ENGLISH COMPONENTS:\n🔍 English token 'list' classified as unknown\n🔍 English token 'first' classified as operation\n🔍 English token '10' classified as value\n🔍 English token 'rows' classified as connector\n🏗️ BUILDING COMPLETE ENGLISH QUERY STRUCTURE\n🔍 DETECTING GROUP BY PATTERN:\n📊 DETECTING SHOW ROWS PATTERN:\n   🔤 Tokens: ['list', 'first', '10', 'rows']\n   ✅ Show indicator: 'list' at position 0\n   ✅ Position indicator: 'first' at position 1\n   ✅ Row count (number): 10\n   ✅ Object type: 'rows'\n📊 SHOW ROWS PATTERN DETECTED:\n   📊 Show indicator: list\n   📍 Position: first\n   🔢 Row count: 10\n   📋 Object type: rows\n   ⭐ Confidence: 1.00\n   📊 Show rows pattern detected: True\n📋 DETECTING LIST ALL PATTERN:\n   🔤 Tokens: ['list', 'first', '10', 'rows']\n   ✅ List indicator: 'list' at position 0\n   ❌ No target dimension found\n   📋 List all pattern detected: False\n🕐 DETECTING TEMPORAL CONDITIONAL PATTERN:\n   📤 Tokens: ['list', 'first', '10', 'rows']\n   🕐 Temporal conditional pattern detected: False\n   🏆 Skipping ranking detection due to special patterns\n🚫 DETECTING ENGLISH EXCLUSION FILTERS:\n🚫 TOTAL ENGLISH EXCLUSION FILTERS: 0\n🔗 DETECTING ENGLISH MULTIPLE DIMENSIONS:\n   📍 English dimensions found: []\n   🔗 English connectors at positions: []\n   ❌ No valid English multi-dimensional pattern detected\n🔗 DETECTING ENGLISH COMPOUND CRITERIA:\n   🔤 Tokens: ['list', 'first', '10', 'rows']\n   📊 Segments detected: [['list', 'first', '10', 'rows']]\n\n   🎯 Processing English segment 1: ['list', 'first', '10', 'rows']\n      🔍 Analyzing English segment: ['list', 'first', '10', 'rows']\n         ⚡ English operation found: first\n         ❌ English criteria incomplete:\n             Operation: first\n             Metric: NOT FOUND\n      ❌ Could not extract criteria from segment\n\n🔗 TOTAL ENGLISH COMPOUND CRITERIA: 0\n🔗 EVALUATING ENGLISH COMPOUND QUERY:\n   📊 Valid criteria: 0\n   🎯 Is compound: False\n   ⚡ English operation: first\n   📊 Structure marked as SHOW_ROWS (overriding ranking)\n🔍 DETECTING ENGLISH QUERY PATTERN:\n   📍 Dimension: N/A\n   🔗 Multiple dimensions: 0\n   ⚡ Operations: ['first']\n   📊 Metrics: []\n   🏆 Is ranking: False\n   🔗 Is compound: False\n   📐 Is multi-dimensional: False\n   📊 ENGLISH PATTERN: SHOW_ROWS (special pattern priority)\n🔢 DETECTING COUNT PATTERNS IN: 'list first 10 rows'\n   ❌ No COUNT pattern detected\n🏗️ English structure built successfully:\n   📊 Operations: 1\n   📈 Metrics: 0\n   🎯 Query pattern: show_rows\n   🏆 Is ranking: False\n   🔗 Is compound: False\n   🔗 Is multi-dimensional: False\n   🕐 Has temporal conditional: False\n   📋 Has list all: False\n   📊 Has show rows: True\n🔧 DEBUG: Llegando a validación...\n🔍 VALIDATING ENGLISH STRUCTURE:\n   📋 Has list_all_pattern: False\n   📊 SHOW_ROWS pattern detected - using special validation\n   ✅ SHOW_ROWS validation passed - count: 10\n🔧 DEBUG: Validación result = {'valid': True, 'error': None, 'suggestions': []}\n🔧 DEBUG: Antes de generar SQL...\n🔧 DEBUG: hasattr list_all_pattern = False\n🔧 GENERATING OPTIMIZED SQL (Enhanced with LIST ALL support):\n📊 DETECTED: English show rows → using specialized generator\n📊 GENERATING SHOW ROWS SQL:\n   📊 Show type: list\n   📍 Position: first\n   🔢 Count: 10\n   📋 Object: rows\n   🔄 Using ascending order for 'first' rows\n   🎯 Show rows SQL: SELECT * FROM datos ORDER BY ROWID ASC LIMIT 10;\n🔧 DEBUG: SQL conceptual generado = 'SELECT * FROM datos ORDER BY ROWID ASC LIMIT 10;'\n🔗 NORMALIZANDO SQL (Enhanced - Robust):\n   📥 Input: SELECT * FROM datos ORDER BY ROWID ASC LIMIT 10;\n      🔍 Searching for 'ROWID' in anchors...\n      📍 Checking dimension_anchors (type: <class 'dict'>)\n         🔍 Checking anchor_key: 'employee' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'category' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'brand' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'line' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'city' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'country' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'state' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'Store' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'Account' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'Item' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'Stock_Out' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'Product_Group' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'item_group' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'partner_code' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'customer_code' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'vendor_code' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'location' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'Dead_Inventory' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'Channel' (data type: <class 'list'>)\n      📊 Checking metric_anchors (type: <class 'dict'>)\n         🔍 Checking metric anchor_key: 'Sell_Out' (data type: <class 'list'>)\n         🔍 Checking metric anchor_key: 'Stock_Out' (data type: <class 'list'>)\n         🔍 Checking metric anchor_key: 'sell_through' (data type: <class 'list'>)\n         🔍 Checking metric anchor_key: 'sales_amount' (data type: <class 'list'>)\n         🔍 Checking metric anchor_key: 'order_number' (data type: <class 'list'>)\n         🔍 Checking metric anchor_key: 'profit' (data type: <class 'list'>)\n         🔍 Checking metric anchor_key: 'margin' (data type: <class 'list'>)\n         🔍 Checking metric anchor_key: 'quantity' (data type: <class 'list'>)\n         🔍 Checking metric anchor_key: 'Inventory' (data type: <class 'list'>)\n         🔍 Checking metric anchor_key: 'price' (data type: <class 'list'>)\n         🔍 Checking metric anchor_key: 'cost' (data type: <class 'list'>)\n         🔍 Checking metric anchor_key: 'orders' (data type: <class 'list'>)\n         🔍 Checking metric anchor_key: 'transactions' (data type: <class 'list'>)\n         🔍 Checking metric anchor_key: 'Avg_8w' (data type: <class 'list'>)\n         🔍 Checking metric anchor_key: 'Avg_4w' (data type: <class 'list'>)\n         🔍 Checking metric anchor_key: 'Week' (data type: <class 'list'>)\n         🔍 Checking metric anchor_key: 'roi' (data type: <class 'list'>)\n         🔍 Checking metric anchor_key: 'discount' (data type: <class 'list'>)\n         🔍 Checking metric anchor_key: 'revenue' (data type: <class 'list'>)\n         🔍 Checking metric anchor_key: 'Venta_perdida' (data type: <class 'list'>)\n      ❌ No mapping found for 'ROWID'\n      🔍 DEBUG - Sample dimension_anchors structure:\n         'employee': <class 'list'> = ['vendedor', 'vendedores', 'empleado', 'empleados', 'personal', 'staff', 'agente', 'agentes', 'representante', 'representantes', 'ejecutivo', 'ejecutivos', 'asesor', 'asesores', 'colaborador', 'colaboradores', 'trabajador', 'trabajadores', 'operador', 'operadores', 'consultor', 'consultores', 'employee', 'employees', 'worker', 'workers', 'staff', 'personnel', 'agent', 'agents', 'representative', 'representatives', 'executive', 'executives', 'advisor', 'advisors', 'consultant', 'consultants', 'operator', 'operators', 'associate', 'associates', 'team_member', 'team_members', 'crew', 'workforce', 'human_resource', 'human_resources']\n         'category': <class 'list'> = ['categoria', 'categorias', 'categoría', 'categorías', 'cat', 'cats', 'clasificacion', 'clasificaciones', 'clasificación', 'segmento', 'segmentos', 'division', 'divisiones', 'división', 'category', 'categories', 'classification', 'classifications', 'segment', 'segments', 'division', 'divisions', 'group', 'groups', 'type', 'types', 'kind', 'kinds', 'class', 'classes', 'section', 'sections', 'grouping', 'groupings']\n         'brand': <class 'list'> = ['marca', 'marcas', 'brand', 'brands', 'etiqueta', 'etiquetas', 'label', 'labels', 'fabricante', 'fabricantes', 'proveedor_marca', 'casa', 'casas', 'firma', 'firmas', 'nombre_comercial', 'manufacturer', 'manufacturers', 'maker', 'makers', 'producer', 'producers', 'supplier', 'suppliers', 'vendor', 'vendors', 'company', 'companies', 'trademark', 'trademarks', 'brandname', 'brandnames', 'marque', 'logo']\n🔧 AGREGANDO COMILLAS (Dynamic - Using Anchors):\n   📥 Input: SELECT * FROM datos ORDER BY ROWID ASC LIMIT 10;\n   📊 Normalized columns from anchors: ['Account', 'Avg_4W', 'Avg_8W', 'Brand', 'Category', 'Channel', 'City', 'Cost', 'Country', 'Customer_Code', 'Dead_Inventory', 'Discount', 'Employee', 'Inventory', 'Item', 'Item_Group', 'Line', 'Location', 'Margin', 'Order_Number', 'Orders', 'Partner_Code', 'Price', 'Product_Group', 'Profit', 'Quantity', 'Revenue', 'Roi', 'Sales_Amount', 'Sell_Out', 'Sell_Through', 'State', 'Stock_Out', 'Store', 'Transactions', 'Vendor_Code', 'Venta_Perdida', 'Week']\n   📤 Output: SELECT * FROM datos ORDER BY ROWID ASC LIMIT 10;\n   📊 Reemplazos realizados: 0\n   📤 Output: SELECT * FROM datos ORDER BY ROWID ASC LIMIT 10;\n   📊 Reemplazos realizados: 0\n✅ Schema mapping applied successfully\n🔧 DEBUG: SQL final = 'SELECT * FROM datos ORDER BY ROWID ASC LIMIT 10;'\n🔧 DEBUG: Creating final result...\n🔧 DEBUG: query_structure type: <class 'problemizador_18.QueryStructure'>\n🔧 DEBUG: Has get_complexity_level: True\n🔧 DEBUG: Final result created successfully\n🔧 DEBUG: SQL in result = 'SELECT * FROM datos ORDER BY ROWID ASC LIMIT 10;'",
+      "stderr_content": "",
+      "has_content": true
+    }
+  },
+  {
+    "timestamp": "2025-11-09T18:52:50.767773",
+    "component": "nlp",
+    "level": "info",
+    "message": "✅ Problemizador completado:",
+    "session_time": 23.017381
+  },
+  {
+    "timestamp": "2025-11-09T18:52:50.767785",
+    "component": "nlp",
+    "level": "info",
+    "message": "   🗄️ SQL conceptual generado: SELECT * FROM datos ORDER BY ROWID ASC LIMIT 10;",
+    "session_time": 23.017393
+  },
+  {
+    "timestamp": "2025-11-09T18:52:50.767844",
+    "component": "nlp",
+    "level": "info",
+    "message": "✅ SUCCESS: Procesando consulta (9ms)",
+    "session_time": 23.017452
+  },
+  {
+    "timestamp": "2025-11-09T18:52:50.767863",
+    "component": "exec",
+    "level": "info",
+    "message": "🗄️ EJECUTANDO SQL - MODO: clickhouse",
+    "session_time": 23.017471
+  },
+  {
+    "timestamp": "2025-11-09T18:52:50.767869",
+    "component": "exec",
+    "level": "info",
+    "message": "   🚀 Destino: ClickHouse (Motor Columnar)",
+    "session_time": 23.017477
+  },
+  {
+    "timestamp": "2025-11-09T18:52:50.767879",
+    "component": "exec",
+    "level": "info",
+    "message": "🚀 PASO 3: EJECUCIÓN EN CLICKHOUSE",
+    "session_time": 23.017487
+  },
+  {
+    "timestamp": "2025-11-09T18:52:50.993880",
+    "component": "clickhouse",
+    "level": "exception_details",
+    "error_details": {
+      "exception_type": "DatabaseError",
+      "exception_message": "Received ClickHouse exception, code: 47, server response: Code: 47. DB::Exception: Unknown expression identifier `ROWID` in scope SELECT * FROM datos_output_data_3_20251109_175144_f41774 ORDER BY ROWID ASC LIMIT 10. (UNKNOWN_IDENTIFIER) (version 25.10.1.3832 (official build)) (for url http://localhost:8123)",
+      "context": "Error ejecutando query ClickHouse",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/apple/Desktop/chambiacion/proyectos_full/python/brandbot/etapas/cassian_0.0.5_etapa_5/interfaz/../ejecutor.py\", line 1782, in _execute_sql_on_clickhouse\n    result = self.clickhouse_manager.client.query(final_query)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/clickhouse_connect/driver/client.py\", line 238, in query\n    return self._query_with_context(query_context)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/clickhouse_connect/driver/httpclient.py\", line 286, in _query_with_context\n    response = self._raw_request(body,\n               ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/clickhouse_connect/driver/httpclient.py\", line 546, in _raw_request\n    self._error_handler(response)\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/clickhouse_connect/driver/httpclient.py\", line 467, in _error_handler\n    raise OperationalError(err_str) if retried else DatabaseError(err_str) from None\nclickhouse_connect.driver.exceptions.DatabaseError: Received ClickHouse exception, code: 47, server response: Code: 47. DB::Exception: Unknown expression identifier `ROWID` in scope SELECT * FROM datos_output_data_3_20251109_175144_f41774 ORDER BY ROWID ASC LIMIT 10. (UNKNOWN_IDENTIFIER) (version 25.10.1.3832 (official build)) (for url http://localhost:8123)\n"
+    }
+  },
+  {
+    "timestamp": "2025-11-09T18:52:58.868161",
+    "component": "flask",
+    "level": "info",
+    "message": "🎯 Consulta Flask: List all accounts",
+    "session_time": 31.117769
+  },
+  {
+    "timestamp": "2025-11-09T18:52:58.868232",
+    "component": "main",
+    "level": "info",
+    "message": "🚀 INICIANDO FLUJO MAESTRO COMPLETO - MODO: clickhouse",
+    "session_time": 31.11784
+  },
+  {
+    "timestamp": "2025-11-09T18:52:58.868276",
+    "component": "nlp",
+    "level": "info",
+    "message": "🔄 INICIANDO: Procesando consulta",
+    "session_time": 31.117884
+  },
+  {
+    "timestamp": "2025-11-09T18:52:58.868282",
+    "component": "nlp",
+    "level": "info",
+    "message": "🧠 PASO 2 MAESTRO: PROCESAMIENTO CON PROBLEMIZADOR",
+    "session_time": 31.11789
+  },
+  {
+    "timestamp": "2025-11-09T18:52:58.868288",
+    "component": "nlp",
+    "level": "info",
+    "message": "❓ Consulta: 'List all accounts'",
+    "session_time": 31.117896
+  },
+  {
+    "timestamp": "2025-11-09T18:52:58.868293",
+    "component": "nlp",
+    "level": "info",
+    "message": "🎯 Modo actual: clickhouse",
+    "session_time": 31.117901
+  },
+  {
+    "timestamp": "2025-11-09T18:52:58.868303",
+    "component": "nlp",
+    "level": "info",
+    "message": "├── Analizando lenguaje natural...",
+    "session_time": 31.117911
+  },
+  {
+    "timestamp": "2025-11-09T18:52:58.879412",
+    "component": "suppressed_output",
+    "level": "suppressed_component",
+    "session_id": "user_20251109_185227",
+    "operation": "problemizador_process",
+    "suppressed_data": {
+      "session_id": "user_20251109_185227",
+      "timestamp": "2025-11-09T18:52:58.878244",
+      "operation_name": "problemizador_process",
+      "stdout_content": "🔍 ANALIZANDO CONSULTA: 'List all accounts'\n🔍 DETECTANDO FRASES COMPUESTAS (Dictionary-Based): 'List all accounts'\n🔍 DEBUG: Query con placeholders: 'List all accounts'\n🔍 DEBUG: Text en minúsculas: 'list all accounts'\n   🔍 Generadas 211 frases compuestas automáticamente\n🔍 DEBUG: Antes de restaurar mayúsculas: 'list all accounts'\n🔓 RESTAURANDO TOKENS:\n   📥 Input: 'list all accounts'\n   🔑 Tokens preservados: {}\n   📤 Output: 'list all accounts'\n🔍 DEBUG: Después de restaurar mayúsculas: 'list all accounts'\n🔍 TOKENS ORIGINALES: ['list', 'all', 'accounts']\n🔒 DATOS EXCLUIDOS: [] (letras mayúsculas = DATOS)\n🔍 TOKENS PARA ANÁLISIS: ['list', 'all', 'accounts']\n   🇺🇸 Conector inglés: 'all' (+10)\n   🎯 RESULTADO: INGLÉS (score: 10 vs 0)\n   🇺🇸 Aliases configurados para INGLÉS\n   ✅ Conectores activos: 134 palabras\n   ✅ Números activos: 43 palabras\n   ✅ Correcciones activas: 76 palabras\n🌍 IDIOMA DETECTADO: EN\n🇺🇸 CONSULTA EN INGLÉS DETECTADA - ENVIANDO A PIPELINE INGLÉS\n✅ Cargado dimension_anchors.json: 19 entradas\n✅ Cargado metric_anchors.json: 20 entradas\n🔄 Mapeo reverso construido: 997 palabras mapeadas\n🔗 SQLSchemaMapper inicializado:\n   📍 Dimensiones: 19 anchors\n   📊 Métricas: 20 anchors\n   🔄 Mapeos reversos: 997 palabras\n🇺🇸 English NLP Parser initialized with SQL Schema Mapper\n\n🇺🇸 PROCESSING ENGLISH QUERY: 'List all accounts'\n🔧 Normalizing English query: 'list all accounts'\n✅ English normalized: 'list all accounts'\n🧪 DEBUGGING TEMPORAL DICTIONARY:\n   ❌ 'palacio de hierro' → NOT FOUND\n   ❌ 'palaciodehierro' → NOT FOUND\n   ❌ 'palacio_de_hierro' → NOT FOUND\n   ❌ 'liverpool' → NOT FOUND\n🔤 English tokens: ['list', 'all', 'accounts']\n🔍 ANÁLISIS PRE-MAPEO de tokens originales: ['list', 'all', 'accounts']\n   📊 PLURAL ORIGINAL detectado: 'accounts' → SUM\n🧠 English semantic intent: SUM\n⏰ DETECTING ENGLISH TEMPORAL PATTERNS:\n   🔤 Full tokens list: ['list', 'all', 'accounts']\n   📏 Total tokens: 3\n   🔍 'between' found at positions: []\n⏰ TOTAL ENGLISH TEMPORAL FILTERS: 0\n🎯 DETECTING ENGLISH COLUMN-VALUE PATTERNS (WITH ENHANCED STOCK OUT - ORIGINAL METHOD):\n📅 DETECTING THIS WEEK PATTERN:\n   📤 Tokens: ['list', 'all', 'accounts']\n   ❌ No 'this week' pattern found\n   🔧 DEBUG: Llamando a detect_enhanced_stock_out_pattern_english...\n📦 DETECTING ENHANCED Y/N COLUMN PATTERN:\n   📤 Tokens: ['list', 'all', 'accounts']\n   ❌ No Y/N column pattern found\n      🔍 Testing combination: ['list', 'all', 'accounts'] (positions 0-2)\n         🔍 Testing variant: 'list all accounts'\n         🔍 Testing variant: 'LIST ALL ACCOUNTS'\n         🔍 Testing variant: 'listallaccounts'\n         🔍 Testing variant: 'list(all(accounts'\n         🔍 Testing variant: 'LISTALLACCOUNTS'\n         🔍 Testing variant: 'list_all_accounts'\n         🔍 Testing variant: 'LIST_ALL_ACCOUNTS'\n         🔍 Testing variant: 'List All Accounts'\n      🔍 Testing combination: ['list', 'all'] (positions 0-1)\n         🔍 Testing variant: 'list all'\n         🔍 Testing variant: 'LIST ALL'\n         🔍 Testing variant: 'listall'\n         🔍 Testing variant: 'list(all'\n         🔍 Testing variant: 'LISTALL'\n         🔍 Testing variant: 'list_all'\n         🔍 Testing variant: 'LIST_ALL'\n         🔍 Testing variant: 'List All'\n      🔍 Testing combination: ['list'] (positions 0-0)\n         🔍 Testing variant: 'list'\n         🔍 Testing variant: 'LIST'\n         🔍 Testing variant: 'List'\n      🔍 Testing combination: ['all', 'accounts'] (positions 1-2)\n         🔍 Testing variant: 'all accounts'\n         🔍 Testing variant: 'ALL ACCOUNTS'\n         🔍 Testing variant: 'allaccounts'\n         🔍 Testing variant: 'all(accounts'\n         🔍 Testing variant: 'ALLACCOUNTS'\n         🔍 Testing variant: 'all_accounts'\n         🔍 Testing variant: 'ALL_ACCOUNTS'\n         🔍 Testing variant: 'All Accounts'\n      🔍 Testing combination: ['all'] (positions 1-1)\n         🔍 Testing variant: 'all'\n         🔍 Testing variant: 'ALL'\n         🔍 Testing variant: 'All'\n      🔍 Testing combination: ['accounts'] (positions 2-2)\n         🔍 Testing variant: 'accounts'\n         🔍 Testing variant: 'ACCOUNTS'\n         🔍 Testing variant: 'Accounts'\n🔍 TOTAL IMPLICIT VALUES DETECTED: 0\n🔒 TOTAL POSITIONS PROCESSED: []\n⏰ Temporal columns to exclude: set()\n🔒 Positions already processed: []\n🎯 Total filters detected: 0\n   📦 Enhanced stock out: 0\n   🔍 Implicit: 0\n   🔍 Explicit: 0\n🔒 Final processed positions: []\n🔧 REMOVING DUPLICATE FILTERS:\n🎯 Final unique filters: 0\n🕐 DETECTING TEMPORAL CONDITIONAL PATTERN:\n   📤 Tokens: ['list', 'all', 'accounts']\n🕐 DEBUG: temporal_conditional_pattern = False\n📋 DETECTING LIST ALL PATTERN:\n   🔤 Tokens: ['list', 'all', 'accounts']\n   ✅ List indicator: 'list' at position 0\n   ✅ All indicator: 'all' at position 1\n   ✅ Target dimension: 'accounts'\n📋 LIST ALL PATTERN DETECTED:\n   📋 List indicator: list\n   🌐 Has 'all': True\n   📍 Target dimension: accounts\n   📊 Has aggregation: False\n   ⭐ Confidence: 1.00\n📋 DEBUG: list_all_pattern = True\n📊 DETECTING SHOW ROWS PATTERN:\n   🔤 Tokens: ['list', 'all', 'accounts']\n   ✅ Show indicator: 'list' at position 0\n   ❌ No row count found\n📊 DEBUG: show_rows_pattern = False\n🔍 CLASSIFYING ENGLISH COMPONENTS:\n🔍 English token 'list' classified as unknown\n🔍 English token 'all' classified as connector\n🔍 English token 'accounts' classified as dimension\n🏗️ BUILDING COMPLETE ENGLISH QUERY STRUCTURE\n🔍 DETECTING GROUP BY PATTERN:\n📊 DETECTING SHOW ROWS PATTERN:\n   🔤 Tokens: ['list', 'all', 'accounts']\n   ✅ Show indicator: 'list' at position 0\n   ❌ No row count found\n   📊 Show rows pattern detected: False\n📋 DETECTING LIST ALL PATTERN:\n   🔤 Tokens: ['list', 'all', 'accounts']\n   ✅ List indicator: 'list' at position 0\n   ✅ All indicator: 'all' at position 1\n   ✅ Target dimension: 'accounts'\n📋 LIST ALL PATTERN DETECTED:\n   📋 List indicator: list\n   🌐 Has 'all': True\n   📍 Target dimension: accounts\n   📊 Has aggregation: False\n   ⭐ Confidence: 1.00\n   📋 List all pattern detected: True\n🕐 DETECTING TEMPORAL CONDITIONAL PATTERN:\n   📤 Tokens: ['list', 'all', 'accounts']\n   🕐 Temporal conditional pattern detected: False\n   🏆 Skipping ranking detection due to special patterns\n🚫 DETECTING ENGLISH EXCLUSION FILTERS:\n🚫 TOTAL ENGLISH EXCLUSION FILTERS: 0\n🔗 DETECTING ENGLISH MULTIPLE DIMENSIONS:\n   📍 English dimensions found: [(2, 'accounts')]\n   🔗 English connectors at positions: []\n   ❌ No valid English multi-dimensional pattern detected\n🔗 DETECTING ENGLISH COMPOUND CRITERIA:\n   🔤 Tokens: ['list', 'all', 'accounts']\n   📊 Segments detected: [['list', 'all', 'accounts']]\n\n   🎯 Processing English segment 1: ['list', 'all', 'accounts']\n      🔍 Analyzing English segment: ['list', 'all', 'accounts']\n         📍 English dimension candidate: accounts\n         🔄 English dimension converted to metric: accounts\n         ❌ English criteria incomplete:\n             Operation: NOT FOUND\n             Metric: accounts\n      ❌ Could not extract criteria from segment\n\n🔗 TOTAL ENGLISH COMPOUND CRITERIA: 0\n🔗 EVALUATING ENGLISH COMPOUND QUERY:\n   📊 Valid criteria: 0\n   🎯 Is compound: False\n   📍 English main dimension: accounts\n   📋 Structure marked as LIST_ALL\n🔍 DETECTING ENGLISH QUERY PATTERN:\n   📍 Dimension: accounts\n   🔗 Multiple dimensions: 1\n   ⚡ Operations: []\n   📊 Metrics: []\n   🏆 Is ranking: False\n   🔗 Is compound: False\n   📐 Is multi-dimensional: False\n   📋 ENGLISH PATTERN: LIST_ALL (special pattern priority)\n🔢 DETECTING COUNT PATTERNS IN: 'list all accounts'\n   ❌ No COUNT pattern detected\n🏗️ English structure built successfully:\n   📊 Operations: 0\n   📈 Metrics: 0\n   🎯 Query pattern: list_all\n   🏆 Is ranking: False\n   🔗 Is compound: False\n   🔗 Is multi-dimensional: False\n   🕐 Has temporal conditional: False\n   📋 Has list all: True\n   📊 Has show rows: False\n🔧 DEBUG: Llegando a validación...\n🔍 VALIDATING ENGLISH STRUCTURE:\n   📋 Has list_all_pattern: True\n   📋 LIST_ALL pattern detected - using special validation\n   ✅ LIST_ALL validation passed - target: accounts\n🔧 DEBUG: Validación result = {'valid': True, 'error': None, 'suggestions': []}\n🔧 DEBUG: Antes de generar SQL...\n🔧 DEBUG: hasattr list_all_pattern = True\n🔧 DEBUG: list_all_pattern value = {'pattern_type': 'LIST_ALL', 'list_indicator': 'list', 'has_all_indicator': True, 'all_indicator': 'all', 'target_dimension': 'accounts', 'has_aggregation': False, 'confidence': 0.9999999999999999, 'raw_tokens': ['list', 'all', 'accounts'], 'is_temporal_list': False}\n🔧 GENERATING OPTIMIZED SQL (Enhanced with LIST ALL support):\n📋 DETECTED: Enhanced English list all → using ENHANCED specialized generator\n📋 GENERATING ENHANCED LIST ALL SQL (WITH DISTINCT/GROUP BY LOGIC):\n   📋 List type: list\n   📍 Target dimension: accounts\n   📊 Has aggregation: False\n   📋 Simple list - using DISTINCT\n   ✅ Using DISTINCT for unique values\n   ⏰ Processing temporal conditions for LIST ALL...\n🔧 DEBUG EXTREMO: Método get_advanced_temporal_sql_conditions_english INICIADO\n🔧 DEBUG EXTREMO: Inicializando sql_conditions = []\n⏰ GENERATING ADVANCED TEMPORAL CONDITIONS (With Special Patterns):\n🔧 DEBUG EXTREMO: Verificando structure.temporal_filters...\n🔧 DEBUG EXTREMO: hasattr(structure, 'temporal_filters') = True\n🔧 DEBUG EXTREMO: structure.temporal_filters = []\n🔧 DEBUG EXTREMO: len(structure.temporal_filters) = 0\n   📋 Total temporal filters in structure: 0\n   ⚠️  No advanced_temporal_info available\n🔧 DEBUG EXTREMO: sql_conditions final = []\n⏰ TOTAL TEMPORAL CONDITIONS: 0\n   ❌ NO CONDITIONS GENERATED!\n🔧 DEBUG EXTREMO: Retornando sql_conditions = []\n   ⏰ Found 0 temporal conditions\n   🎯 Enhanced LIST ALL SQL: SELECT DISTINCT accounts FROM datos ORDER BY accounts;\n🔧 DEBUG: SQL conceptual generado = 'SELECT DISTINCT accounts FROM datos ORDER BY accounts;'\n🔗 NORMALIZANDO SQL (Enhanced - Robust):\n   📥 Input: SELECT DISTINCT accounts FROM datos ORDER BY accounts;\n      🔍 Searching for 'accounts' in anchors...\n      📍 Checking dimension_anchors (type: <class 'dict'>)\n         🔍 Checking anchor_key: 'employee' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'category' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'brand' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'line' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'city' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'country' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'state' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'Store' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'Account' (data type: <class 'list'>)\n      ✅ Dimension match: 'accounts' → 'Account' (list structure)\n   🔄 Standalone mapping: 'accounts' → Account\n🔧 AGREGANDO COMILLAS (Dynamic - Using Anchors):\n   📥 Input: SELECT DISTINCT Account FROM datos ORDER BY Account;\n   📊 Normalized columns from anchors: ['Account', 'Avg_4W', 'Avg_8W', 'Brand', 'Category', 'Channel', 'City', 'Cost', 'Country', 'Customer_Code', 'Dead_Inventory', 'Discount', 'Employee', 'Inventory', 'Item', 'Item_Group', 'Line', 'Location', 'Margin', 'Order_Number', 'Orders', 'Partner_Code', 'Price', 'Product_Group', 'Profit', 'Quantity', 'Revenue', 'Roi', 'Sales_Amount', 'Sell_Out', 'Sell_Through', 'State', 'Stock_Out', 'Store', 'Transactions', 'Vendor_Code', 'Venta_Perdida', 'Week']\n      📝 Added quotes: Account → \"Account\" at position 44\n      📝 Added quotes: Account → \"Account\" at position 16\n   📤 Output: SELECT DISTINCT \"Account\" FROM datos ORDER BY \"Account\";\n   📊 Reemplazos realizados: 2\n   📤 Output: SELECT DISTINCT \"Account\" FROM datos ORDER BY \"Account\";\n   📊 Reemplazos realizados: 1\n✅ Schema mapping applied successfully\n🔧 DEBUG: SQL final = 'SELECT DISTINCT \"Account\" FROM datos ORDER BY \"Account\";'\n🔧 DEBUG: Creating final result...\n🔧 DEBUG: query_structure type: <class 'problemizador_18.QueryStructure'>\n🔧 DEBUG: Has get_complexity_level: True\n🔍 Generando estructura jerárquica para consulta compuesta:\n   📍 Dimensión: accounts\n   🔗 Es compuesta: False\n   🔗 Criterios compuestos: 0\n   ⏰ Columnas temporales: set()\n   🔄 ¿Dimensión en filtros? False\n   ✅ Parte principal: (accounts)\n   🎯 Resultado final COMPUESTO: (accounts)\n🔧 DEBUG: Final result created successfully\n🔧 DEBUG: SQL in result = 'SELECT DISTINCT \"Account\" FROM datos ORDER BY \"Account\";'",
+      "stderr_content": "",
+      "has_content": true
+    }
+  },
+  {
+    "timestamp": "2025-11-09T18:52:58.879456",
+    "component": "nlp",
+    "level": "info",
+    "message": "✅ Problemizador completado:",
+    "session_time": 31.129064
+  },
+  {
+    "timestamp": "2025-11-09T18:52:58.879479",
+    "component": "nlp",
+    "level": "info",
+    "message": "   🗄️ SQL conceptual generado: SELECT DISTINCT \"Account\" FROM datos ORDER BY \"Account\";",
+    "session_time": 31.129087
+  },
+  {
+    "timestamp": "2025-11-09T18:52:58.879564",
+    "component": "nlp",
+    "level": "info",
+    "message": "✅ SUCCESS: Procesando consulta (11ms)",
+    "session_time": 31.129172
+  },
+  {
+    "timestamp": "2025-11-09T18:52:58.879591",
+    "component": "exec",
+    "level": "info",
+    "message": "🗄️ EJECUTANDO SQL - MODO: clickhouse",
+    "session_time": 31.129199
+  },
+  {
+    "timestamp": "2025-11-09T18:52:58.879601",
+    "component": "exec",
+    "level": "info",
+    "message": "   🚀 Destino: ClickHouse (Motor Columnar)",
+    "session_time": 31.129209
+  },
+  {
+    "timestamp": "2025-11-09T18:52:58.879615",
+    "component": "exec",
+    "level": "info",
+    "message": "🚀 PASO 3: EJECUCIÓN EN CLICKHOUSE",
+    "session_time": 31.129223
+  },
+  {
+    "timestamp": "2025-11-09T18:52:58.987418",
+    "component": "exec",
+    "level": "info",
+    "message": "✅ Query ejecutada: 75 filas en 107ms",
+    "session_time": 31.237026
+  },
+  {
+    "timestamp": "2025-11-09T18:52:58.988448",
+    "component": "flask",
+    "level": "info",
+    "message": "✅ Consulta Flask exitosa: 75 filas",
+    "session_time": 31.238056
+  },
+  {
+    "timestamp": "2025-11-09T18:53:35.858757",
+    "component": "flask",
+    "level": "info",
+    "message": "🎯 Consulta Flask: list all item",
+    "session_time": 68.108365
+  },
+  {
+    "timestamp": "2025-11-09T18:53:35.858992",
+    "component": "main",
+    "level": "info",
+    "message": "🚀 INICIANDO FLUJO MAESTRO COMPLETO - MODO: clickhouse",
+    "session_time": 68.1086
+  },
+  {
+    "timestamp": "2025-11-09T18:53:35.859424",
+    "component": "nlp",
+    "level": "info",
+    "message": "🔄 INICIANDO: Procesando consulta",
+    "session_time": 68.109032
+  },
+  {
+    "timestamp": "2025-11-09T18:53:35.859434",
+    "component": "nlp",
+    "level": "info",
+    "message": "🧠 PASO 2 MAESTRO: PROCESAMIENTO CON PROBLEMIZADOR",
+    "session_time": 68.109042
+  },
+  {
+    "timestamp": "2025-11-09T18:53:35.859450",
+    "component": "nlp",
+    "level": "info",
+    "message": "❓ Consulta: 'list all item'",
+    "session_time": 68.109058
+  },
+  {
+    "timestamp": "2025-11-09T18:53:35.859457",
+    "component": "nlp",
+    "level": "info",
+    "message": "🎯 Modo actual: clickhouse",
+    "session_time": 68.109065
+  },
+  {
+    "timestamp": "2025-11-09T18:53:35.859478",
+    "component": "nlp",
+    "level": "info",
+    "message": "├── Analizando lenguaje natural...",
+    "session_time": 68.109086
+  },
+  {
+    "timestamp": "2025-11-09T18:53:35.872933",
+    "component": "suppressed_output",
+    "level": "suppressed_component",
+    "session_id": "user_20251109_185227",
+    "operation": "problemizador_process",
+    "suppressed_data": {
+      "session_id": "user_20251109_185227",
+      "timestamp": "2025-11-09T18:53:35.872854",
+      "operation_name": "problemizador_process",
+      "stdout_content": "🔍 ANALIZANDO CONSULTA: 'list all item'\n🔍 DETECTANDO FRASES COMPUESTAS (Dictionary-Based): 'list all item'\n🔍 DEBUG: Query con placeholders: 'list all item'\n🔍 DEBUG: Text en minúsculas: 'list all item'\n   🔍 Generadas 211 frases compuestas automáticamente\n🔍 DEBUG: Antes de restaurar mayúsculas: 'list all item'\n🔓 RESTAURANDO TOKENS:\n   📥 Input: 'list all item'\n   🔑 Tokens preservados: {}\n   📤 Output: 'list all item'\n🔍 DEBUG: Después de restaurar mayúsculas: 'list all item'\n🔍 TOKENS ORIGINALES: ['list', 'all', 'item']\n🔒 DATOS EXCLUIDOS: [] (letras mayúsculas = DATOS)\n🔍 TOKENS PARA ANÁLISIS: ['list', 'all', 'item']\n   🇺🇸 Conector inglés: 'all' (+10)\n   🎯 RESULTADO: INGLÉS (score: 10 vs 0)\n   🇺🇸 Aliases configurados para INGLÉS\n   ✅ Conectores activos: 134 palabras\n   ✅ Números activos: 43 palabras\n   ✅ Correcciones activas: 76 palabras\n🌍 IDIOMA DETECTADO: EN\n🇺🇸 CONSULTA EN INGLÉS DETECTADA - ENVIANDO A PIPELINE INGLÉS\n✅ Cargado dimension_anchors.json: 19 entradas\n✅ Cargado metric_anchors.json: 20 entradas\n🔄 Mapeo reverso construido: 997 palabras mapeadas\n🔗 SQLSchemaMapper inicializado:\n   📍 Dimensiones: 19 anchors\n   📊 Métricas: 20 anchors\n   🔄 Mapeos reversos: 997 palabras\n🇺🇸 English NLP Parser initialized with SQL Schema Mapper\n\n🇺🇸 PROCESSING ENGLISH QUERY: 'list all item'\n🔧 Normalizing English query: 'list all item'\n✅ English normalized: 'list all item'\n🧪 DEBUGGING TEMPORAL DICTIONARY:\n   ❌ 'palacio de hierro' → NOT FOUND\n   ❌ 'palaciodehierro' → NOT FOUND\n   ❌ 'palacio_de_hierro' → NOT FOUND\n   ❌ 'liverpool' → NOT FOUND\n🔤 English tokens: ['list', 'all', 'item']\n🔍 ANÁLISIS PRE-MAPEO de tokens originales: ['list', 'all', 'item']\n🧠 English semantic intent: DEFAULT\n⏰ DETECTING ENGLISH TEMPORAL PATTERNS:\n   🔤 Full tokens list: ['list', 'all', 'item']\n   📏 Total tokens: 3\n   🔍 'between' found at positions: []\n⏰ TOTAL ENGLISH TEMPORAL FILTERS: 0\n🎯 DETECTING ENGLISH COLUMN-VALUE PATTERNS (WITH ENHANCED STOCK OUT - ORIGINAL METHOD):\n📅 DETECTING THIS WEEK PATTERN:\n   📤 Tokens: ['list', 'all', 'item']\n   ❌ No 'this week' pattern found\n   🔧 DEBUG: Llamando a detect_enhanced_stock_out_pattern_english...\n📦 DETECTING ENHANCED Y/N COLUMN PATTERN:\n   📤 Tokens: ['list', 'all', 'item']\n   ❌ No Y/N column pattern found\n      🔍 Testing combination: ['list', 'all', 'item'] (positions 0-2)\n         🔍 Testing variant: 'list all item'\n         🔍 Testing variant: 'LIST ALL ITEM'\n         🔍 Testing variant: 'listallitem'\n         🔍 Testing variant: 'list(all(item'\n         🔍 Testing variant: 'LISTALLITEM'\n         🔍 Testing variant: 'list_all_item'\n         🔍 Testing variant: 'LIST_ALL_ITEM'\n         🔍 Testing variant: 'List All Item'\n      🔍 Testing combination: ['list', 'all'] (positions 0-1)\n         🔍 Testing variant: 'list all'\n         🔍 Testing variant: 'LIST ALL'\n         🔍 Testing variant: 'listall'\n         🔍 Testing variant: 'list(all'\n         🔍 Testing variant: 'LISTALL'\n         🔍 Testing variant: 'list_all'\n         🔍 Testing variant: 'LIST_ALL'\n         🔍 Testing variant: 'List All'\n      🔍 Testing combination: ['list'] (positions 0-0)\n         🔍 Testing variant: 'list'\n         🔍 Testing variant: 'LIST'\n         🔍 Testing variant: 'List'\n      🔍 Testing combination: ['all', 'item'] (positions 1-2)\n         🔍 Testing variant: 'all item'\n         🔍 Testing variant: 'ALL ITEM'\n         🔍 Testing variant: 'allitem'\n         🔍 Testing variant: 'all(item'\n         🔍 Testing variant: 'ALLITEM'\n         🔍 Testing variant: 'all_item'\n         🔍 Testing variant: 'ALL_ITEM'\n         🔍 Testing variant: 'All Item'\n      🔍 Testing combination: ['all'] (positions 1-1)\n         🔍 Testing variant: 'all'\n         🔍 Testing variant: 'ALL'\n         🔍 Testing variant: 'All'\n      🔍 Testing combination: ['item'] (positions 2-2)\n         🔍 Testing variant: 'item'\n         🔍 Testing variant: 'ITEM'\n         🔍 Testing variant: 'Item'\n🔍 TOTAL IMPLICIT VALUES DETECTED: 0\n🔒 TOTAL POSITIONS PROCESSED: []\n⏰ Temporal columns to exclude: set()\n🔒 Positions already processed: []\n🎯 Total filters detected: 0\n   📦 Enhanced stock out: 0\n   🔍 Implicit: 0\n   🔍 Explicit: 0\n🔒 Final processed positions: []\n🔧 REMOVING DUPLICATE FILTERS:\n🎯 Final unique filters: 0\n🕐 DETECTING TEMPORAL CONDITIONAL PATTERN:\n   📤 Tokens: ['list', 'all', 'item']\n🕐 DEBUG: temporal_conditional_pattern = False\n📋 DETECTING LIST ALL PATTERN:\n   🔤 Tokens: ['list', 'all', 'item']\n   ✅ List indicator: 'list' at position 0\n   ✅ All indicator: 'all' at position 1\n   ✅ Target dimension: 'item'\n📋 LIST ALL PATTERN DETECTED:\n   📋 List indicator: list\n   🌐 Has 'all': True\n   📍 Target dimension: item\n   📊 Has aggregation: False\n   ⭐ Confidence: 1.00\n📋 DEBUG: list_all_pattern = True\n📊 DETECTING SHOW ROWS PATTERN:\n   🔤 Tokens: ['list', 'all', 'item']\n   ✅ Show indicator: 'list' at position 0\n   ❌ No row count found\n📊 DEBUG: show_rows_pattern = False\n🔍 CLASSIFYING ENGLISH COMPONENTS:\n🔍 English token 'list' classified as unknown\n🔍 English token 'all' classified as connector\n🔍 English token 'item' classified as dimension\n🏗️ BUILDING COMPLETE ENGLISH QUERY STRUCTURE\n🔍 DETECTING GROUP BY PATTERN:\n📊 DETECTING SHOW ROWS PATTERN:\n   🔤 Tokens: ['list', 'all', 'item']\n   ✅ Show indicator: 'list' at position 0\n   ❌ No row count found\n   📊 Show rows pattern detected: False\n📋 DETECTING LIST ALL PATTERN:\n   🔤 Tokens: ['list', 'all', 'item']\n   ✅ List indicator: 'list' at position 0\n   ✅ All indicator: 'all' at position 1\n   ✅ Target dimension: 'item'\n📋 LIST ALL PATTERN DETECTED:\n   📋 List indicator: list\n   🌐 Has 'all': True\n   📍 Target dimension: item\n   📊 Has aggregation: False\n   ⭐ Confidence: 1.00\n   📋 List all pattern detected: True\n🕐 DETECTING TEMPORAL CONDITIONAL PATTERN:\n   📤 Tokens: ['list', 'all', 'item']\n   🕐 Temporal conditional pattern detected: False\n   🏆 Skipping ranking detection due to special patterns\n🚫 DETECTING ENGLISH EXCLUSION FILTERS:\n🚫 TOTAL ENGLISH EXCLUSION FILTERS: 0\n🔗 DETECTING ENGLISH MULTIPLE DIMENSIONS:\n   📍 English dimensions found: [(2, 'item')]\n   🔗 English connectors at positions: []\n   ❌ No valid English multi-dimensional pattern detected\n🔗 DETECTING ENGLISH COMPOUND CRITERIA:\n   🔤 Tokens: ['list', 'all', 'item']\n   📊 Segments detected: [['list', 'all', 'item']]\n\n   🎯 Processing English segment 1: ['list', 'all', 'item']\n      🔍 Analyzing English segment: ['list', 'all', 'item']\n         📍 English dimension candidate: item\n         🔄 English dimension converted to metric: item\n         ❌ English criteria incomplete:\n             Operation: NOT FOUND\n             Metric: item\n      ❌ Could not extract criteria from segment\n\n🔗 TOTAL ENGLISH COMPOUND CRITERIA: 0\n🔗 EVALUATING ENGLISH COMPOUND QUERY:\n   📊 Valid criteria: 0\n   🎯 Is compound: False\n   📍 English main dimension: item\n   📋 Structure marked as LIST_ALL\n🔍 DETECTING ENGLISH QUERY PATTERN:\n   📍 Dimension: item\n   🔗 Multiple dimensions: 1\n   ⚡ Operations: []\n   📊 Metrics: []\n   🏆 Is ranking: False\n   🔗 Is compound: False\n   📐 Is multi-dimensional: False\n   📋 ENGLISH PATTERN: LIST_ALL (special pattern priority)\n🔢 DETECTING COUNT PATTERNS IN: 'list all item'\n   ❌ No COUNT pattern detected\n🏗️ English structure built successfully:\n   📊 Operations: 0\n   📈 Metrics: 0\n   🎯 Query pattern: list_all\n   🏆 Is ranking: False\n   🔗 Is compound: False\n   🔗 Is multi-dimensional: False\n   🕐 Has temporal conditional: False\n   📋 Has list all: True\n   📊 Has show rows: False\n🔧 DEBUG: Llegando a validación...\n🔍 VALIDATING ENGLISH STRUCTURE:\n   📋 Has list_all_pattern: True\n   📋 LIST_ALL pattern detected - using special validation\n   ✅ LIST_ALL validation passed - target: item\n🔧 DEBUG: Validación result = {'valid': True, 'error': None, 'suggestions': []}\n🔧 DEBUG: Antes de generar SQL...\n🔧 DEBUG: hasattr list_all_pattern = True\n🔧 DEBUG: list_all_pattern value = {'pattern_type': 'LIST_ALL', 'list_indicator': 'list', 'has_all_indicator': True, 'all_indicator': 'all', 'target_dimension': 'item', 'has_aggregation': False, 'confidence': 0.9999999999999999, 'raw_tokens': ['list', 'all', 'item'], 'is_temporal_list': False}\n🔧 GENERATING OPTIMIZED SQL (Enhanced with LIST ALL support):\n📋 DETECTED: Enhanced English list all → using ENHANCED specialized generator\n📋 GENERATING ENHANCED LIST ALL SQL (WITH DISTINCT/GROUP BY LOGIC):\n   📋 List type: list\n   📍 Target dimension: item\n   📊 Has aggregation: False\n   📋 Simple list - using DISTINCT\n   ✅ Using DISTINCT for unique values\n   ⏰ Processing temporal conditions for LIST ALL...\n🔧 DEBUG EXTREMO: Método get_advanced_temporal_sql_conditions_english INICIADO\n🔧 DEBUG EXTREMO: Inicializando sql_conditions = []\n⏰ GENERATING ADVANCED TEMPORAL CONDITIONS (With Special Patterns):\n🔧 DEBUG EXTREMO: Verificando structure.temporal_filters...\n🔧 DEBUG EXTREMO: hasattr(structure, 'temporal_filters') = True\n🔧 DEBUG EXTREMO: structure.temporal_filters = []\n🔧 DEBUG EXTREMO: len(structure.temporal_filters) = 0\n   📋 Total temporal filters in structure: 0\n   ⚠️  No advanced_temporal_info available\n🔧 DEBUG EXTREMO: sql_conditions final = []\n⏰ TOTAL TEMPORAL CONDITIONS: 0\n   ❌ NO CONDITIONS GENERATED!\n🔧 DEBUG EXTREMO: Retornando sql_conditions = []\n   ⏰ Found 0 temporal conditions\n   🎯 Enhanced LIST ALL SQL: SELECT DISTINCT item FROM datos ORDER BY item;\n🔧 DEBUG: SQL conceptual generado = 'SELECT DISTINCT item FROM datos ORDER BY item;'\n🔗 NORMALIZANDO SQL (Enhanced - Robust):\n   📥 Input: SELECT DISTINCT item FROM datos ORDER BY item;\n      🔍 Searching for 'item' in anchors...\n      📍 Checking dimension_anchors (type: <class 'dict'>)\n         🔍 Checking anchor_key: 'employee' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'category' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'brand' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'line' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'city' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'country' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'state' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'Store' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'Account' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'Item' (data type: <class 'list'>)\n      ✅ Dimension match: 'item' → 'Item' (list structure)\n   🔄 Standalone mapping: 'item' → Item\n🔧 AGREGANDO COMILLAS (Dynamic - Using Anchors):\n   📥 Input: SELECT DISTINCT Item FROM datos ORDER BY Item;\n   📊 Normalized columns from anchors: ['Account', 'Avg_4W', 'Avg_8W', 'Brand', 'Category', 'Channel', 'City', 'Cost', 'Country', 'Customer_Code', 'Dead_Inventory', 'Discount', 'Employee', 'Inventory', 'Item', 'Item_Group', 'Line', 'Location', 'Margin', 'Order_Number', 'Orders', 'Partner_Code', 'Price', 'Product_Group', 'Profit', 'Quantity', 'Revenue', 'Roi', 'Sales_Amount', 'Sell_Out', 'Sell_Through', 'State', 'Stock_Out', 'Store', 'Transactions', 'Vendor_Code', 'Venta_Perdida', 'Week']\n      📝 Added quotes: Item → \"Item\" at position 41\n      📝 Added quotes: Item → \"Item\" at position 16\n   📤 Output: SELECT DISTINCT \"Item\" FROM datos ORDER BY \"Item\";\n   📊 Reemplazos realizados: 2\n   📤 Output: SELECT DISTINCT \"Item\" FROM datos ORDER BY \"Item\";\n   📊 Reemplazos realizados: 1\n✅ Schema mapping applied successfully\n🔧 DEBUG: SQL final = 'SELECT DISTINCT \"Item\" FROM datos ORDER BY \"Item\";'\n🔧 DEBUG: Creating final result...\n🔧 DEBUG: query_structure type: <class 'problemizador_18.QueryStructure'>\n🔧 DEBUG: Has get_complexity_level: True\n🔍 Generando estructura jerárquica para consulta compuesta:\n   📍 Dimensión: item\n   🔗 Es compuesta: False\n   🔗 Criterios compuestos: 0\n   ⏰ Columnas temporales: set()\n   🔄 ¿Dimensión en filtros? False\n   ✅ Parte principal: (item)\n   🎯 Resultado final COMPUESTO: (item)\n🔧 DEBUG: Final result created successfully\n🔧 DEBUG: SQL in result = 'SELECT DISTINCT \"Item\" FROM datos ORDER BY \"Item\";'",
+      "stderr_content": "",
+      "has_content": true
+    }
+  },
+  {
+    "timestamp": "2025-11-09T18:53:35.872947",
+    "component": "nlp",
+    "level": "info",
+    "message": "✅ Problemizador completado:",
+    "session_time": 68.122555
+  },
+  {
+    "timestamp": "2025-11-09T18:53:35.872958",
+    "component": "nlp",
+    "level": "info",
+    "message": "   🗄️ SQL conceptual generado: SELECT DISTINCT \"Item\" FROM datos ORDER BY \"Item\";",
+    "session_time": 68.122566
+  },
+  {
+    "timestamp": "2025-11-09T18:53:35.873040",
+    "component": "nlp",
+    "level": "info",
+    "message": "✅ SUCCESS: Procesando consulta (13ms)",
+    "session_time": 68.122648
+  },
+  {
+    "timestamp": "2025-11-09T18:53:35.873059",
+    "component": "exec",
+    "level": "info",
+    "message": "🗄️ EJECUTANDO SQL - MODO: clickhouse",
+    "session_time": 68.122667
+  },
+  {
+    "timestamp": "2025-11-09T18:53:35.873065",
+    "component": "exec",
+    "level": "info",
+    "message": "   🚀 Destino: ClickHouse (Motor Columnar)",
+    "session_time": 68.122673
+  },
+  {
+    "timestamp": "2025-11-09T18:53:35.873071",
+    "component": "exec",
+    "level": "info",
+    "message": "🚀 PASO 3: EJECUCIÓN EN CLICKHOUSE",
+    "session_time": 68.122679
+  },
+  {
+    "timestamp": "2025-11-09T18:53:36.032939",
+    "component": "exec",
+    "level": "info",
+    "message": "✅ Query ejecutada: 305 filas en 159ms",
+    "session_time": 68.282547
+  },
+  {
+    "timestamp": "2025-11-09T18:53:36.040474",
+    "component": "flask",
+    "level": "info",
+    "message": "✅ Consulta Flask exitosa: 305 filas",
+    "session_time": 68.290082
+  },
+  {
+    "timestamp": "2025-11-09T18:53:40.375074",
+    "component": "flask",
+    "level": "info",
+    "message": "🎯 Consulta Flask: list all items",
+    "session_time": 72.624682
+  },
+  {
+    "timestamp": "2025-11-09T18:53:40.375149",
+    "component": "main",
+    "level": "info",
+    "message": "🚀 INICIANDO FLUJO MAESTRO COMPLETO - MODO: clickhouse",
+    "session_time": 72.624757
+  },
+  {
+    "timestamp": "2025-11-09T18:53:40.375196",
+    "component": "nlp",
+    "level": "info",
+    "message": "🔄 INICIANDO: Procesando consulta",
+    "session_time": 72.624804
+  },
+  {
+    "timestamp": "2025-11-09T18:53:40.375201",
+    "component": "nlp",
+    "level": "info",
+    "message": "🧠 PASO 2 MAESTRO: PROCESAMIENTO CON PROBLEMIZADOR",
+    "session_time": 72.624809
+  },
+  {
+    "timestamp": "2025-11-09T18:53:40.375207",
+    "component": "nlp",
+    "level": "info",
+    "message": "❓ Consulta: 'list all items'",
+    "session_time": 72.624815
+  },
+  {
+    "timestamp": "2025-11-09T18:53:40.375212",
+    "component": "nlp",
+    "level": "info",
+    "message": "🎯 Modo actual: clickhouse",
+    "session_time": 72.62482
+  },
+  {
+    "timestamp": "2025-11-09T18:53:40.375220",
+    "component": "nlp",
+    "level": "info",
+    "message": "├── Analizando lenguaje natural...",
+    "session_time": 72.624828
+  },
+  {
+    "timestamp": "2025-11-09T18:53:40.380319",
+    "component": "suppressed_output",
+    "level": "suppressed_component",
+    "session_id": "user_20251109_185227",
+    "operation": "problemizador_process",
+    "suppressed_data": {
+      "session_id": "user_20251109_185227",
+      "timestamp": "2025-11-09T18:53:40.380292",
+      "operation_name": "problemizador_process",
+      "stdout_content": "🔍 ANALIZANDO CONSULTA: 'list all items'\n🔍 DETECTANDO FRASES COMPUESTAS (Dictionary-Based): 'list all items'\n🔍 DEBUG: Query con placeholders: 'list all items'\n🔍 DEBUG: Text en minúsculas: 'list all items'\n   🔍 Generadas 211 frases compuestas automáticamente\n🔍 DEBUG: Antes de restaurar mayúsculas: 'list all items'\n🔓 RESTAURANDO TOKENS:\n   📥 Input: 'list all items'\n   🔑 Tokens preservados: {}\n   📤 Output: 'list all items'\n🔍 DEBUG: Después de restaurar mayúsculas: 'list all items'\n🔍 TOKENS ORIGINALES: ['list', 'all', 'items']\n🔒 DATOS EXCLUIDOS: [] (letras mayúsculas = DATOS)\n🔍 TOKENS PARA ANÁLISIS: ['list', 'all', 'items']\n   🇺🇸 Conector inglés: 'all' (+10)\n   🎯 RESULTADO: INGLÉS (score: 10 vs 0)\n   🇺🇸 Aliases configurados para INGLÉS\n   ✅ Conectores activos: 134 palabras\n   ✅ Números activos: 43 palabras\n   ✅ Correcciones activas: 76 palabras\n🌍 IDIOMA DETECTADO: EN\n🇺🇸 CONSULTA EN INGLÉS DETECTADA - ENVIANDO A PIPELINE INGLÉS\n✅ Cargado dimension_anchors.json: 19 entradas\n✅ Cargado metric_anchors.json: 20 entradas\n🔄 Mapeo reverso construido: 997 palabras mapeadas\n🔗 SQLSchemaMapper inicializado:\n   📍 Dimensiones: 19 anchors\n   📊 Métricas: 20 anchors\n   🔄 Mapeos reversos: 997 palabras\n🇺🇸 English NLP Parser initialized with SQL Schema Mapper\n\n🇺🇸 PROCESSING ENGLISH QUERY: 'list all items'\n🔧 Normalizing English query: 'list all items'\n✅ English normalized: 'list all items'\n🧪 DEBUGGING TEMPORAL DICTIONARY:\n   ❌ 'palacio de hierro' → NOT FOUND\n   ❌ 'palaciodehierro' → NOT FOUND\n   ❌ 'palacio_de_hierro' → NOT FOUND\n   ❌ 'liverpool' → NOT FOUND\n🔤 English tokens: ['list', 'all', 'items']\n🔍 ANÁLISIS PRE-MAPEO de tokens originales: ['list', 'all', 'items']\n   📊 PLURAL ORIGINAL detectado: 'items' → SUM\n🧠 English semantic intent: SUM\n⏰ DETECTING ENGLISH TEMPORAL PATTERNS:\n   🔤 Full tokens list: ['list', 'all', 'items']\n   📏 Total tokens: 3\n   🔍 'between' found at positions: []\n⏰ TOTAL ENGLISH TEMPORAL FILTERS: 0\n🎯 DETECTING ENGLISH COLUMN-VALUE PATTERNS (WITH ENHANCED STOCK OUT - ORIGINAL METHOD):\n📅 DETECTING THIS WEEK PATTERN:\n   📤 Tokens: ['list', 'all', 'items']\n   ❌ No 'this week' pattern found\n   🔧 DEBUG: Llamando a detect_enhanced_stock_out_pattern_english...\n📦 DETECTING ENHANCED Y/N COLUMN PATTERN:\n   📤 Tokens: ['list', 'all', 'items']\n   ❌ No Y/N column pattern found\n      🔍 Testing combination: ['list', 'all', 'items'] (positions 0-2)\n         🔍 Testing variant: 'list all items'\n         🔍 Testing variant: 'LIST ALL ITEMS'\n         🔍 Testing variant: 'listallitems'\n         🔍 Testing variant: 'list(all(items'\n         🔍 Testing variant: 'LISTALLITEMS'\n         🔍 Testing variant: 'list_all_items'\n         🔍 Testing variant: 'LIST_ALL_ITEMS'\n         🔍 Testing variant: 'List All Items'\n      🔍 Testing combination: ['list', 'all'] (positions 0-1)\n         🔍 Testing variant: 'list all'\n         🔍 Testing variant: 'LIST ALL'\n         🔍 Testing variant: 'listall'\n         🔍 Testing variant: 'list(all'\n         🔍 Testing variant: 'LISTALL'\n         🔍 Testing variant: 'list_all'\n         🔍 Testing variant: 'LIST_ALL'\n         🔍 Testing variant: 'List All'\n      🔍 Testing combination: ['list'] (positions 0-0)\n         🔍 Testing variant: 'list'\n         🔍 Testing variant: 'LIST'\n         🔍 Testing variant: 'List'\n      🔍 Testing combination: ['all', 'items'] (positions 1-2)\n         🔍 Testing variant: 'all items'\n         🔍 Testing variant: 'ALL ITEMS'\n         🔍 Testing variant: 'allitems'\n         🔍 Testing variant: 'all(items'\n         🔍 Testing variant: 'ALLITEMS'\n         🔍 Testing variant: 'all_items'\n         🔍 Testing variant: 'ALL_ITEMS'\n         🔍 Testing variant: 'All Items'\n      🔍 Testing combination: ['all'] (positions 1-1)\n         🔍 Testing variant: 'all'\n         🔍 Testing variant: 'ALL'\n         🔍 Testing variant: 'All'\n      🔍 Testing combination: ['items'] (positions 2-2)\n         🔍 Testing variant: 'items'\n         🔍 Testing variant: 'ITEMS'\n         🔍 Testing variant: 'Items'\n🔍 TOTAL IMPLICIT VALUES DETECTED: 0\n🔒 TOTAL POSITIONS PROCESSED: []\n⏰ Temporal columns to exclude: set()\n🔒 Positions already processed: []\n🎯 Total filters detected: 0\n   📦 Enhanced stock out: 0\n   🔍 Implicit: 0\n   🔍 Explicit: 0\n🔒 Final processed positions: []\n🔧 REMOVING DUPLICATE FILTERS:\n🎯 Final unique filters: 0\n🕐 DETECTING TEMPORAL CONDITIONAL PATTERN:\n   📤 Tokens: ['list', 'all', 'items']\n🕐 DEBUG: temporal_conditional_pattern = False\n📋 DETECTING LIST ALL PATTERN:\n   🔤 Tokens: ['list', 'all', 'items']\n   ✅ List indicator: 'list' at position 0\n   ✅ All indicator: 'all' at position 1\n   ✅ Target dimension: 'items'\n📋 LIST ALL PATTERN DETECTED:\n   📋 List indicator: list\n   🌐 Has 'all': True\n   📍 Target dimension: items\n   📊 Has aggregation: False\n   ⭐ Confidence: 1.00\n📋 DEBUG: list_all_pattern = True\n📊 DETECTING SHOW ROWS PATTERN:\n   🔤 Tokens: ['list', 'all', 'items']\n   ✅ Show indicator: 'list' at position 0\n   ❌ No row count found\n📊 DEBUG: show_rows_pattern = False\n🔍 CLASSIFYING ENGLISH COMPONENTS:\n🔍 English token 'list' classified as unknown\n🔍 English token 'all' classified as connector\n🔍 English token 'items' classified as operation\n🏗️ BUILDING COMPLETE ENGLISH QUERY STRUCTURE\n🔍 DETECTING GROUP BY PATTERN:\n📊 DETECTING SHOW ROWS PATTERN:\n   🔤 Tokens: ['list', 'all', 'items']\n   ✅ Show indicator: 'list' at position 0\n   ❌ No row count found\n   📊 Show rows pattern detected: False\n📋 DETECTING LIST ALL PATTERN:\n   🔤 Tokens: ['list', 'all', 'items']\n   ✅ List indicator: 'list' at position 0\n   ✅ All indicator: 'all' at position 1\n   ✅ Target dimension: 'items'\n📋 LIST ALL PATTERN DETECTED:\n   📋 List indicator: list\n   🌐 Has 'all': True\n   📍 Target dimension: items\n   📊 Has aggregation: False\n   ⭐ Confidence: 1.00\n   📋 List all pattern detected: True\n🕐 DETECTING TEMPORAL CONDITIONAL PATTERN:\n   📤 Tokens: ['list', 'all', 'items']\n   🕐 Temporal conditional pattern detected: False\n   🏆 Skipping ranking detection due to special patterns\n🚫 DETECTING ENGLISH EXCLUSION FILTERS:\n🚫 TOTAL ENGLISH EXCLUSION FILTERS: 0\n🔗 DETECTING ENGLISH MULTIPLE DIMENSIONS:\n   📍 English dimensions found: []\n   🔗 English connectors at positions: []\n   ❌ No valid English multi-dimensional pattern detected\n🔗 DETECTING ENGLISH COMPOUND CRITERIA:\n   🔤 Tokens: ['list', 'all', 'items']\n   📊 Segments detected: [['list', 'all', 'items']]\n\n   🎯 Processing English segment 1: ['list', 'all', 'items']\n      🔍 Analyzing English segment: ['list', 'all', 'items']\n         ⚡ English operation found: items\n         ❌ English criteria incomplete:\n             Operation: items\n             Metric: NOT FOUND\n      ❌ Could not extract criteria from segment\n\n🔗 TOTAL ENGLISH COMPOUND CRITERIA: 0\n🔗 EVALUATING ENGLISH COMPOUND QUERY:\n   📊 Valid criteria: 0\n   🎯 Is compound: False\n   ⚡ English operation: items\n   📋 Structure marked as LIST_ALL\n🔍 DETECTING ENGLISH QUERY PATTERN:\n   📍 Dimension: N/A\n   🔗 Multiple dimensions: 0\n   ⚡ Operations: ['items']\n   📊 Metrics: []\n   🏆 Is ranking: False\n   🔗 Is compound: False\n   📐 Is multi-dimensional: False\n   📋 ENGLISH PATTERN: LIST_ALL (special pattern priority)\n🔢 DETECTING COUNT PATTERNS IN: 'list all items'\n   ❌ No COUNT pattern detected\n🏗️ English structure built successfully:\n   📊 Operations: 1\n   📈 Metrics: 0\n   🎯 Query pattern: list_all\n   🏆 Is ranking: False\n   🔗 Is compound: False\n   🔗 Is multi-dimensional: False\n   🕐 Has temporal conditional: False\n   📋 Has list all: True\n   📊 Has show rows: False\n🔧 DEBUG: Llegando a validación...\n🔍 VALIDATING ENGLISH STRUCTURE:\n   📋 Has list_all_pattern: True\n   📋 LIST_ALL pattern detected - using special validation\n   ✅ LIST_ALL validation passed - target: items\n🔧 DEBUG: Validación result = {'valid': True, 'error': None, 'suggestions': []}\n🔧 DEBUG: Antes de generar SQL...\n🔧 DEBUG: hasattr list_all_pattern = True\n🔧 DEBUG: list_all_pattern value = {'pattern_type': 'LIST_ALL', 'list_indicator': 'list', 'has_all_indicator': True, 'all_indicator': 'all', 'target_dimension': 'items', 'has_aggregation': False, 'confidence': 0.9999999999999999, 'raw_tokens': ['list', 'all', 'items'], 'is_temporal_list': False}\n🔧 GENERATING OPTIMIZED SQL (Enhanced with LIST ALL support):\n📋 DETECTED: Enhanced English list all → using ENHANCED specialized generator\n📋 GENERATING ENHANCED LIST ALL SQL (WITH DISTINCT/GROUP BY LOGIC):\n   📋 List type: list\n   📍 Target dimension: items\n   📊 Has aggregation: False\n   📋 Simple list - using DISTINCT\n   ✅ Using DISTINCT for unique values\n   ⏰ Processing temporal conditions for LIST ALL...\n🔧 DEBUG EXTREMO: Método get_advanced_temporal_sql_conditions_english INICIADO\n🔧 DEBUG EXTREMO: Inicializando sql_conditions = []\n⏰ GENERATING ADVANCED TEMPORAL CONDITIONS (With Special Patterns):\n🔧 DEBUG EXTREMO: Verificando structure.temporal_filters...\n🔧 DEBUG EXTREMO: hasattr(structure, 'temporal_filters') = True\n🔧 DEBUG EXTREMO: structure.temporal_filters = []\n🔧 DEBUG EXTREMO: len(structure.temporal_filters) = 0\n   📋 Total temporal filters in structure: 0\n   ⚠️  No advanced_temporal_info available\n🔧 DEBUG EXTREMO: sql_conditions final = []\n⏰ TOTAL TEMPORAL CONDITIONS: 0\n   ❌ NO CONDITIONS GENERATED!\n🔧 DEBUG EXTREMO: Retornando sql_conditions = []\n   ⏰ Found 0 temporal conditions\n   🎯 Enhanced LIST ALL SQL: SELECT DISTINCT items FROM datos ORDER BY items;\n🔧 DEBUG: SQL conceptual generado = 'SELECT DISTINCT items FROM datos ORDER BY items;'\n🔗 NORMALIZANDO SQL (Enhanced - Robust):\n   📥 Input: SELECT DISTINCT items FROM datos ORDER BY items;\n      🔍 Searching for 'items' in anchors...\n      📍 Checking dimension_anchors (type: <class 'dict'>)\n         🔍 Checking anchor_key: 'employee' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'category' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'brand' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'line' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'city' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'country' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'state' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'Store' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'Account' (data type: <class 'list'>)\n         🔍 Checking anchor_key: 'Item' (data type: <class 'list'>)\n      ✅ Dimension match: 'items' → 'Item' (list structure)\n   🔄 Standalone mapping: 'items' → Item\n🔧 AGREGANDO COMILLAS (Dynamic - Using Anchors):\n   📥 Input: SELECT DISTINCT Item FROM datos ORDER BY Item;\n   📊 Normalized columns from anchors: ['Account', 'Avg_4W', 'Avg_8W', 'Brand', 'Category', 'Channel', 'City', 'Cost', 'Country', 'Customer_Code', 'Dead_Inventory', 'Discount', 'Employee', 'Inventory', 'Item', 'Item_Group', 'Line', 'Location', 'Margin', 'Order_Number', 'Orders', 'Partner_Code', 'Price', 'Product_Group', 'Profit', 'Quantity', 'Revenue', 'Roi', 'Sales_Amount', 'Sell_Out', 'Sell_Through', 'State', 'Stock_Out', 'Store', 'Transactions', 'Vendor_Code', 'Venta_Perdida', 'Week']\n      📝 Added quotes: Item → \"Item\" at position 41\n      📝 Added quotes: Item → \"Item\" at position 16\n   📤 Output: SELECT DISTINCT \"Item\" FROM datos ORDER BY \"Item\";\n   📊 Reemplazos realizados: 2\n   📤 Output: SELECT DISTINCT \"Item\" FROM datos ORDER BY \"Item\";\n   📊 Reemplazos realizados: 1\n✅ Schema mapping applied successfully\n🔧 DEBUG: SQL final = 'SELECT DISTINCT \"Item\" FROM datos ORDER BY \"Item\";'\n🔧 DEBUG: Creating final result...\n🔧 DEBUG: query_structure type: <class 'problemizador_18.QueryStructure'>\n🔧 DEBUG: Has get_complexity_level: True\n🔍 Generando estructura jerárquica para consulta compuesta:\n   📍 Dimensión: N/A\n   🔗 Es compuesta: False\n   🔗 Criterios compuestos: 0\n   ⏰ Columnas temporales: set()\n   🔄 ¿Dimensión en filtros? False\n   ✅ Solo operación: (items)\n   🎯 Resultado final COMPUESTO: (items)\n🔧 DEBUG: Final result created successfully\n🔧 DEBUG: SQL in result = 'SELECT DISTINCT \"Item\" FROM datos ORDER BY \"Item\";'",
+      "stderr_content": "",
+      "has_content": true
+    }
+  },
+  {
+    "timestamp": "2025-11-09T18:53:40.380336",
+    "component": "nlp",
+    "level": "info",
+    "message": "✅ Problemizador completado:",
+    "session_time": 72.629944
+  },
+  {
+    "timestamp": "2025-11-09T18:53:40.380347",
+    "component": "nlp",
+    "level": "info",
+    "message": "   🗄️ SQL conceptual generado: SELECT DISTINCT \"Item\" FROM datos ORDER BY \"Item\";",
+    "session_time": 72.629955
+  },
+  {
+    "timestamp": "2025-11-09T18:53:40.380415",
+    "component": "nlp",
+    "level": "info",
+    "message": "✅ SUCCESS: Procesando consulta (5ms)",
+    "session_time": 72.630023
+  },
+  {
+    "timestamp": "2025-11-09T18:53:40.380433",
+    "component": "exec",
+    "level": "info",
+    "message": "🗄️ EJECUTANDO SQL - MODO: clickhouse",
+    "session_time": 72.630041
+  },
+  {
+    "timestamp": "2025-11-09T18:53:40.380439",
+    "component": "exec",
+    "level": "info",
+    "message": "   🚀 Destino: ClickHouse (Motor Columnar)",
+    "session_time": 72.630047
+  },
+  {
+    "timestamp": "2025-11-09T18:53:40.380447",
+    "component": "exec",
+    "level": "info",
+    "message": "🚀 PASO 3: EJECUCIÓN EN CLICKHOUSE",
+    "session_time": 72.630055
+  },
+  {
+    "timestamp": "2025-11-09T18:53:40.508135",
+    "component": "exec",
+    "level": "info",
+    "message": "✅ Query ejecutada: 305 filas en 127ms",
+    "session_time": 72.757743
+  },
+  {
+    "timestamp": "2025-11-09T18:53:40.511505",
+    "component": "flask",
+    "level": "info",
+    "message": "✅ Consulta Flask exitosa: 305 filas",
+    "session_time": 72.761113
+  },
+  {
+    "timestamp": "2025-11-09T18:53:58.009208",
+    "component": "flask",
+    "level": "info",
+    "message": "🎯 Consulta Flask: list all weeks",
+    "session_time": 90.258816
+  },
+  {
+    "timestamp": "2025-11-09T18:53:58.009413",
+    "component": "main",
+    "level": "info",
+    "message": "🚀 INICIANDO FLUJO MAESTRO COMPLETO - MODO: clickhouse",
+    "session_time": 90.259021
+  },
+  {
+    "timestamp": "2025-11-09T18:53:58.009505",
+    "component": "nlp",
+    "level": "info",
+    "message": "🔄 INICIANDO: Procesando consulta",
+    "session_time": 90.259113
+  },
+  {
+    "timestamp": "2025-11-09T18:53:58.009515",
+    "component": "nlp",
+    "level": "info",
+    "message": "🧠 PASO 2 MAESTRO: PROCESAMIENTO CON PROBLEMIZADOR",
+    "session_time": 90.259123
+  },
+  {
+    "timestamp": "2025-11-09T18:53:58.009528",
+    "component": "nlp",
+    "level": "info",
+    "message": "❓ Consulta: 'list all weeks'",
+    "session_time": 90.259136
+  },
+  {
+    "timestamp": "2025-11-09T18:53:58.009533",
+    "component": "nlp",
+    "level": "info",
+    "message": "🎯 Modo actual: clickhouse",
+    "session_time": 90.259141
+  },
+  {
+    "timestamp": "2025-11-09T18:53:58.009552",
+    "component": "nlp",
+    "level": "info",
+    "message": "├── Analizando lenguaje natural...",
+    "session_time": 90.25916
+  },
+  {
+    "timestamp": "2025-11-09T18:53:58.013549",
+    "component": "suppressed_output",
+    "level": "suppressed_component",
+    "session_id": "user_20251109_185227",
+    "operation": "problemizador_process",
+    "suppressed_data": {
+      "session_id": "user_20251109_185227",
+      "timestamp": "2025-11-09T18:53:58.013517",
+      "operation_name": "problemizador_process",
+      "stdout_content": "🔍 ANALIZANDO CONSULTA: 'list all weeks'\n🔍 DETECTANDO FRASES COMPUESTAS (Dictionary-Based): 'list all weeks'\n🔍 DEBUG: Query con placeholders: 'list all weeks'\n🔍 DEBUG: Text en minúsculas: 'list all weeks'\n   🔍 Generadas 211 frases compuestas automáticamente\n🔍 DEBUG: Antes de restaurar mayúsculas: 'list all weeks'\n🔓 RESTAURANDO TOKENS:\n   📥 Input: 'list all weeks'\n   🔑 Tokens preservados: {}\n   📤 Output: 'list all weeks'\n🔍 DEBUG: Después de restaurar mayúsculas: 'list all weeks'\n🔍 TOKENS ORIGINALES: ['list', 'all', 'weeks']\n🔒 DATOS EXCLUIDOS: [] (letras mayúsculas = DATOS)\n🔍 TOKENS PARA ANÁLISIS: ['list', 'all', 'weeks']\n   🇺🇸 Conector inglés: 'all' (+10)\n   🎯 RESULTADO: INGLÉS (score: 10 vs 0)\n   🇺🇸 Aliases configurados para INGLÉS\n   ✅ Conectores activos: 134 palabras\n   ✅ Números activos: 43 palabras\n   ✅ Correcciones activas: 76 palabras\n🌍 IDIOMA DETECTADO: EN\n🇺🇸 CONSULTA EN INGLÉS DETECTADA - ENVIANDO A PIPELINE INGLÉS\n✅ Cargado dimension_anchors.json: 19 entradas\n✅ Cargado metric_anchors.json: 20 entradas\n🔄 Mapeo reverso construido: 997 palabras mapeadas\n🔗 SQLSchemaMapper inicializado:\n   📍 Dimensiones: 19 anchors\n   📊 Métricas: 20 anchors\n   🔄 Mapeos reversos: 997 palabras\n🇺🇸 English NLP Parser initialized with SQL Schema Mapper\n\n🇺🇸 PROCESSING ENGLISH QUERY: 'list all weeks'\n🔧 Normalizing English query: 'list all weeks'\n✅ English normalized: 'list all weeks'\n🧪 DEBUGGING TEMPORAL DICTIONARY:\n   ❌ 'palacio de hierro' → NOT FOUND\n   ❌ 'palaciodehierro' → NOT FOUND\n   ❌ 'palacio_de_hierro' → NOT FOUND\n   ❌ 'liverpool' → NOT FOUND\n🔤 English tokens: ['list', 'all', 'weeks']\n🔍 ANÁLISIS PRE-MAPEO de tokens originales: ['list', 'all', 'weeks']\n   📊 PLURAL ORIGINAL detectado: 'weeks' → SUM\n🧠 English semantic intent: SUM\n⏰ DETECTING ENGLISH TEMPORAL PATTERNS:\n   🔤 Full tokens list: ['list', 'all', 'weeks']\n   📏 Total tokens: 3\n   🔍 'between' found at positions: []\n⏰ TOTAL ENGLISH TEMPORAL FILTERS: 0\n🎯 DETECTING ENGLISH COLUMN-VALUE PATTERNS (WITH ENHANCED STOCK OUT - ORIGINAL METHOD):\n📅 DETECTING THIS WEEK PATTERN:\n   📤 Tokens: ['list', 'all', 'weeks']\n   ❌ No 'this week' pattern found\n   🔧 DEBUG: Llamando a detect_enhanced_stock_out_pattern_english...\n📦 DETECTING ENHANCED Y/N COLUMN PATTERN:\n   📤 Tokens: ['list', 'all', 'weeks']\n   ❌ No Y/N column pattern found\n      🔍 Testing combination: ['list', 'all', 'weeks'] (positions 0-2)\n         🔍 Testing variant: 'list all weeks'\n         🔍 Testing variant: 'LIST ALL WEEKS'\n         🔍 Testing variant: 'listallweeks'\n         🔍 Testing variant: 'list(all(weeks'\n         🔍 Testing variant: 'LISTALLWEEKS'\n         🔍 Testing variant: 'list_all_weeks'\n         🔍 Testing variant: 'LIST_ALL_WEEKS'\n         🔍 Testing variant: 'List All Weeks'\n      🔍 Testing combination: ['list', 'all'] (positions 0-1)\n         🔍 Testing variant: 'list all'\n         🔍 Testing variant: 'LIST ALL'\n         🔍 Testing variant: 'listall'\n         🔍 Testing variant: 'list(all'\n         🔍 Testing variant: 'LISTALL'\n         🔍 Testing variant: 'list_all'\n         🔍 Testing variant: 'LIST_ALL'\n         🔍 Testing variant: 'List All'\n      🔍 Testing combination: ['list'] (positions 0-0)\n         🔍 Testing variant: 'list'\n         🔍 Testing variant: 'LIST'\n         🔍 Testing variant: 'List'\n      🔍 Testing combination: ['all', 'weeks'] (positions 1-2)\n         🔍 Testing variant: 'all weeks'\n         🔍 Testing variant: 'ALL WEEKS'\n         🔍 Testing variant: 'allweeks'\n         🔍 Testing variant: 'all(weeks'\n         🔍 Testing variant: 'ALLWEEKS'\n         🔍 Testing variant: 'all_weeks'\n         🔍 Testing variant: 'ALL_WEEKS'\n         🔍 Testing variant: 'All Weeks'\n      🔍 Testing combination: ['all'] (positions 1-1)\n         🔍 Testing variant: 'all'\n         🔍 Testing variant: 'ALL'\n         🔍 Testing variant: 'All'\n      🔍 Testing combination: ['weeks'] (positions 2-2)\n         🔍 Testing variant: 'weeks'\n         🔍 Testing variant: 'WEEKS'\n         🔍 Testing variant: 'Weeks'\n🔍 TOTAL IMPLICIT VALUES DETECTED: 0\n🔒 TOTAL POSITIONS PROCESSED: []\n⏰ Temporal columns to exclude: set()\n🔒 Positions already processed: []\n🎯 Total filters detected: 0\n   📦 Enhanced stock out: 0\n   🔍 Implicit: 0\n   🔍 Explicit: 0\n🔒 Final processed positions: []\n🔧 REMOVING DUPLICATE FILTERS:\n🎯 Final unique filters: 0\n🕐 DETECTING TEMPORAL CONDITIONAL PATTERN:\n   📤 Tokens: ['list', 'all', 'weeks']\n🕐 DEBUG: temporal_conditional_pattern = False\n📋 DETECTING LIST ALL PATTERN:\n   🔤 Tokens: ['list', 'all', 'weeks']\n   ✅ List indicator: 'list' at position 0\n   ✅ All indicator: 'all' at position 1\n   ❌ No target dimension found\n📋 DEBUG: list_all_pattern = False\n📊 DETECTING SHOW ROWS PATTERN:\n   🔤 Tokens: ['list', 'all', 'weeks']\n   ✅ Show indicator: 'list' at position 0\n   ❌ No row count found\n📊 DEBUG: show_rows_pattern = False\n🔍 CLASSIFYING ENGLISH COMPONENTS:\n🔍 English token 'list' classified as unknown\n🔍 English token 'all' classified as connector\n🔍 English token 'weeks' classified as dimension\n🏗️ BUILDING COMPLETE ENGLISH QUERY STRUCTURE\n🔍 DETECTING GROUP BY PATTERN:\n📊 DETECTING SHOW ROWS PATTERN:\n   🔤 Tokens: ['list', 'all', 'weeks']\n   ✅ Show indicator: 'list' at position 0\n   ❌ No row count found\n   📊 Show rows pattern detected: False\n📋 DETECTING LIST ALL PATTERN:\n   🔤 Tokens: ['list', 'all', 'weeks']\n   ✅ List indicator: 'list' at position 0\n   ✅ All indicator: 'all' at position 1\n   ❌ No target dimension found\n   📋 List all pattern detected: False\n🕐 DETECTING TEMPORAL CONDITIONAL PATTERN:\n   📤 Tokens: ['list', 'all', 'weeks']\n   🕐 Temporal conditional pattern detected: False\n🏆 DETECTING ENGLISH RANKING CRITERIA:\n   🔤 Tokens: ['list', 'all', 'weeks']\n   ❌ No ranking indicators found\n🚫 DETECTING ENGLISH EXCLUSION FILTERS:\n🚫 TOTAL ENGLISH EXCLUSION FILTERS: 0\n🏆 EVALUATING ENGLISH RANKING QUERY:\n   📊 Has valid criteria: None\n   🚫 Exclusion filters: 0\n   🎯 Is ranking: False\n   🏆 Ranking detected (no special patterns): False\n🔗 DETECTING ENGLISH MULTIPLE DIMENSIONS:\n   📍 English dimensions found: [(2, 'weeks')]\n   🔗 English connectors at positions: []\n   ❌ No valid English multi-dimensional pattern detected\n🔗 DETECTING ENGLISH COMPOUND CRITERIA:\n   🔤 Tokens: ['list', 'all', 'weeks']\n   📊 Segments detected: [['list', 'all', 'weeks']]\n\n   🎯 Processing English segment 1: ['list', 'all', 'weeks']\n      🔍 Analyzing English segment: ['list', 'all', 'weeks']\n         📍 English dimension candidate: weeks\n         🔄 English dimension converted to metric: weeks\n         ❌ English criteria incomplete:\n             Operation: NOT FOUND\n             Metric: weeks\n      ❌ Could not extract criteria from segment\n\n🔗 TOTAL ENGLISH COMPOUND CRITERIA: 0\n🔗 EVALUATING ENGLISH COMPOUND QUERY:\n   📊 Valid criteria: 0\n   🎯 Is compound: False\n   📍 English main dimension: weeks\n🔍 DETECTING ENGLISH QUERY PATTERN:\n   📍 Dimension: weeks\n   🔗 Multiple dimensions: 1\n   ⚡ Operations: []\n   📊 Metrics: []\n   🏆 Is ranking: False\n   🔗 Is compound: False\n   📐 Is multi-dimensional: False\n   📋 ENGLISH PATTERN: LIST_ALL\n🏆 DETECTING SUPERLATIVE PATTERN:\n   🔤 Tokens: ['list', 'all', 'weeks']\n🔢 DETECTING COUNT PATTERNS IN: 'list all weeks'\n   ❌ No COUNT pattern detected\n🏗️ English structure built successfully:\n   📊 Operations: 0\n   📈 Metrics: 0\n   🎯 Query pattern: list_all\n   🏆 Is ranking: False\n   🔗 Is compound: False\n   🔗 Is multi-dimensional: False\n   🕐 Has temporal conditional: False\n   📋 Has list all: False\n   📊 Has show rows: False\n🔧 DEBUG: Llegando a validación...\n🔍 VALIDATING ENGLISH STRUCTURE:\n   📋 Has list_all_pattern: False\n   🎯 Validation result: {'valid': False, 'error': 'Missing metric, operation or condition', 'suggestions': ['Add a metric like: sales, revenue, inventory', 'English unrecognized words: list']}\n🔧 DEBUG: Validación result = {'valid': False, 'error': 'Missing metric, operation or condition', 'suggestions': ['Add a metric like: sales, revenue, inventory', 'English unrecognized words: list']}",
+      "stderr_content": "",
+      "has_content": true
+    }
+  },
+  {
+    "timestamp": "2025-11-09T18:54:04.066354",
+    "component": "flask",
+    "level": "info",
+    "message": "🎯 Consulta Flask: List all weeks",
+    "session_time": 96.315962
+  },
+  {
+    "timestamp": "2025-11-09T18:54:04.066386",
+    "component": "main",
+    "level": "info",
+    "message": "🚀 INICIANDO FLUJO MAESTRO COMPLETO - MODO: clickhouse",
+    "session_time": 96.315994
+  },
+  {
+    "timestamp": "2025-11-09T18:54:04.066433",
+    "component": "nlp",
+    "level": "info",
+    "message": "🔄 INICIANDO: Procesando consulta",
+    "session_time": 96.316041
+  },
+  {
+    "timestamp": "2025-11-09T18:54:04.066436",
+    "component": "nlp",
+    "level": "info",
+    "message": "🧠 PASO 2 MAESTRO: PROCESAMIENTO CON PROBLEMIZADOR",
+    "session_time": 96.316044
+  },
+  {
+    "timestamp": "2025-11-09T18:54:04.066440",
+    "component": "nlp",
+    "level": "info",
+    "message": "❓ Consulta: 'List all weeks'",
+    "session_time": 96.316048
+  },
+  {
+    "timestamp": "2025-11-09T18:54:04.066443",
+    "component": "nlp",
+    "level": "info",
+    "message": "🎯 Modo actual: clickhouse",
+    "session_time": 96.316051
+  },
+  {
+    "timestamp": "2025-11-09T18:54:04.066446",
+    "component": "nlp",
+    "level": "info",
+    "message": "├── Analizando lenguaje natural...",
+    "session_time": 96.316054
+  },
+  {
+    "timestamp": "2025-11-09T18:54:04.068438",
+    "component": "suppressed_output",
+    "level": "suppressed_component",
+    "session_id": "user_20251109_185227",
+    "operation": "problemizador_process",
+    "suppressed_data": {
+      "session_id": "user_20251109_185227",
+      "timestamp": "2025-11-09T18:54:04.068414",
+      "operation_name": "problemizador_process",
+      "stdout_content": "🔍 ANALIZANDO CONSULTA: 'List all weeks'\n🔍 DETECTANDO FRASES COMPUESTAS (Dictionary-Based): 'List all weeks'\n🔍 DEBUG: Query con placeholders: 'List all weeks'\n🔍 DEBUG: Text en minúsculas: 'list all weeks'\n   🔍 Generadas 211 frases compuestas automáticamente\n🔍 DEBUG: Antes de restaurar mayúsculas: 'list all weeks'\n🔓 RESTAURANDO TOKENS:\n   📥 Input: 'list all weeks'\n   🔑 Tokens preservados: {}\n   📤 Output: 'list all weeks'\n🔍 DEBUG: Después de restaurar mayúsculas: 'list all weeks'\n🔍 TOKENS ORIGINALES: ['list', 'all', 'weeks']\n🔒 DATOS EXCLUIDOS: [] (letras mayúsculas = DATOS)\n🔍 TOKENS PARA ANÁLISIS: ['list', 'all', 'weeks']\n   🇺🇸 Conector inglés: 'all' (+10)\n   🎯 RESULTADO: INGLÉS (score: 10 vs 0)\n   🇺🇸 Aliases configurados para INGLÉS\n   ✅ Conectores activos: 134 palabras\n   ✅ Números activos: 43 palabras\n   ✅ Correcciones activas: 76 palabras\n🌍 IDIOMA DETECTADO: EN\n🇺🇸 CONSULTA EN INGLÉS DETECTADA - ENVIANDO A PIPELINE INGLÉS\n✅ Cargado dimension_anchors.json: 19 entradas\n✅ Cargado metric_anchors.json: 20 entradas\n🔄 Mapeo reverso construido: 997 palabras mapeadas\n🔗 SQLSchemaMapper inicializado:\n   📍 Dimensiones: 19 anchors\n   📊 Métricas: 20 anchors\n   🔄 Mapeos reversos: 997 palabras\n🇺🇸 English NLP Parser initialized with SQL Schema Mapper\n\n🇺🇸 PROCESSING ENGLISH QUERY: 'List all weeks'\n🔧 Normalizing English query: 'list all weeks'\n✅ English normalized: 'list all weeks'\n🧪 DEBUGGING TEMPORAL DICTIONARY:\n   ❌ 'palacio de hierro' → NOT FOUND\n   ❌ 'palaciodehierro' → NOT FOUND\n   ❌ 'palacio_de_hierro' → NOT FOUND\n   ❌ 'liverpool' → NOT FOUND\n🔤 English tokens: ['list', 'all', 'weeks']\n🔍 ANÁLISIS PRE-MAPEO de tokens originales: ['list', 'all', 'weeks']\n   📊 PLURAL ORIGINAL detectado: 'weeks' → SUM\n🧠 English semantic intent: SUM\n⏰ DETECTING ENGLISH TEMPORAL PATTERNS:\n   🔤 Full tokens list: ['list', 'all', 'weeks']\n   📏 Total tokens: 3\n   🔍 'between' found at positions: []\n⏰ TOTAL ENGLISH TEMPORAL FILTERS: 0\n🎯 DETECTING ENGLISH COLUMN-VALUE PATTERNS (WITH ENHANCED STOCK OUT - ORIGINAL METHOD):\n📅 DETECTING THIS WEEK PATTERN:\n   📤 Tokens: ['list', 'all', 'weeks']\n   ❌ No 'this week' pattern found\n   🔧 DEBUG: Llamando a detect_enhanced_stock_out_pattern_english...\n📦 DETECTING ENHANCED Y/N COLUMN PATTERN:\n   📤 Tokens: ['list', 'all', 'weeks']\n   ❌ No Y/N column pattern found\n      🔍 Testing combination: ['list', 'all', 'weeks'] (positions 0-2)\n         🔍 Testing variant: 'list all weeks'\n         🔍 Testing variant: 'LIST ALL WEEKS'\n         🔍 Testing variant: 'listallweeks'\n         🔍 Testing variant: 'list(all(weeks'\n         🔍 Testing variant: 'LISTALLWEEKS'\n         🔍 Testing variant: 'list_all_weeks'\n         🔍 Testing variant: 'LIST_ALL_WEEKS'\n         🔍 Testing variant: 'List All Weeks'\n      🔍 Testing combination: ['list', 'all'] (positions 0-1)\n         🔍 Testing variant: 'list all'\n         🔍 Testing variant: 'LIST ALL'\n         🔍 Testing variant: 'listall'\n         🔍 Testing variant: 'list(all'\n         🔍 Testing variant: 'LISTALL'\n         🔍 Testing variant: 'list_all'\n         🔍 Testing variant: 'LIST_ALL'\n         🔍 Testing variant: 'List All'\n      🔍 Testing combination: ['list'] (positions 0-0)\n         🔍 Testing variant: 'list'\n         🔍 Testing variant: 'LIST'\n         🔍 Testing variant: 'List'\n      🔍 Testing combination: ['all', 'weeks'] (positions 1-2)\n         🔍 Testing variant: 'all weeks'\n         🔍 Testing variant: 'ALL WEEKS'\n         🔍 Testing variant: 'allweeks'\n         🔍 Testing variant: 'all(weeks'\n         🔍 Testing variant: 'ALLWEEKS'\n         🔍 Testing variant: 'all_weeks'\n         🔍 Testing variant: 'ALL_WEEKS'\n         🔍 Testing variant: 'All Weeks'\n      🔍 Testing combination: ['all'] (positions 1-1)\n         🔍 Testing variant: 'all'\n         🔍 Testing variant: 'ALL'\n         🔍 Testing variant: 'All'\n      🔍 Testing combination: ['weeks'] (positions 2-2)\n         🔍 Testing variant: 'weeks'\n         🔍 Testing variant: 'WEEKS'\n         🔍 Testing variant: 'Weeks'\n🔍 TOTAL IMPLICIT VALUES DETECTED: 0\n🔒 TOTAL POSITIONS PROCESSED: []\n⏰ Temporal columns to exclude: set()\n🔒 Positions already processed: []\n🎯 Total filters detected: 0\n   📦 Enhanced stock out: 0\n   🔍 Implicit: 0\n   🔍 Explicit: 0\n🔒 Final processed positions: []\n🔧 REMOVING DUPLICATE FILTERS:\n🎯 Final unique filters: 0\n🕐 DETECTING TEMPORAL CONDITIONAL PATTERN:\n   📤 Tokens: ['list', 'all', 'weeks']\n🕐 DEBUG: temporal_conditional_pattern = False\n📋 DETECTING LIST ALL PATTERN:\n   🔤 Tokens: ['list', 'all', 'weeks']\n   ✅ List indicator: 'list' at position 0\n   ✅ All indicator: 'all' at position 1\n   ❌ No target dimension found\n📋 DEBUG: list_all_pattern = False\n📊 DETECTING SHOW ROWS PATTERN:\n   🔤 Tokens: ['list', 'all', 'weeks']\n   ✅ Show indicator: 'list' at position 0\n   ❌ No row count found\n📊 DEBUG: show_rows_pattern = False\n🔍 CLASSIFYING ENGLISH COMPONENTS:\n🔍 English token 'list' classified as unknown\n🔍 English token 'all' classified as connector\n🔍 English token 'weeks' classified as dimension\n🏗️ BUILDING COMPLETE ENGLISH QUERY STRUCTURE\n🔍 DETECTING GROUP BY PATTERN:\n📊 DETECTING SHOW ROWS PATTERN:\n   🔤 Tokens: ['list', 'all', 'weeks']\n   ✅ Show indicator: 'list' at position 0\n   ❌ No row count found\n   📊 Show rows pattern detected: False\n📋 DETECTING LIST ALL PATTERN:\n   🔤 Tokens: ['list', 'all', 'weeks']\n   ✅ List indicator: 'list' at position 0\n   ✅ All indicator: 'all' at position 1\n   ❌ No target dimension found\n   📋 List all pattern detected: False\n🕐 DETECTING TEMPORAL CONDITIONAL PATTERN:\n   📤 Tokens: ['list', 'all', 'weeks']\n   🕐 Temporal conditional pattern detected: False\n🏆 DETECTING ENGLISH RANKING CRITERIA:\n   🔤 Tokens: ['list', 'all', 'weeks']\n   ❌ No ranking indicators found\n🚫 DETECTING ENGLISH EXCLUSION FILTERS:\n🚫 TOTAL ENGLISH EXCLUSION FILTERS: 0\n🏆 EVALUATING ENGLISH RANKING QUERY:\n   📊 Has valid criteria: None\n   🚫 Exclusion filters: 0\n   🎯 Is ranking: False\n   🏆 Ranking detected (no special patterns): False\n🔗 DETECTING ENGLISH MULTIPLE DIMENSIONS:\n   📍 English dimensions found: [(2, 'weeks')]\n   🔗 English connectors at positions: []\n   ❌ No valid English multi-dimensional pattern detected\n🔗 DETECTING ENGLISH COMPOUND CRITERIA:\n   🔤 Tokens: ['list', 'all', 'weeks']\n   📊 Segments detected: [['list', 'all', 'weeks']]\n\n   🎯 Processing English segment 1: ['list', 'all', 'weeks']\n      🔍 Analyzing English segment: ['list', 'all', 'weeks']\n         📍 English dimension candidate: weeks\n         🔄 English dimension converted to metric: weeks\n         ❌ English criteria incomplete:\n             Operation: NOT FOUND\n             Metric: weeks\n      ❌ Could not extract criteria from segment\n\n🔗 TOTAL ENGLISH COMPOUND CRITERIA: 0\n🔗 EVALUATING ENGLISH COMPOUND QUERY:\n   📊 Valid criteria: 0\n   🎯 Is compound: False\n   📍 English main dimension: weeks\n🔍 DETECTING ENGLISH QUERY PATTERN:\n   📍 Dimension: weeks\n   🔗 Multiple dimensions: 1\n   ⚡ Operations: []\n   📊 Metrics: []\n   🏆 Is ranking: False\n   🔗 Is compound: False\n   📐 Is multi-dimensional: False\n   📋 ENGLISH PATTERN: LIST_ALL\n🏆 DETECTING SUPERLATIVE PATTERN:\n   🔤 Tokens: ['list', 'all', 'weeks']\n🔢 DETECTING COUNT PATTERNS IN: 'list all weeks'\n   ❌ No COUNT pattern detected\n🏗️ English structure built successfully:\n   📊 Operations: 0\n   📈 Metrics: 0\n   🎯 Query pattern: list_all\n   🏆 Is ranking: False\n   🔗 Is compound: False\n   🔗 Is multi-dimensional: False\n   🕐 Has temporal conditional: False\n   📋 Has list all: False\n   📊 Has show rows: False\n🔧 DEBUG: Llegando a validación...\n🔍 VALIDATING ENGLISH STRUCTURE:\n   📋 Has list_all_pattern: False\n   🎯 Validation result: {'valid': False, 'error': 'Missing metric, operation or condition', 'suggestions': ['Add a metric like: sales, revenue, inventory', 'English unrecognized words: list']}\n🔧 DEBUG: Validación result = {'valid': False, 'error': 'Missing metric, operation or condition', 'suggestions': ['Add a metric like: sales, revenue, inventory', 'English unrecognized words: list']}",
+      "stderr_content": "",
+      "has_content": true
+    }
+  }
+]

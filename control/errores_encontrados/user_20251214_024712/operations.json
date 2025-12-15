@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Configurando componentes",
+    "component": "main",
+    "duration_ms": 856,
+    "success": true,
+    "error_message": null,
+    "timestamp": "2025-12-14T02:47:12.777614"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 10,
+    "success": true,
+    "error_message": null,
+    "timestamp": "2025-12-14T02:47:15.002177"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 5,
+    "success": true,
+    "error_message": null,
+    "timestamp": "2025-12-14T02:47:23.067669"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 13,
+    "success": true,
+    "error_message": null,
+    "timestamp": "2025-12-14T02:47:36.973057"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 14,
+    "success": true,
+    "error_message": null,
+    "timestamp": "2025-12-14T03:22:25.188689"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 13,
+    "success": true,
+    "error_message": null,
+    "timestamp": "2025-12-14T03:41:53.679187"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 9,
+    "success": true,
+    "error_message": null,
+    "timestamp": "2025-12-14T03:43:47.092095"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 52,
+    "success": true,
+    "error_message": null,
+    "timestamp": "2025-12-14T03:44:08.734387"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 5,
+    "success": true,
+    "error_message": null,
+    "timestamp": "2025-12-14T03:44:39.382024"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 14,
+    "success": false,
+    "error_message": "No se pudo procesar la consulta",
+    "timestamp": "2025-12-14T03:44:54.058489"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 2,
+    "success": true,
+    "error_message": null,
+    "timestamp": "2025-12-14T03:45:11.262026"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 13,
+    "success": false,
+    "error_message": "No se pudo procesar la consulta",
+    "timestamp": "2025-12-14T03:45:41.878088"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 10,
+    "success": false,
+    "error_message": "No se pudo procesar la consulta",
+    "timestamp": "2025-12-14T03:45:49.452984"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 10,
+    "success": false,
+    "error_message": "No se pudo procesar la consulta",
+    "timestamp": "2025-12-14T03:45:57.340349"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "2025-12-13T22:55:12.793798",
+    "component": "clickhouse",
+    "level": "error",
+    "message": "🚨 EXCEPTION: DatabaseError - Received ClickHouse exception, code: 47, server response: Code: 47. DB::Exception: Unknown expression identifier `ROWID` in scope SELECT * FROM datos_output_data_2_20251213_223946_60ca46 ORDER BY ROWID ASC LIMIT 10. (UNKNOWN_IDENTIFIER) (version 25.11.2.24 (official build)) (for url http://localhost:8123)",
+    "session_time": 9.594999
+  },
+  {
+    "timestamp": "2025-12-13T22:55:12.797943",
+    "component": "exec",
+    "level": "error",
+    "message": "❌ Error en ejecución SQL: Received ClickHouse exception, code: 47, server response: Code: 47. DB::Exception: Unknown expression identifier `ROWID` in scope SELECT * FROM datos_output_data_2_20251213_223946_60ca46 ORDER BY ROWID ASC LIMIT 10. (UNKNOWN_IDENTIFIER) (version 25.11.2.24 (official build)) (for url http://localhost:8123)",
+    "session_time": 9.599144
+  },
+  {
+    "timestamp": "2025-12-13T22:55:12.799634",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error consulta Flask: Received ClickHouse exception, code: 47, server response: Code: 47. DB::Exception: Unknown expression identifier `ROWID` in scope SELECT * FROM datos_output_data_2_20251213_223946_60ca46 ORDER BY ROWID ASC LIMIT 10. (UNKNOWN_IDENTIFIER) (version 25.11.2.24 (official build)) (for url http://localhost:8123)",
+    "session_time": 9.600835
+  }
+]

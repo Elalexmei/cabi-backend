@@ -1,0 +1,15 @@
+[14:59:14.221] INFO | 🎯 INICIALIZANDO INTERFAZ MAESTRO
+[14:59:14.221] INFO | ======================================================================
+[14:59:14.221] INFO | 🚀 INICIALIZANDO EJECUTOR MAESTRO
+[14:59:14.221] INFO | ============================================================
+[14:59:14.221] INFO | 🎯 Integración completa: TableAnalyzer + Problemizador + SQLSchemaMapper + SQL
+[14:59:14.221] INFO | 🔄 INICIANDO: Configurando componentes
+[14:59:14.221] INFO | ⚙️ INICIALIZANDO COMPONENTES MAESTROS:
+[14:59:14.221] INFO | --------------------------------------------------
+[14:59:14.221] INFO | ├── Inicializando TableAnalyzer...
+[14:59:14.221] ERROR | ❌ CRÍTICO: Error inicializando TableAnalyzer: name 'COMPONENTS' is not defined
+[14:59:14.221] INFO | 🎯 ERROR: Configurando componentes (0ms)
+] INFO | --------------------------------------------------
+[14:59:14.221] INFO | ├── Inicializando TableAnalyzer...
+[14:59:14.221] ERROR | ❌ CRÍTICO: Error inicializando TableAnalyzer: name 'COMPONENTS' is not defined
+[14:59:14.221] INFO | 🎯 ERROR: Configurando componentes (0ms)

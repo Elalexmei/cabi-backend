@@ -1,0 +1,135 @@
+{
+  "stock_out": "stock_out",
+  "out_of_stock": "stock_out",
+  "outofstock": "stock_out",
+  "stockout": "stock_out",
+  "oos": "stock_out",
+  "sin_stock": "sin_stock",
+  "agotado": "sin_stock",
+  "depleted": "stock_out",
+  "unavailable": "stock_out",
+  "shortage": "stock_out",
+  "sold_out": "stock_out",
+  
+  "estado": "estado",
+  "status": "status",
+  "state": "estado",
+  "situation": "estado",
+  "mode": "estado",
+  "phase": "estado",
+  
+  "condicion": "condicion",
+  "condición": "condición",
+  "condition": "condicion",
+  "requirement": "condicion",
+  "criteria": "condicion",
+  "specification": "condicion",
+  
+  "tipo": "tipo",
+  "type": "tipo",
+  "kind": "tipo",
+  "sort": "tipo",
+  "variety": "tipo",
+  "classification": "tipo",
+  
+  "categoria": "categoria",
+  "categoría": "categoría",
+  "category": "categoria",
+  "group": "categoria",
+  "segment": "categoria",
+  "division": "categoria",
+  
+  "clase": "clase",
+  "class": "clase",
+  "rating": "clase",
+  
+  "nivel": "nivel",
+  "level": "nivel",
+  "degree": "nivel",
+  "stage": "nivel",
+  "step": "nivel",
+  "grade": "nivel",
+  "tier": "nivel",
+  "rank": "nivel",
+  
+  "region": "region",
+  "región": "región",
+  "district": "region",
+  "locality": "region",
+  
+  "zona": "zona",
+  "zone": "zona",
+  "precinct": "zona",
+  
+  "area": "area",
+  "área": "área",
+  "space": "area",
+  "domain": "area",
+  
+  "sector": "sector",
+  "section": "sector",
+  "department": "sector",
+  "unit": "sector",
+  
+  "territorio": "territorio",
+  "territory": "territorio",
+  "jurisdiction": "territorio",
+  "realm": "territorio",
+  
+  "disponible": "disponible",
+  "available": "disponible",
+  "accessible": "disponible",
+  "ready": "disponible",
+  "free": "disponible",
+  "open": "disponible",
+  "on_hand": "disponible",
+  
+  "activo": "activo",
+  "active": "activo",
+  "on": "activo",
+  "operational": "activo",
+  
+  "habilitado": "habilitado",
+  "enabled": "habilitado",
+  "activated": "habilitado",
+  "authorized": "habilitado",
+  "permitted": "habilitado",
+  "allowed": "habilitado",
+  "approved": "habilitado",
+  
+
+  "funcionando": "funcionando",
+  "working": "funcionando",
+  "operating": "funcionando",
+  "running": "funcionando",
+  "functional": "funcionando",
+  "live": "funcionando",
+  
+
+  "segmento": "segmento",
+  "portion": "segmento",
+  "part": "segmento",
+  
+
+  "premium": "premium",
+  "deluxe": "premium",
+  "superior": "premium",
+  "exclusive": "premium",
+  "luxury": "premium",
+  "high_end": "premium",
+  
+
+  "vip": "vip",
+  "elite": "vip",
+  "special": "vip",
+  "preferred": "vip",
+  
+
+  "prioridad": "prioridad",
+  "priority": "prioridad",
+  "importance": "prioridad",
+  "urgency": "prioridad",
+  "precedence": "prioridad",
+  "ranking": "prioridad",
+  "order": "prioridad"
+}

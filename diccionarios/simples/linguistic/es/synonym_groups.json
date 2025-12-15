@@ -1,0 +1,132 @@
+{
+  "stock_out": [
+    "stock_out",
+    "Stock_Out",
+    "Stock_out",
+    "STOCK_OUT",
+    "STOCK_out",
+    "stock_OUT",
+    "stock out",
+    "Stock Out",
+    "Stock out",
+    "STOCK OUT",
+    "STOCK out",
+    "stock OUT"
+  ],
+  "product_group": [
+    "product group",
+    "grupo producto",
+    "grupo de productos",
+    "agrupación de productos",
+    "categoría de productos",
+    "family product",
+    "familia producto",
+    "línea de productos",
+    "categoría productos",
+    "tipo de producto",
+    "clasificación producto"
+  ],
+  "item_group": [
+    "item group",
+    "grupo item",
+    "grupo de items",
+    "agrupación de items",
+    "conjunto de items"
+  ],
+  "partner_code": [
+    "partner code",
+    "codigo partner",
+    "código partner",
+    "código de socio",
+    "codigo de socio",
+    "clave partner",
+    "id partner",
+    "identificador partner"
+  ],
+  "customer_code": [
+    "customer code",
+    "codigo cliente",
+    "código cliente",
+    "código de cliente",
+    "codigo de cliente",
+    "clave cliente",
+    "id cliente",
+    "identificador cliente"
+  ],
+  "vendor_code": [
+    "vendor code",
+    "codigo proveedor",
+    "código proveedor",
+    "código de proveedor",
+    "codigo de proveedor",
+    "supplier code",
+    "codigo supplier",
+    "código supplier"
+  ],
+  "sell_out": [
+    "sell out",
+    "sell-out",
+    "sellout",
+    "venta salida",
+    "venta directa",
+    "venta final"
+  ],
+  "sell_through": [
+    "sell through",
+    "sell-through",
+    "sellthrough",
+    "venta a través",
+    "rotación de inventario"
+  ],
+  "avg_8w": [
+    "avg 8w",
+    "avg_8w",
+    "promedio 8 semanas",
+    "average 8 weeks",
+    "promedio 8w",
+    "prom 8 semanas",
+    "media 8 semanas"
+  ],
+  "avg_4w": [
+    "avg 4w",
+    "avg_4w",
+    "promedio 4 semanas",
+    "average 4 weeks",
+    "promedio 4w",
+    "prom 4 semanas",
+    "media 4 semanas"
+  ],
+  "sales_amount": [
+    "sales amount",
+    "monto ventas",
+    "cantidad ventas",
+    "total ventas",
+    "importe ventas",
+    "valor ventas"
+  ],
+  "distribution_center": [
+    "distribution center",
+    "centro distribución",
+    "centro de distribución",
+    "almacén central",
+    "hub distribución",
+    "bodega central"
+  ],
+  "order_number": [
+    "order number",
+    "numero orden",
+    "número orden",
+    "número de orden",
+    "numero de orden",
+    "folio orden"
+  ],
+  "test_concept": [
+    "concepto_prueba",
+    "test_idea"
+  ],
+  "sales_channel": [
+    "canal de ventas",
+    "canal comercial",
+    "vía de venta"
+  ]
+}

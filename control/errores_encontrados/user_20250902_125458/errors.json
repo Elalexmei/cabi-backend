@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp": "2025-09-02T12:55:10.742079",
+    "component": "mysql",
+    "level": "error",
+    "message": "🚨 EXCEPTION: AttributeError - 'SQLiteToMySQLAdapter' object has no attribute 'convert_query'",
+    "session_time": 12.2807
+  },
+  {
+    "timestamp": "2025-09-02T12:55:10.745187",
+    "component": "exec",
+    "level": "error",
+    "message": "❌ Error en ejecución SQL: 'SQLiteToMySQLAdapter' object has no attribute 'convert_query'",
+    "session_time": 12.283808
+  },
+  {
+    "timestamp": "2025-09-02T12:55:10.746413",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error consulta Flask: 'SQLiteToMySQLAdapter' object has no attribute 'convert_query'",
+    "session_time": 12.285034
+  },
+  {
+    "timestamp": "2025-09-02T12:55:10.747344",
+    "component": "flask",
+    "level": "error",
+    "message": "🔍 Paso fallido: sql_execution",
+    "session_time": 12.285965
+  }
+]

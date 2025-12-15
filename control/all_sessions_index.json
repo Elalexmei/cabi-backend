@@ -1,0 +1,364 @@
+{
+  "created_at": "2025-08-27T14:31:26.857308",
+  "total_sessions": 49,
+  "sessions": [
+    {
+      "session_id": "user_20250827_143126",
+      "session_name": "usuario_flask_app_143126",
+      "start_time": "2025-08-27T14:31:26.857000",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20250827_143418",
+      "session_name": "usuario_flask_app_143418",
+      "start_time": "2025-08-27T14:34:18.387854",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20250902_125035",
+      "session_name": "usuario_flask_app_125035",
+      "start_time": "2025-09-02T12:50:35.236332",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20250902_125150",
+      "session_name": "usuario_flask_app_125150",
+      "start_time": "2025-09-02T12:51:50.120594",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20250902_125458",
+      "session_name": "usuario_flask_app_125458",
+      "start_time": "2025-09-02T12:54:58.461379",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20250902_132411",
+      "session_name": "usuario_flask_app_132411",
+      "start_time": "2025-09-02T13:24:11.560196",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20250902_185737",
+      "session_name": "usuario_flask_app_185737",
+      "start_time": "2025-09-02T18:57:37.629778",
+      "status": "active",
+      "has_problems": false
+    },
+    {
+      "session_id": "user_20250928_004901",
+      "session_name": "usuario_flask_app_004901",
+      "start_time": "2025-09-28T00:49:01.730359",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20251028_194558",
+      "session_name": "usuario_flask_app_194558",
+      "start_time": "2025-10-28T19:45:58.042269",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20251028_194723",
+      "session_name": "usuario_flask_app_194723",
+      "start_time": "2025-10-28T19:47:23.043684",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20251109_180300",
+      "session_name": "usuario_flask_app_180300",
+      "start_time": "2025-11-09T18:03:00.500697",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20251109_182130",
+      "session_name": "usuario_flask_app_182130",
+      "start_time": "2025-11-09T18:21:30.395476",
+      "status": "active",
+      "has_problems": false
+    },
+    {
+      "session_id": "user_20251109_182514",
+      "session_name": "usuario_flask_app_182514",
+      "start_time": "2025-11-09T18:25:14.814500",
+      "status": "completed",
+      "has_problems": false,
+      "end_time": "2025-11-09T18:25:23.929848"
+    },
+    {
+      "session_id": "user_20251109_182548",
+      "session_name": "usuario_flask_app_182548",
+      "start_time": "2025-11-09T18:25:48.937532",
+      "status": "completed",
+      "has_problems": false,
+      "end_time": "2025-11-09T18:33:34.488151"
+    },
+    {
+      "session_id": "user_20251109_183615",
+      "session_name": "usuario_flask_app_183615",
+      "start_time": "2025-11-09T18:36:15.945004",
+      "status": "completed",
+      "has_problems": false,
+      "end_time": "2025-11-09T18:39:08.370747"
+    },
+    {
+      "session_id": "user_20251109_184139",
+      "session_name": "usuario_flask_app_184139",
+      "start_time": "2025-11-09T18:41:39.944331",
+      "status": "active",
+      "has_problems": false
+    },
+    {
+      "session_id": "user_20251109_184528",
+      "session_name": "usuario_flask_app_184528",
+      "start_time": "2025-11-09T18:45:28.650486",
+      "status": "completed",
+      "has_problems": false,
+      "end_time": "2025-11-09T18:47:53.238609"
+    },
+    {
+      "session_id": "user_20251109_184916",
+      "session_name": "usuario_flask_app_184916",
+      "start_time": "2025-11-09T18:49:16.138384",
+      "status": "active",
+      "has_problems": false
+    },
+    {
+      "session_id": "user_20251109_185106",
+      "session_name": "usuario_flask_app_185106",
+      "start_time": "2025-11-09T18:51:06.611729",
+      "status": "active",
+      "has_problems": false
+    },
+    {
+      "session_id": "user_20251109_185152",
+      "session_name": "usuario_flask_app_185152",
+      "start_time": "2025-11-09T18:51:52.997670",
+      "status": "completed",
+      "has_problems": false,
+      "end_time": "2025-11-09T18:52:22.123569"
+    },
+    {
+      "session_id": "user_20251109_185153",
+      "session_name": "usuario_flask_app_185153",
+      "start_time": "2025-11-09T18:51:53.046815",
+      "status": "active",
+      "has_problems": false
+    },
+    {
+      "session_id": "user_20251109_185227",
+      "session_name": "usuario_flask_app_185227",
+      "start_time": "2025-11-09T18:52:27.750392",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20251109_190241",
+      "session_name": "usuario_flask_app_190241",
+      "start_time": "2025-11-09T19:02:41.407762",
+      "status": "completed",
+      "has_problems": false,
+      "end_time": "2025-11-09T19:08:39.309748"
+    },
+    {
+      "session_id": "user_20251213_213325",
+      "session_name": "usuario_flask_app_213325",
+      "start_time": "2025-12-13T21:33:25.893320",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20251213_213352",
+      "session_name": "usuario_flask_app_213352",
+      "start_time": "2025-12-13T21:33:52.318760",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20251213_213619",
+      "session_name": "usuario_flask_app_213619",
+      "start_time": "2025-12-13T21:36:19.233298",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20251213_213727",
+      "session_name": "usuario_flask_app_213727",
+      "start_time": "2025-12-13T21:37:27.973780",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20251213_224827",
+      "session_name": "usuario_flask_app_224827",
+      "start_time": "2025-12-13T22:48:27.577904",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20251213_224851",
+      "session_name": "usuario_flask_app_224851",
+      "start_time": "2025-12-13T22:48:51.345735",
+      "status": "completed",
+      "has_problems": false,
+      "end_time": "2025-12-13T22:49:20.685399"
+    },
+    {
+      "session_id": "user_20251213_224957",
+      "session_name": "usuario_flask_app_224957",
+      "start_time": "2025-12-13T22:49:57.348671",
+      "status": "completed",
+      "has_problems": false,
+      "end_time": "2025-12-13T22:50:17.564244"
+    },
+    {
+      "session_id": "user_20251213_225112",
+      "session_name": "usuario_flask_app_225112",
+      "start_time": "2025-12-13T22:51:12.217080",
+      "status": "completed",
+      "has_problems": false,
+      "end_time": "2025-12-13T22:51:29.678100"
+    },
+    {
+      "session_id": "user_20251213_225153",
+      "session_name": "usuario_flask_app_225153",
+      "start_time": "2025-12-13T22:51:53.630265",
+      "status": "completed",
+      "has_problems": false,
+      "end_time": "2025-12-13T22:52:38.871696"
+    },
+    {
+      "session_id": "user_20251213_225239",
+      "session_name": "usuario_flask_app_225239",
+      "start_time": "2025-12-13T22:52:39.589509",
+      "status": "active",
+      "has_problems": false
+    },
+    {
+      "session_id": "user_20251213_225411",
+      "session_name": "usuario_flask_app_225411",
+      "start_time": "2025-12-13T22:54:11.993215",
+      "status": "completed",
+      "has_problems": false,
+      "end_time": "2025-12-13T22:54:47.148150"
+    },
+    {
+      "session_id": "user_20251213_225503",
+      "session_name": "usuario_flask_app_225503",
+      "start_time": "2025-12-13T22:55:03.198799",
+      "status": "completed",
+      "has_problems": false,
+      "end_time": "2025-12-13T22:56:47.236172"
+    },
+    {
+      "session_id": "user_20251213_225649",
+      "session_name": "usuario_flask_app_225649",
+      "start_time": "2025-12-13T22:56:49.901253",
+      "status": "completed",
+      "has_problems": false,
+      "end_time": "2025-12-13T23:06:41.297994"
+    },
+    {
+      "session_id": "user_20251213_230646",
+      "session_name": "usuario_flask_app_230646",
+      "start_time": "2025-12-13T23:06:46.382879",
+      "status": "completed",
+      "has_problems": false,
+      "end_time": "2025-12-13T23:07:18.048145"
+    },
+    {
+      "session_id": "user_20251213_230730",
+      "session_name": "usuario_flask_app_230730",
+      "start_time": "2025-12-13T23:07:30.642191",
+      "status": "active",
+      "has_problems": false
+    },
+    {
+      "session_id": "user_20251214_001024",
+      "session_name": "usuario_flask_app_001024",
+      "start_time": "2025-12-14T00:10:24.352340",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20251214_002157",
+      "session_name": "usuario_flask_app_002157",
+      "start_time": "2025-12-14T00:21:57.977738",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20251214_002519",
+      "session_name": "usuario_flask_app_002519",
+      "start_time": "2025-12-14T00:25:19.936336",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20251214_002634",
+      "session_name": "usuario_flask_app_002634",
+      "start_time": "2025-12-14T00:26:34.359019",
+      "status": "active",
+      "has_problems": false
+    },
+    {
+      "session_id": "user_20251214_002635",
+      "session_name": "usuario_flask_app_002635",
+      "start_time": "2025-12-14T00:26:35.270328",
+      "status": "active",
+      "has_problems": false
+    },
+    {
+      "session_id": "user_20251214_013600",
+      "session_name": "usuario_flask_app_013600",
+      "start_time": "2025-12-14T01:36:00.143568",
+      "status": "active",
+      "has_problems": false
+    },
+    {
+      "session_id": "user_20251214_013618",
+      "session_name": "usuario_flask_app_013618",
+      "start_time": "2025-12-14T01:36:18.987763",
+      "status": "active",
+      "has_problems": false
+    },
+    {
+      "session_id": "user_20251214_024651",
+      "session_name": "usuario_flask_app_024651",
+      "start_time": "2025-12-14T02:46:51.869207",
+      "status": "active",
+      "has_problems": false
+    },
+    {
+      "session_id": "user_20251214_024712",
+      "session_name": "usuario_flask_app_024712",
+      "start_time": "2025-12-14T02:47:12.773483",
+      "status": "active",
+      "has_problems": true
+    },
+    {
+      "session_id": "user_20251214_034928",
+      "session_name": "usuario_flask_app_034928",
+      "start_time": "2025-12-14T03:49:28.659923",
+      "status": "active",
+      "has_problems": false
+    },
+    {
+      "session_id": "user_20251214_034929",
+      "session_name": "usuario_flask_app_034929",
+      "start_time": "2025-12-14T03:49:29.736015",
+      "status": "active",
+      "has_problems": true
+    }
+  ],
+  "last_updated": "2025-12-14T17:34:53.484960"
+}

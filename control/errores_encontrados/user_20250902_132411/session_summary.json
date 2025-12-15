@@ -1,0 +1,14 @@
+{
+  "session_id": "user_20250902_132411",
+  "session_name": "usuario_flask_app_132411",
+  "start_time": "2025-09-02T13:24:11.560196",
+  "end_time": "2025-09-02T13:24:50.532951",
+  "duration_seconds": 38.972757,
+  "problem_summary": {
+    "has_problems": true,
+    "error_count": 4,
+    "warning_count": 4,
+    "failed_operations": 1,
+    "total_operations": 4
+  }
+}

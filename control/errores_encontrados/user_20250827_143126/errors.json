@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2025-08-27T14:31:26.893543",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error: No se encontraron tablas del TableAnalyzer",
+    "session_time": 0.036543
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Configurando componentes",
+    "component": "main",
+    "duration_ms": 187,
+    "success": true,
+    "error_message": null,
+    "timestamp": "2025-11-09T18:52:27.751160"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 9,
+    "success": false,
+    "error_message": "No se pudo procesar la consulta",
+    "timestamp": "2025-11-09T18:52:36.909418"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 9,
+    "success": true,
+    "error_message": null,
+    "timestamp": "2025-11-09T18:52:50.757858"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 11,
+    "success": true,
+    "error_message": null,
+    "timestamp": "2025-11-09T18:52:58.868263"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 13,
+    "success": true,
+    "error_message": null,
+    "timestamp": "2025-11-09T18:53:35.859383"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 5,
+    "success": true,
+    "error_message": null,
+    "timestamp": "2025-11-09T18:53:40.375184"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 18,
+    "success": false,
+    "error_message": "No se pudo procesar la consulta",
+    "timestamp": "2025-11-09T18:53:58.009480"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 5,
+    "success": false,
+    "error_message": "No se pudo procesar la consulta",
+    "timestamp": "2025-11-09T18:54:04.066425"
+  }
+]

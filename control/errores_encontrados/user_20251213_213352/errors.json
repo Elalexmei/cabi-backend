@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2025-12-13T21:33:52.322388",
+    "component": "flask",
+    "level": "error",
+    "message": "❌ Error: No se encontraron tablas de metadatos en ClickHouse (tablas_metadata).",
+    "session_time": 0.003628
+  }
+]

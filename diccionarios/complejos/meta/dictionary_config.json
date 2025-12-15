@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "version": "2.0.0",
+    "generated_at": "2025-06-12T00:13:34.582630",
+    "description": "Diccionarios con sistema de palabras ancla para parsing de consultas en lenguaje natural",
+    "source": "OptimizedParserDictionaries v2.0",
+    "encoding": "utf-8"
+  },
+  "file_structure": {
+    "core": [
+      "operations.json",
+      "known_columns.json",
+      "common_values.json"
+    ],
+    "anchors": [
+      "dimension_anchors.json",
+      "metric_anchors.json"
+    ],
+    "linguistic": [
+      "connectors.json",
+      "word_numbers.json",
+      "typo_corrections.json"
+    ],
+    "temporal": [
+      "temporal_indicators.json",
+      "temporal_units.json"
+    ]
+  },
+  "anchor_system": {
+    "description": "Sistema de palabras ancla para mapeo inteligente",
+    "dimension_anchors": "18 anclas de dimensión",
+    "metric_anchors": "17 anclas de métrica",
+    "total_mappings": 567,
+    "compound_phrases": "Incluidas en dimension_anchors y metric_anchors según categoría"
+  },
+  "usage_instructions": {
+    "loading_order": [
+      "core/operations.json",
+      "core/known_columns.json",
+      "core/common_values.json",
+      "anchors/dimension_anchors.json",
+      "anchors/metric_anchors.json",
+      "linguistic/connectors.json",
+      "linguistic/word_numbers.json",
+      "linguistic/typo_corrections.json",
+      "temporal/temporal_indicators.json",
+      "temporal/temporal_units.json"
+    ],
+    "anchor_lookup_process": [
+      "1. Usuario dice 'tienda' → buscar en anchor_lookup",
+      "2. anchor_lookup['tienda'] → 'store' (palabra ancla)",
+      "3. Mapeo inteligente: 'store' → columna real en tabla (ej: 'STORE', 'Store_Name')"
+    ]
+  },
+  "statistics": {
+    "dimension_anchors": 18,
+    "metric_anchors": 17,
+    "total_anchor_mappings": 567,
+    "total_operaciones": 57,
+    "total_columnas": 24,
+    "total_valores": 88,
+    "total_conectores": 30,
+    "total_numeros_palabra": 31,
+    "total_correcciones": 51,
+    "mode": "Hardcoded",
+    "json_export_path": "diccionarios\\complejos",
+    "last_loaded": null,
+    "can_export_json": true,
+    "can_reload_json": true,
+    "version": "2.0.0"
+  }
+}

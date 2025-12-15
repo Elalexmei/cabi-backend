@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Configurando componentes",
+    "component": "main",
+    "duration_ms": 160,
+    "success": true,
+    "error_message": null,
+    "timestamp": "2025-09-02T12:54:58.461834"
+  },
+  {
+    "name": "Procesando consulta",
+    "component": "nlp",
+    "duration_ms": 14,
+    "success": true,
+    "error_message": null,
+    "timestamp": "2025-09-02T12:55:10.723292"
+  }
+]
